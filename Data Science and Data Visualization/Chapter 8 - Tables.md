@@ -1,5 +1,5 @@
 #DataScienceAndDataVisualization 
-#Data #DataSetTypes #Design 
+#Chart #Data #DataSetTypes #Design 
 [[Chapter 3 - Data#Data]]
 ___
 ## Scale of Tables
