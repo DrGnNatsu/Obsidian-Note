@@ -1,9 +1,5 @@
 #DataScienceAndDataVisualization 
-#Data
-#DataTypes
-#DataSetTypes
-#Infovis
-#Scivis
+#Data #DataTypes #DataSetTypes #Infovis #Scivis
 ___
 ## Data
 - **Dataset Types**: 

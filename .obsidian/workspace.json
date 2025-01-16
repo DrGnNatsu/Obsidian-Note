@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8ce648ad24d7d3a5",
+        "id": "579a43461a2f3b20",
         "type": "tabs",
         "children": [
           {
-            "id": "b735b5ba2cf89297",
+            "id": "33112f76cedcfc30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+                "file": "Data Science and Data Visualization/Chapter 6 - Interactions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4 - Mark - Channels"
-            }
-          },
-          {
-            "id": "17d02c68f1a5ef3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 4 - Mark - Channels"
+              "title": "Chapter 6 - Interactions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#DataSetTypes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+                "file": "Data Science and Data Visualization/Chapter 6 - Interactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chapter 4 - Mark - Channels"
+              "title": "Backlinks for Chapter 6 - Interactions"
             }
           },
           {
@@ -127,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science and Data Visualization/Chapter 2.md",
+                "file": "Data Science and Data Visualization/Chapter 6 - Interactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Chapter 2"
+              "title": "Outgoing links from Chapter 6 - Interactions"
             }
           },
           {
@@ -154,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md"
+                "file": "Data Science and Data Visualization/Chapter 6 - Interactions.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 4 - Mark - Channels"
+              "title": "Outline of Chapter 6 - Interactions"
             }
           },
           {
@@ -171,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,24 +173,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "17d02c68f1a5ef3a",
+  "active": "33112f76cedcfc30",
   "lastOpenFiles": [
+    "Data Science and Data Visualization/Chapter 6 - Interactions.md",
     "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
+    "Data Science and Data Visualization/Attachments/Unjustified 3D.png",
+    "Data Science and Data Visualization/Attachments/Alignment Matters.png",
+    "Data Science and Data Visualization/Attachments/PieChartDesign.png",
+    "Data Science and Data Visualization/Attachments/Regression by eye.png",
+    "README.md",
     "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+    "Data Science and Data Visualization/Chapter 3 - Data.md",
+    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
+    "Data Science and Data Visualization/Chapter 1 - Purpose of visualization.md",
     "Data Science and Data Visualization/Attachments/Separability of Attributes.png",
     "Data Science and Data Visualization/Attachments/Rank of Items.png",
     "Data Science and Data Visualization/Attachments/Channel Accuracy.png",
     "Data Science and Data Visualization/Attachments/RankOfChannels.png",
     "Data Science and Data Visualization/Attachments/Using Marks & Channel.png",
     "Data Science and Data Visualization/Attachments/Visual Variables.png",
-    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
-    "Data Science and Data Visualization/Attachments/Containment_Connection.png",
-    "Data Science and Data Visualization/Chapter 3 - Data.md",
-    "Data Science and Data Visualization/Attachments/InfoVis_SciVis.png",
-    "Data Science and Data Visualization/Attachments/ArticalationPoint.png",
-    "Data Science and Data Visualization/Attachments/BipariteGraph.png",
-    "Data Science and Data Visualization/Chapter 1 - Purpose of visualization.md",
-    "README.md",
     "Data Science and Data Visualization/Attachments",
     "Data Science and Data Visualization"
   ]

@@ -1,7 +1,5 @@
 #DataScienceAndDataVisualization 
-#Mark
-#Channel
-#Rank
+#Channel #Design #Mark #Rank 
 ___
 ## Marks & Channels
 - **Marks**: represent items or links

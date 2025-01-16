@@ -1,8 +1,6 @@
 #DataScienceAndDataVisualization
-#Perception
-#Cognition
-#Colour
-#Popout 
+#Cognition #Colour #Perception #Popout 
+[[Chapter 1 - Purpose of visualization]]
 ___
 ## Perception Vs Cognition
 

@@ -1,6 +1,5 @@
 #DataScienceAndDataVisualization
-#Purpose
-#Why
+#Purpose #Why
 ___
 ## Purpose of Visualization
 \- The goal of the visualisation is not the beautiful but ==INSIGHT==. 
