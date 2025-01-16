@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Chapter 4 - Mark - Channels"
+            }
+          },
+          {
+            "id": "17d02c68f1a5ef3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 4 - Mark - Channels"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Chapter 4 - Mark - Channels"
             }
           },
           {
@@ -112,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Data Science and Data Visualization/Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Chapter 2"
             }
           },
           {
@@ -139,18 +154,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Chapter 4 - Mark - Channels"
+            }
+          },
+          {
+            "id": "55599e2d5092fa5e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,15 +184,28 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b735b5ba2cf89297",
+  "active": "17d02c68f1a5ef3a",
   "lastOpenFiles": [
-    "Data Science and Data Visualization/Attachments/HSVModel.png",
-    "Data Science and Data Visualization/Attachments/QuantitativeDataColour.png",
-    "Data Science and Data Visualization/Chapter 2.md",
-    "Data Science and Data Visualization/Chapter 1.md",
+    "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
+    "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+    "Data Science and Data Visualization/Attachments/Separability of Attributes.png",
+    "Data Science and Data Visualization/Attachments/Rank of Items.png",
+    "Data Science and Data Visualization/Attachments/Channel Accuracy.png",
+    "Data Science and Data Visualization/Attachments/RankOfChannels.png",
+    "Data Science and Data Visualization/Attachments/Using Marks & Channel.png",
+    "Data Science and Data Visualization/Attachments/Visual Variables.png",
+    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
+    "Data Science and Data Visualization/Attachments/Containment_Connection.png",
+    "Data Science and Data Visualization/Chapter 3 - Data.md",
+    "Data Science and Data Visualization/Attachments/InfoVis_SciVis.png",
+    "Data Science and Data Visualization/Attachments/ArticalationPoint.png",
+    "Data Science and Data Visualization/Attachments/BipariteGraph.png",
+    "Data Science and Data Visualization/Chapter 1 - Purpose of visualization.md",
+    "README.md",
     "Data Science and Data Visualization/Attachments",
     "Data Science and Data Visualization"
   ]
