@@ -1,6 +1,6 @@
 #DataScienceAndDataVisualization 
-#Design #Interaction  #Purpose #Why 
-[[Chapter 5 - Design Guideline]]
+#Detail #Design #Interaction #Overview #Purpose #Why 
+[[Chapter 5 - Design Guildline]]
 ___
 ## Spectrum
 | Static Content | Dynamic Content                                               |
