@@ -124,4 +124,4 @@ ___
 - **Design:** To scope a visual encoding and interaction design space based on human perception and cognition
 - **Prototype:** to see if a visualization has achieved its design goals, to see how a prototype compares with the current state-of-the-art systems or techniques
 - **Deployment:** to see how a visualization influences workflow and work processes, to assess the visualization’s effectiveness and use in the field.
-- **Re-design**: to improve a current design by identifying usability problems
+- **Re-design**: to improve a current design by identifying usability problem

@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0726920553db9280",
+        "id": "6712b830d9aff8cc",
         "type": "tabs",
         "children": [
           {
-            "id": "ecf054dacd10d466",
+            "id": "792e8a84cda7776b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science and Data Visualization/Chapter 9 - Storytelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 9 - Storytelling"
-            }
-          },
-          {
-            "id": "606bb191f6ba02a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 10 - Evaluations"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chapter 10 - Evaluations"
+              "title": "Backlinks"
             }
           },
           {
@@ -127,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Chapter 10 - Evaluations"
+              "title": "Outgoing links"
             }
           },
           {
@@ -153,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science and Data Visualization/Chapter 10 - Evaluations.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Chapter 10 - Evaluations"
+              "title": "Outline"
             }
           },
           {
@@ -188,8 +165,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "606bb191f6ba02a6",
+  "active": "792e8a84cda7776b",
   "lastOpenFiles": [
+    "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
+    "Data Science and Data Visualization/Chapter 9 - Storytelling.md",
     "Data Science and Data Visualization/Attachments/Scope of Evaluation.png",
     "Data Science and Data Visualization/Attachments/Targets.png",
     "Data Science and Data Visualization/Attachments/Search_Query.png",
@@ -198,8 +177,6 @@
     "Data Science and Data Visualization/Chapter 6 - Interactions.md",
     "Data Science and Data Visualization/Chapter 7 - Views.md",
     "Data Science and Data Visualization/Chapter 8 - Tables.md",
-    "Data Science and Data Visualization/Chapter 9 - Storytelling.md",
-    "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
     "Data Science and Data Visualization/Attachments/Target Audience.png",
     "Data Science and Data Visualization/Attachments/Storytelling.png",
     "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
@@ -207,7 +184,6 @@
     "Data Science and Data Visualization/Attachments/Combined Graph.png",
     "Data Science and Data Visualization/Attachments/Trellis's Variables.png",
     "Data Science and Data Visualization/Attachments/Trellis.png",
-    "Data Science and Data Visualization/Attachments/Partition Example.png",
     "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
     "Data Science and Data Visualization/Chapter 3 - Data.md",
     "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
