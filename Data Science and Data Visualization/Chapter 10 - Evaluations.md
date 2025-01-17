@@ -2,7 +2,7 @@
 #When #Why 
 ___
 ## Problem-Driven Vs Technique-Driven
-| Problem Driven                                        | Techinique Driven                                       |
+| Problem Driven                                        | Technique Driven                                        |
 | :---------------------------------------------------- | ------------------------------------------------------- |
 | Top-down Appproach                                    | Bottom-up approach                                      |
 | Identify a problem encountered by users               | Invent new visualisation techniques or algorithms       |

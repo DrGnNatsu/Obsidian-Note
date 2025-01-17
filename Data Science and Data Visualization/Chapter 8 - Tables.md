@@ -1,4 +1,4 @@
-#DataScienceAndDataVisualization 
+ #DataScienceAndDataVisualization 
 #Chart #Data #DataSetTypes #Design 
 [[Chapter 3 - Data#Data]]
 ___
@@ -13,7 +13,10 @@ ___
 	- Same scales?
 ___
 ## Techniques and Tasks
-External Link: https://ft-interactive.github.io/visual-vocabulary/
+External Link: 
+- https://ft-interactive.github.io/visual-vocabulary/
+- https://www.tableau.com/solutions/gallery/visual-vocabulary
+\- Techniques and Tasks:
 - Magnitude:
 	- Show size comparison:
 		- Relative: to see bigger/larger
@@ -66,7 +69,7 @@ ___
 \- Tricky with aggregate visualization: Bin size/ kernel type/ bandwidth/ visualization choice all affect different situations 
 ___
 ## Combiner Function
-- Weighted sum $$Score = w_2A + w_bB + W_cC$$ → Serial
+- Weighted sum $$Score = w_2A + w_bB + w_cC$$ → Serial
 - Maximum $$Score = max (A, B, C)$$ → Parallel
 - Product Nesting → Complex
 - ==Eg==: Slides 58 → 62

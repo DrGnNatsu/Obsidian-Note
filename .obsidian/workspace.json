@@ -11,10 +11,14 @@
             "id": "792e8a84cda7776b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 4 - Mark - Channels"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Data",
+                "query": "tag:#Chart",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,9 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Chapter 4 - Mark - Channels"
             }
           },
           {
@@ -167,27 +173,27 @@
   },
   "active": "792e8a84cda7776b",
   "lastOpenFiles": [
+    "Data Science and Data Visualization/Chapter 8 - Tables.md",
     "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
     "Data Science and Data Visualization/Chapter 9 - Storytelling.md",
+    "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
+    "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+    "Data Science and Data Visualization/Chapter 3 - Data.md",
+    "Data Science and Data Visualization/Chapter 1 - Visualisation.md",
+    "Data Science and Data Visualization/Chapter 6 - Interactions.md",
+    "Data Science and Data Visualization/Chapter 7 - Views.md",
+    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
     "Data Science and Data Visualization/Attachments/Scope of Evaluation.png",
     "Data Science and Data Visualization/Attachments/Targets.png",
     "Data Science and Data Visualization/Attachments/Search_Query.png",
     "Data Science and Data Visualization/Attachments/Analyze.png",
     "Data Science and Data Visualization/Attachments/Nested Model.png",
-    "Data Science and Data Visualization/Chapter 6 - Interactions.md",
-    "Data Science and Data Visualization/Chapter 7 - Views.md",
-    "Data Science and Data Visualization/Chapter 8 - Tables.md",
     "Data Science and Data Visualization/Attachments/Target Audience.png",
     "Data Science and Data Visualization/Attachments/Storytelling.png",
-    "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
     "Chapter 5 - Design Guideline.md",
     "Data Science and Data Visualization/Attachments/Combined Graph.png",
     "Data Science and Data Visualization/Attachments/Trellis's Variables.png",
     "Data Science and Data Visualization/Attachments/Trellis.png",
-    "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
-    "Data Science and Data Visualization/Chapter 3 - Data.md",
-    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
-    "Data Science and Data Visualization/Chapter 1 - Visualisation.md",
     "README.md",
     "Data Science and Data Visualization/Attachments",
     "Data Science and Data Visualization"
