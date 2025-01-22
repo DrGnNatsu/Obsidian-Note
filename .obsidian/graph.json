@@ -1,12 +1,20 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"Data Structure and Algorithm\"  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"Data Science and Data Visualization\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -18,5 +26,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.3845815301444604,
-  "close": true
+  "close": false
 }
