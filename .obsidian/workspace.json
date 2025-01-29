@@ -11,10 +11,14 @@
             "id": "87296f557898b7d3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "283. Move Zeros"
             }
           }
         ]
@@ -167,6 +171,8 @@
   },
   "active": "87296f557898b7d3",
   "lastOpenFiles": [
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
     "1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0.md",
     "Data Structure and Algorithm/Techniques/Backtracking.md",
@@ -183,7 +189,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/136. Single Number.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/66. Plus One.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1768. Merge String Alternatively.md",
@@ -206,7 +211,6 @@
     "Data Science and Data Visualization/Chapter 10 - Evaluations.md",
     "Data Science and Data Visualization/Chapter 9 - Storytelling.md",
     "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
-    "Data Science and Data Visualization/Chapter 3 - Data.md",
     "Data Science and Data Visualization/Attachments/Scope of Evaluation.png",
     "Data Science and Data Visualization/Attachments/Targets.png",
     "Data Science and Data Visualization/Attachments/Search_Query.png",
