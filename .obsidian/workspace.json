@@ -13,31 +13,18 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Data Structure and Algorithm/Theory/Solution Choosing.canvas",
+                "file": "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": -0.1374144399779596
+                  "x": -147.5,
+                  "y": 1364,
+                  "zoom": -1.4437795233964485
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Solution Choosing"
             }
-          },
-          {
-            "id": "f62407816ee12459",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,11 +174,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f62407816ee12459",
+  "active": "87296f557898b7d3",
   "lastOpenFiles": [
+    "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Techniques/Brute Force.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
-    "Data Structure and Algorithm/Theory/Solution Choosing.canvas",
+    "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
     "Data Structure and Algorithm/Theory/Importance of Data Structure.md",
