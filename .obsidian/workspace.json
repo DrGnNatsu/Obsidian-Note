@@ -11,17 +11,14 @@
             "id": "87296f557898b7d3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
-                "viewState": {
-                  "x": -147.5,
-                  "y": 1364,
-                  "zoom": -1.4437795233964485
-                }
+                "file": "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Solution Choosing"
+              "icon": "lucide-file",
+              "title": "876.  Middle of Linked List"
             }
           }
         ]
@@ -176,10 +173,20 @@
   },
   "active": "87296f557898b7d3",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Solution Choosing",
-    "Data Structure and Algorithm/Techniques/Brute Force.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/141. Linked List Cycle.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/203. Remove Linked List Elements.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sum.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
+    "Data Structure and Algorithm/Techniques/Backtracking.md",
+    "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
+    "It is a ==Graph==?.md",
+    "Data Structure and Algorithm/Techniques/Brute Force.md",
+    "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
     "Data Structure and Algorithm/Theory/Importance of Data Structure.md",
@@ -189,9 +196,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
     "1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0.md",
-    "Data Structure and Algorithm/Techniques/Backtracking.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/121. Best Time to Buy and Sell Stock.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2016. Maximum Difference Between Increasing Elements.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists",
@@ -204,11 +208,7 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/66. Plus One.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1768. Merge String Alternatively.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/27. Remove Element.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sum.md",
     "Data Structure and Algorithm/Attachments/Data Structure Example.png",
-    "Data Structure and Algorithm/Theory/What are Data Structure?.md",
     "Data Structure and Algorithm/Arrays/Exercise",
     "Data Structure and Algorithm/Theory",
     "Data Structure and Algorithm/Basic Data Structures/Arrays",
@@ -216,9 +216,6 @@
     "Data Structure and Algorithm/Attachments/Data Struture Example.png",
     "Data Structure and Algorithm/Attachments/Untitled.png",
     "Data Structure and Algorithm/Attachments",
-    "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
-    "Data Structure and Algorithm",
-    "Data Science and Data Visualization/Chapter 8 - Tables.md",
     "Data Science and Data Visualization/Attachments/Scope of Evaluation.png",
     "Data Science and Data Visualization/Attachments/Targets.png",
     "Data Science and Data Visualization/Attachments/Search_Query.png",

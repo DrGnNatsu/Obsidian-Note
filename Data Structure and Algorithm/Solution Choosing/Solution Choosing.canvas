@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"e68f450a4c176b75","type":"text","text":"It is a ==Graph==?","x":-80,"y":-275,"width":165,"height":60,"color":"3"},
-		{"id":"85214137fd8df5f9","type":"text","text":"It is a ==Tree==?","x":240,"y":-275,"width":160,"height":60,"color":"3"},
+		{"id":"e68f450a4c176b75","type":"text","text":"It is a ==**Graph**==?","x":-80,"y":-275,"width":165,"height":60,"color":"3"},
+		{"id":"85214137fd8df5f9","type":"text","text":"It is a ==**Tree**==?","x":240,"y":-275,"width":160,"height":60,"color":"3"},
 		{"id":"fbb6eef0d0f5f4e9","type":"text","text":"Depth First Search (DFS)","x":560,"y":-275,"width":250,"height":60,"color":"6"},
 		{"id":"b8d59161ca12d292","type":"text","text":"Is the problem related to the **==Directed Acyclic Graph==**? ","x":240,"y":-100,"width":160,"height":140,"color":"3"},
 		{"id":"9dbf8bc11d1d880d","type":"text","text":"Topological Sort","x":560,"y":-60,"width":250,"height":60,"color":"6"},
@@ -22,7 +22,7 @@
 		{"id":"54b53a86a2d35dbe","type":"text","text":"Deals with **==Subarrays or Substrings==**? ","x":-380,"y":720,"width":160,"height":100,"color":"3"},
 		{"id":"58f35d18e3260faa","type":"text","text":"Calculate **==Max/Min of Something==**? ","x":-380,"y":980,"width":160,"height":100,"color":"3"},
 		{"id":"1e7d9f2e8a233823","type":"text","text":"**==Brute Force==** fast enough?","x":-735,"y":196,"width":160,"height":70,"color":"3"},
-		{"id":"e0e297489d26dcfd","type":"text","text":"Brute Force / BackTracking","x":-1120,"y":136,"width":250,"height":60,"color":"6"},
+		{"id":"e0e297489d26dcfd","type":"text","text":"[[Brute Force]] / [[Backtracking]]","x":-1120,"y":136,"width":250,"height":60,"color":"6"},
 		{"id":"197264951611e1a5","type":"text","text":"Dynamic Programming","x":-1120,"y":270,"width":250,"height":60,"color":"6"},
 		{"id":"4450547d77ed66ce","type":"text","text":"Is the **==Graph Wieghted==**? ","x":605,"y":196,"width":160,"height":70,"color":"3"},
 		{"id":"cf6c49fe0b26a457","type":"text","text":"Dijkstra’s Algorithm","x":920,"y":100,"width":250,"height":60,"color":"6"},
@@ -35,7 +35,7 @@
 		{"id":"f739fe35234b05eb","type":"text","text":"Binary Search","x":-780,"y":1260,"width":250,"height":60,"color":"6"},
 		{"id":"51592c35eab5ec61","type":"text","text":"Asking for **==number of ways==**? ","x":-380,"y":1480,"width":160,"height":100,"color":"3"},
 		{"id":"e5d6aecb5bc3374d","type":"text","text":"**==Brute Force==** fast enough?","x":-735,"y":1495,"width":160,"height":70,"color":"3"},
-		{"id":"e843afa1770cb189","type":"text","text":"Brute Force / BackTracking","x":-1120,"y":1435,"width":250,"height":60,"color":"6"},
+		{"id":"e843afa1770cb189","type":"text","text":"[[Brute Force]] / [[Backtracking]]","x":-1120,"y":1435,"width":250,"height":60,"color":"6"},
 		{"id":"8b4e89a9aeb92921","type":"text","text":"Dynamic Programming","x":-1120,"y":1569,"width":250,"height":60,"color":"6"},
 		{"id":"68949a8c4f0b4030","type":"text","text":"Multiples **==Sequences==**? ","x":-380,"y":1820,"width":160,"height":90,"color":"3"},
 		{"id":"58270d001498ea03","type":"text","text":"Can be split into **==Sub-problems==**? ","x":-1075,"y":1820,"width":160,"height":100,"color":"3"},
@@ -49,10 +49,10 @@
 		{"id":"c66f714be350da50","type":"text","text":" **==Monotonic Condition==**? ","x":-735,"y":2660,"width":160,"height":80,"color":"3"},
 		{"id":"8f497a0c4ef4ace6","type":"text","text":"Two Pointers","x":-1120,"y":2670,"width":250,"height":60,"color":"6"},
 		{"id":"25fb9fe37769fd0e","type":"text","text":"Do you need to **==Parse Symbols==**? ","x":-380,"y":2940,"width":160,"height":100,"color":"3"},
-		{"id":"8e820642bda9e1e3","type":"text","text":"Heap","x":-780,"y":2960,"width":250,"height":60,"color":"6"}
+		{"id":"8e820642bda9e1e3","type":"text","text":"Heap","x":-780,"y":2960,"width":250,"height":60,"color":"6"},
+		{"id":"9d25245e4705a563","x":-116,"y":-440,"width":237,"height":50,"color":"4","type":"file","file":"Data Structure and Algorithm/Solution Choosing/It is a Graph?.md"}
 	],
 	"edges":[
-		{"id":"9acf3391b318ba95","fromNode":"e68f450a4c176b75","fromSide":"right","toNode":"85214137fd8df5f9","toSide":"left","label":"YES"},
 		{"id":"5a030939f8119183","fromNode":"85214137fd8df5f9","fromSide":"right","toNode":"fbb6eef0d0f5f4e9","toSide":"left","label":"YES"},
 		{"id":"7307c7c364064080","fromNode":"85214137fd8df5f9","fromSide":"bottom","toNode":"b8d59161ca12d292","toSide":"top","label":"NO"},
 		{"id":"9575049647c84dd0","fromNode":"b8d59161ca12d292","fromSide":"right","toNode":"9dbf8bc11d1d880d","toSide":"left","label":"YES"},
@@ -65,7 +65,6 @@
 		{"id":"ab21b211e1a76363","fromNode":"9e95edb13df3996d","fromSide":"right","toNode":"5e4762072eff9994","toSide":"left","label":"YES"},
 		{"id":"9b9542289f8337ff","fromNode":"2c7b60a8959f2c0a","fromSide":"right","toNode":"79388738e78536fa","toSide":"left","label":"YES"},
 		{"id":"460890634cff359d","fromNode":"2c7b60a8959f2c0a","fromSide":"right","toNode":"aefb2a1ce1fd07b0","toSide":"left","label":"NO"},
-		{"id":"1b28448200678d6b","fromNode":"e68f450a4c176b75","fromSide":"left","toNode":"3b2bf33d80dd50b8","toSide":"right","label":"NO"},
 		{"id":"95f1dd4f48bb00ca","fromNode":"3b2bf33d80dd50b8","fromSide":"left","toNode":"8ce364b7ecabb66c","toSide":"right","label":"YES"},
 		{"id":"0994ad972bd15ee1","fromNode":"3b2bf33d80dd50b8","fromSide":"bottom","toNode":"ce8b4b8465788084","toSide":"top","label":"NO"},
 		{"id":"7b4537ba4cb454c6","fromNode":"ce8b4b8465788084","fromSide":"left","toNode":"131ea4a1337996d7","toSide":"right","label":"YES"},
@@ -100,6 +99,9 @@
 		{"id":"021a8c4797a83d9a","fromNode":"256c9449ea7c7d2f","fromSide":"left","toNode":"c66f714be350da50","toSide":"right","label":"YES"},
 		{"id":"d35842b8ec5d2efc","fromNode":"e363bda783bcfcbc","fromSide":"bottom","toNode":"256c9449ea7c7d2f","toSide":"top","label":"NO"},
 		{"id":"3e980372ec8b3bac","fromNode":"256c9449ea7c7d2f","fromSide":"bottom","toNode":"25fb9fe37769fd0e","toSide":"top","label":"NO"},
-		{"id":"a999f82706039206","fromNode":"25fb9fe37769fd0e","fromSide":"left","toNode":"8e820642bda9e1e3","toSide":"right"}
+		{"id":"a999f82706039206","fromNode":"25fb9fe37769fd0e","fromSide":"left","toNode":"8e820642bda9e1e3","toSide":"right"},
+		{"id":"9acf3391b318ba95","fromNode":"e68f450a4c176b75","fromSide":"right","toNode":"85214137fd8df5f9","toSide":"left","label":"YES"},
+		{"id":"1b28448200678d6b","fromNode":"e68f450a4c176b75","fromSide":"left","toNode":"3b2bf33d80dd50b8","toSide":"right","label":"NO"},
+		{"id":"9b6d5425ca316536","fromNode":"e68f450a4c176b75","fromSide":"top","toNode":"9d25245e4705a563","toSide":"bottom","fromEnd":"arrow"}
 	]
 }
