@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "97c663dcbd4cdc46",
+        "id": "cdad952e84796b35",
         "type": "tabs",
         "children": [
           {
-            "id": "87296f557898b7d3",
+            "id": "165e59dc10b2f72f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "876.  Middle of Linked List"
+              "title": "New tab"
             }
           }
         ]
@@ -171,17 +167,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87296f557898b7d3",
+  "active": "a96d708e0ef4ea7b",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/141. Linked List Cycle.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/203. Remove Linked List Elements.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/141. Linked List Cycle.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/2016. Maximum Difference Between Increasing Elements.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1768. Merge String Alternatively.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/136. Single Number.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/121. Best Time to Buy and Sell Stock.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/27. Remove Element.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sum.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/495. Teemo Attack.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
     "Data Structure and Algorithm/Techniques/Backtracking.md",
     "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
     "It is a ==Graph==?.md",
@@ -189,25 +199,11 @@
     "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
-    "Data Structure and Algorithm/Theory/Importance of Data Structure.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
-    "1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/121. Best Time to Buy and Sell Stock.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2016. Maximum Difference Between Increasing Elements.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists",
     "Data Structure and Algorithm/Searching Algorithm",
     "Data Structure and Algorithm/Basic Data Structures",
     "Data Structure and Algorithm/Sorting Algorithm",
     "Data Structure and Algorithm/Techniques",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/136. Single Number.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/66. Plus One.md",
     "Data Structure and Algorithm/Attachments/Data Structure Example.png",
     "Data Structure and Algorithm/Arrays/Exercise",
     "Data Structure and Algorithm/Theory",
