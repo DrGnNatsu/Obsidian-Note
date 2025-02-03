@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
+                "file": "Data Structure and Algorithm/Basic Data Structures/Linked Lists/2095.  Delete the Middle Node of a Linked List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "231. Power of Two"
+              "title": "2095.  Delete the Middle Node of a Linked List"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Easy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
+                "file": "Data Structure and Algorithm/Basic Data Structures/Linked Lists/2095.  Delete the Middle Node of a Linked List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 231. Power of Two"
+              "title": "Outline of 2095.  Delete the Middle Node of a Linked List"
             }
           },
           {
@@ -175,12 +175,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f99599564fabe807",
+  "active": "a96d708e0ef4ea7b",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
-    "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sum.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/2095.  Delete the Middle Node of a Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/83. Remove Duplicates from a Sorted Lists.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/167. Two Sum II - Input Array is Sorted.md",
     "Data Structure and Algorithm/Techniques/Recursion.md",
+    "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sum.md",
     "Data Structure and Algorithm/Basic Data Structures/Math",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Data Structure and Algorithm/Techniques/Two Pointers.md",
@@ -201,10 +205,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/125. Valid palindrome.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/141. Linked List Cycle.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/1290. Convert Binary Number in a Linked List to Integer.md",
     "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
