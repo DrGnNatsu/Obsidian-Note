@@ -10,7 +10,7 @@ A brute force algorithm is a simple, comprehensive search strategy that systemat
 
 ## Features of the Brute Force Algorithm
 - It is an intuitive, direct, and straightforward technique of [problem-solving](https://www.geeksforgeeks.org/how-to-approach-a-coding-problem/) in which all the possible ways or all the possible solutions to a given problem are enumerated.
-- Many problems are solved in daily life using the brute force strategy, such as exploring all the paths to a nearby market to find the shortest path](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/).
+- Many problems are solved in daily life using the brute force strategy, such as exploring all the paths to a nearby market to find the [shortest path](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/).
 - Arranging the books in a rack using all the possibilities to optimise the rack spaces, etc.
 - Daily life activities use a brute force nature, even though [optimal algorithms](https://www.geeksforgeeks.org/optimization-techniques-set-1-modulus/) are also possible.
 
