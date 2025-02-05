@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Math/441. Arranging Coins.md",
+                "file": "Data Structure and Algorithm/Theory/Importance of Data Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "441. Arranging Coins"
+              "title": "Importance of Data Structure"
             }
           }
         ]
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Math/441. Arranging Coins.md",
+                "file": "Data Structure and Algorithm/Theory/Importance of Data Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 441. Arranging Coins"
+              "title": "Outline of Importance of Data Structure"
             }
           },
           {
@@ -177,8 +177,13 @@
   },
   "active": "f99599564fabe807",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
+    "Data Structure and Algorithm/Theory/What are Data Structure?.md",
+    "Data Structure and Algorithm/Theory/Importance of Data Structure.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1790. Check if One String Swap Can Make Strings Equal.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings",
     "Data Structure and Algorithm/Basic Data Structures/Math/441. Arranging Coins.md",
+    "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1800. Maximum Ascending Subarray Sum.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/3217. Delete Nodes From Linked List Present in Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/2095.  Delete the Middle Node of a Linked List.md",
@@ -197,14 +202,10 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/860. Lemonade Change.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1752. Check if Array is Sorted and Rotated.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1768. Merge String Alternatively.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2016. Maximum Difference Between Increasing Elements.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/3151. Special Array.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/121. Best Time to Buy and Sell Stock.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/27. Remove Element.md",
     "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
@@ -216,7 +217,6 @@
     "Data Structure and Algorithm/Attachments/Data Structure Example.png",
     "Data Structure and Algorithm/Arrays/Exercise",
     "Data Structure and Algorithm/Theory",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays",
     "Data Structure and Algorithm/Attachments/Data Stru ture Example.png",
     "Data Structure and Algorithm/Attachments/Data Struture Example.png",
     "Data Structure and Algorithm/Attachments/Untitled.png",

@@ -18,7 +18,7 @@ ___
 - Choosing the right data structure can make your programs *run faster and use less memory.* Some problems are too complicated to solve without the right tools. 
 - Data structures and algorithms provide those essential tools to tackle them effectively.
 ## Job Interview for Top Companies
-Companies such as Google, Microsoft, Amazon, Apple, Meta, and many others heavily emphasize data structures and algorithms during interviews.
+Companies such as Google, Microsoft, Amazon, Apple, Meta, and many others heavily emphasise data structures and algorithms during interviews.
 - These companies work with huge amounts of data and need solutions that work efficiently on a large scale.
 - An efficient algorithm can save a company a lot of time and money by reducing the cost of computations.
 ## Improving Coding Skills
