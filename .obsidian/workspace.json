@@ -11,17 +11,14 @@
             "id": "f99599564fabe807",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Object Oriented Analysis & Design/C0/Chapter 0 - Introduction.canvas",
-                "viewState": {
-                  "x": -68.5585421466615,
-                  "y": 156.56776693699103,
-                  "zoom": -1.4375285954490742
-                }
+                "file": "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Chapter 0 - Introduction"
+              "icon": "lucide-file",
+              "title": "2364. Count Number of Bad Pairs"
             }
           }
         ]
@@ -141,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object Oriented Analysis & Design/Attachment/Development Process.jpg",
+                "file": "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Development Process"
+              "title": "Outline of 2364. Count Number of Bad Pairs"
             }
           },
           {
@@ -180,40 +177,41 @@
   },
   "active": "f99599564fabe807",
   "lastOpenFiles": [
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/495. Teemo Attack.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/860. Lemonade Change.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1752. Check if Array is Sorted and Rotated.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1726. Check if Array is Sorted and Rotated.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/3160. Find the Number of Distinct Colors Among the Balls.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/3015. Longest Strictly Increasing or Strictly Decreasing Subarray.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/3151. Special Array.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
+    "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/3174. Clear Digits.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1790. Check if One String Swap Can Make Strings Equal.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1910. Remove All Occurrences of a Substring.md",
+    "Data Structure and Algorithm/Basic Data Structures/Math/441. Arranging Coins.md",
+    "Data Structure and Algorithm/Basic Data Structures/Math/231. Power of Two.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/3217. Delete Nodes From Linked List Present in Array.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/2095.  Delete the Middle Node of a Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/1290. Convert Binary Number in a Linked List to Integer.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
+    "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
+    "Object Oriented Analysis & Design/C0/Chapter 0 - Introduction.canvas",
     "Object Oriented Analysis & Design/Attachment/Development Process.jpg",
     "Object Oriented Analysis & Design/Attachment",
-    "Object Oriented Analysis & Design/C0/Project.md",
-    "Object Oriented Analysis & Design/C0/Chapter 0 - Introduction.canvas",
-    "Object Oriented Analysis & Design/C0/BSE ( Bridge System Engineer).md",
-    "Object Oriented Analysis & Design/C0/TechCompany.md",
     "Object Oriented Analysis & Design/C0",
-    "Data Structure and Algorithm/Basic Data Structures/Strings/3174. Clear Digits.md",
     "Object Oriented Analysis & Design",
-    "Data Structure and Algorithm/Basic Data Structures/Strings/1790. Check if One String Swap Can Make Strings Equal.md",
-    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
-    "Data Structure and Algorithm/Sorting Algorithm/Insertion Sort.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks",
-    "Data Structure and Algorithm/Sorting Algorithm/Selection sort.md",
-    "Data Structure and Algorithm/Sorting Algorithm/Bubble Sort.md",
-    "Data Structure and Algorithm/Sorting Algorithm/Untitled.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sum.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3160. Find the Number of Distinct Colors Among the Balls.md",
-    "0,1],[1,2],[2,2],[3,4],[4,5.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/27. Remove Element.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/136. Single Number.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/125. Valid palindrome.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/121. Best Time to Buy and Sell Stock.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/66. Plus One.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/283. Move Zeros.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/860. Lemonade Change.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/495. Teemo Attack.md",
     "Data Structure and Algorithm/Basic Data Structures/Strings",
     "Data Structure and Algorithm/Basic Data Structures/Math",
-    "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
@@ -226,7 +224,6 @@
     "Data Structure and Algorithm/Attachments/Untitled.png",
     "Data Science and Data Visualization/Attachments/Scope of Evaluation.png",
     "Data Science and Data Visualization/Attachments/Targets.png",
-    "Data Science and Data Visualization/Attachments/Search_Query.png",
-    "Data Science and Data Visualization/Attachments/Analyze.png"
+    "Data Science and Data Visualization/Attachments/Search_Query.png"
   ]
 }
