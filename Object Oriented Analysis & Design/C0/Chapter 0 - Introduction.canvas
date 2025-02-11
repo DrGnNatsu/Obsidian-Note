@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"4034e6470d05445c","type":"text","text":"**BA**","x":-200,"y":-220,"width":85,"height":60},
+		{"id":"95715ae1fbfce054","type":"file","file":"Object Oriented Analysis & Design/C0/BSE ( Bridge System Engineer).md","x":-647,"y":-600,"width":480,"height":60},
+		{"id":"f2d371fd28ecfd0d","type":"text","text":"**Project**","x":-212,"y":60,"width":109,"height":60},
+		{"id":"39282960e23ed710","type":"text","text":"**Tech Company**","x":717,"y":-220,"width":175,"height":60},
+		{"id":"d0a5c81ea3a7358f","type":"text","text":"**Project Manager**","x":680,"y":-400,"width":250,"height":60},
+		{"id":"419b10ee2ce014e1","type":"text","text":"**OOAD**","x":755,"y":400,"width":100,"height":60},
+		{"id":"f9ccb3f6f0510eba","type":"text","text":"**Product**","x":1074,"y":400,"width":120,"height":60},
+		{"id":"f6fb66d4f48c4548","x":0,"y":-160,"width":400,"height":370,"type":"file","file":"Object Oriented Analysis & Design/C0/Project.md"},
+		{"id":"1fee317ee1a6bc76","x":-282,"y":530,"width":302,"height":120,"type":"text","text":"**OOD**: List out of the object, instance, features in the project. The Architecture system will handle this part\n"},
+		{"id":"e9fb6d0dd8dbbfd5","x":-627,"y":560,"width":252,"height":60,"type":"text","text":"**OOA**: text description, analyze"},
+		{"id":"8762f60e717357f2","x":100,"y":560,"width":250,"height":60,"type":"text","text":"**OOP**: DEVs handle this part"},
+		{"id":"675e662ff5eeb712","x":1134,"y":-18,"width":400,"height":228,"type":"file","file":"Object Oriented Analysis & Design/Attachment/Development Process.jpg"},
+		{"id":"48f2b33b09a87f88","type":"text","text":"**Client**","x":-960,"y":60,"width":105,"height":60}
+	],
+	"edges":[
+		{"id":"dcca2e8a30be54df","fromNode":"48f2b33b09a87f88","fromSide":"bottom","toNode":"419b10ee2ce014e1","toSide":"left","color":"2","label":"Have some several of the \nrequirements. They work through the BA ( Business Analysis)."},
+		{"id":"142523e014d9a76c","fromNode":"419b10ee2ce014e1","fromSide":"right","toNode":"f9ccb3f6f0510eba","toSide":"left"},
+		{"id":"026c88f1122c80ef","fromNode":"39282960e23ed710","fromSide":"bottom","toNode":"419b10ee2ce014e1","toSide":"top","label":"Provide the product that statisfy the requirements of the client"},
+		{"id":"eadbcaca9dab6c7d","fromNode":"4034e6470d05445c","fromSide":"left","toNode":"48f2b33b09a87f88","toSide":"top","color":"3","label":"Communicate: Estimate price.\nIn term of the verbal, text, document, \nemail of the requirements."},
+		{"id":"b573fc01a63581bc","fromNode":"39282960e23ed710","fromSide":"left","toNode":"4034e6470d05445c","toSide":"right","toEnd":"none"},
+		{"id":"f927532762cdfba3","fromNode":"d0a5c81ea3a7358f","fromSide":"bottom","toNode":"39282960e23ed710","toSide":"top","toEnd":"none"},
+		{"id":"cd3effaeebc23283","fromNode":"d0a5c81ea3a7358f","fromSide":"left","toNode":"4034e6470d05445c","toSide":"top","label":"Estimate \nbudget and time"},
+		{"id":"471f526b9c403cbb","fromNode":"95715ae1fbfce054","fromSide":"bottom","toNode":"4034e6470d05445c","toSide":"left","color":"5"},
+		{"id":"d6c7cde2315dc311","fromNode":"4034e6470d05445c","fromSide":"bottom","toNode":"f2d371fd28ecfd0d","toSide":"top","fromEnd":"arrow","color":"3"},
+		{"id":"314611314654ff85","fromNode":"f2d371fd28ecfd0d","fromSide":"left","toNode":"48f2b33b09a87f88","toSide":"right","fromEnd":"arrow","color":"3"},
+		{"id":"3622195c40668a37","fromNode":"4034e6470d05445c","fromSide":"bottom","toNode":"48f2b33b09a87f88","toSide":"right","label":"Make Contract"},
+		{"id":"f92605f26b40a440","fromNode":"e9fb6d0dd8dbbfd5","fromSide":"right","toNode":"1fee317ee1a6bc76","toSide":"left","color":"1"},
+		{"id":"5f14d47610a9c8fd","fromNode":"1fee317ee1a6bc76","fromSide":"right","toNode":"8762f60e717357f2","toSide":"left","color":"1"}
+	]
+}

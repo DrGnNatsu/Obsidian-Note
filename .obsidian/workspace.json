@@ -11,14 +11,17 @@
             "id": "f99599564fabe807",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
-                "mode": "source",
-                "source": false
+                "file": "Object Oriented Analysis & Design/C0/Chapter 0 - Introduction.canvas",
+                "viewState": {
+                  "x": -68.5585421466615,
+                  "y": 156.56776693699103,
+                  "zoom": -1.4375285954490742
+                }
               },
-              "icon": "lucide-file",
-              "title": "0. Theory"
+              "icon": "lucide-layout-dashboard",
+              "title": "Chapter 0 - Introduction"
             }
           }
         ]
@@ -138,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
+                "file": "Object Oriented Analysis & Design/Attachment/Development Process.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0. Theory"
+              "title": "Outline of Development Process"
             }
           },
           {
@@ -177,8 +180,19 @@
   },
   "active": "f99599564fabe807",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
+    "Object Oriented Analysis & Design/Attachment/Development Process.jpg",
+    "Object Oriented Analysis & Design/Attachment",
+    "Object Oriented Analysis & Design/C0/Project.md",
+    "Object Oriented Analysis & Design/C0/Chapter 0 - Introduction.canvas",
+    "Object Oriented Analysis & Design/C0/BSE ( Bridge System Engineer).md",
+    "Object Oriented Analysis & Design/C0/TechCompany.md",
+    "Object Oriented Analysis & Design/C0",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/3174. Clear Digits.md",
+    "Object Oriented Analysis & Design",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1790. Check if One String Swap Can Make Strings Equal.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/0. Theory.md",
     "Data Structure and Algorithm/Sorting Algorithm/Insertion Sort.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks",
     "Data Structure and Algorithm/Sorting Algorithm/Selection sort.md",
@@ -197,13 +211,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/860. Lemonade Change.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/495. Teemo Attack.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/167. Two Sum II - Input Array is Sorted.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
-    "Data Structure and Algorithm/Basic Data Structures/Math/441. Arranging Coins.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3151. Special Array.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3015. Longest Strictly Increasing or Strictly Decreasing Subarray.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
     "Data Structure and Algorithm/Basic Data Structures/Strings",
     "Data Structure and Algorithm/Basic Data Structures/Math",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
@@ -213,10 +220,7 @@
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists",
     "Data Structure and Algorithm/Searching Algorithm",
     "Data Structure and Algorithm/Basic Data Structures",
-    "Data Structure and Algorithm/Sorting Algorithm",
-    "Data Structure and Algorithm/Techniques",
     "Data Structure and Algorithm/Attachments/Data Structure Example.png",
-    "Data Structure and Algorithm/Arrays/Exercise",
     "Data Structure and Algorithm/Attachments/Data Stru ture Example.png",
     "Data Structure and Algorithm/Attachments/Data Struture Example.png",
     "Data Structure and Algorithm/Attachments/Untitled.png",
