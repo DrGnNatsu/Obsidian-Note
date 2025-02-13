@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Strings/205. Isomorphic Strings.md",
+                "file": "Data Structure and Algorithm/Basic Data Structures/Arrays/3066. Minimum Operations to Exceed Threshold Value II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "205. Isomorphic Strings"
+              "title": "3066. Minimum Operations to Exceed Threshold Value II"
             }
           }
         ]
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Strings/205. Isomorphic Strings.md",
+                "file": "Data Structure and Algorithm/Basic Data Structures/Arrays/3066. Minimum Operations to Exceed Threshold Value II.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 205. Isomorphic Strings"
+              "title": "Outline of 3066. Minimum Operations to Exceed Threshold Value II"
             }
           },
           {
@@ -177,8 +177,9 @@
   },
   "active": "01062962cbcfc8ed",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/24. Swap Nodes in Pairs.md",
     "Data Structure and Algorithm/Basic Data Structures/Strings/205. Isomorphic Strings.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/3066. Minimum Operations to Exceed Threshold Value II.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/24. Swap Nodes in Pairs.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/1290. Convert Binary Number in a Linked List to Integer.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
@@ -203,7 +204,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/3015. Longest Strictly Increasing or Strictly Decreasing Subarray.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/3151. Special Array.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Object Oriented Analysis & Design/Attachment/Development Process.jpg",
     "Object Oriented Analysis & Design/Attachment",
