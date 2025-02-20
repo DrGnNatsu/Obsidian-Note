@@ -1,18 +1,18 @@
 {
 	"nodes":[
 		{"id":"4034e6470d05445c","type":"text","text":"**BA**","x":-200,"y":-220,"width":85,"height":60},
-		{"id":"95715ae1fbfce054","type":"file","file":"Object Oriented Analysis & Design/C0/BSE ( Bridge System Engineer).md","x":-647,"y":-600,"width":480,"height":60},
+		{"id":"95715ae1fbfce054","type":"file","file":"Object Oriented Analysis & Design/C1/BSE ( Bridge System Engineer).md","x":-647,"y":-600,"width":480,"height":60},
 		{"id":"f2d371fd28ecfd0d","type":"text","text":"**Project**","x":-212,"y":60,"width":109,"height":60},
 		{"id":"39282960e23ed710","type":"text","text":"**Tech Company**","x":717,"y":-220,"width":175,"height":60},
 		{"id":"d0a5c81ea3a7358f","type":"text","text":"**Project Manager**","x":680,"y":-400,"width":250,"height":60},
 		{"id":"419b10ee2ce014e1","type":"text","text":"**OOAD**","x":755,"y":400,"width":100,"height":60},
 		{"id":"f9ccb3f6f0510eba","type":"text","text":"**Product**","x":1074,"y":400,"width":120,"height":60},
-		{"id":"f6fb66d4f48c4548","type":"file","file":"Object Oriented Analysis & Design/C0/Project.md","x":0,"y":-160,"width":400,"height":370},
-		{"id":"1fee317ee1a6bc76","type":"text","text":"**OOD**: List out of the object, instance, features in the project. The Architecture system will handle this part\n","x":-282,"y":530,"width":302,"height":120},
-		{"id":"e9fb6d0dd8dbbfd5","type":"text","text":"**OOA**: text description, analyze","x":-627,"y":560,"width":252,"height":60},
+		{"id":"f6fb66d4f48c4548","type":"file","file":"Object Oriented Analysis & Design/C1/Project.md","x":0,"y":-160,"width":400,"height":370},
 		{"id":"8762f60e717357f2","type":"text","text":"**OOP**: DEVs handle this part","x":100,"y":560,"width":250,"height":60},
 		{"id":"675e662ff5eeb712","type":"file","file":"Object Oriented Analysis & Design/Attachment/Development Process.jpg","x":1134,"y":-18,"width":400,"height":228},
-		{"id":"48f2b33b09a87f88","type":"text","text":"**Client**","x":-960,"y":60,"width":105,"height":60}
+		{"id":"48f2b33b09a87f88","type":"text","text":"**Client**","x":-960,"y":60,"width":105,"height":60},
+		{"id":"e9fb6d0dd8dbbfd5","type":"text","text":"**OOA**: text description, analyze function, can be repeated many times:\n- Describing and finding the objects, attributes, behaviours.","x":-640,"y":483,"width":252,"height":215},
+		{"id":"1fee317ee1a6bc76","type":"text","text":"**OOD**: The Architecture system will handle this part:\n- Design diagram objects relationship (use case, activity, sequence, state, ...) ⇔ blueprint ⇒ All of member keep in consistence.\n","x":-280,"y":483,"width":302,"height":215}
 	],
 	"edges":[
 		{"id":"dcca2e8a30be54df","fromNode":"48f2b33b09a87f88","fromSide":"bottom","toNode":"419b10ee2ce014e1","toSide":"left","color":"2","label":"Have some several of the \nrequirements. They work through the BA ( Business Analysis)."},

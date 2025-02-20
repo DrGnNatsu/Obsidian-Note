@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "697487c2ee2a041f",
+            "id": "b745b5605303e2b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Strings/1079. Letter Tile Possibilities.md",
+                "file": "Data Structure and Algorithm/Basic Data Structures/Arrays/1415. The kth Lexicographical String of All Happy Strings of Length n.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1079. Letter Tile Possibilities"
+              "title": "1415. The kth Lexicographical String of All Happy Strings of Length n"
             }
           }
         ]
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure and Algorithm/Basic Data Structures/Strings/1079. Letter Tile Possibilities.md",
+                "file": "Object Oriented Analysis & Design/C2/Class Vs Struct.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1079. Letter Tile Possibilities"
+              "title": "Outline of Class Vs Struct"
             }
           },
           {
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,42 +176,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "697487c2ee2a041f",
+  "active": "b745b5605303e2b5",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
-    "Data Structure and Algorithm/Basic Data Structures/Strings/1079. Letter Tile Possibilities.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1718. Construct the Lexicographically Largest Valid Sequence.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2342. Max Sum of a Pair With Equal Sum of Digits.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3015. Longest Strictly Increasing or Strictly Decreasing Subarray.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3066. Minimum Operations to Exceed Threshold Value II.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3151. Special Array.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3158. Find the XOR of Numbers Which Appear Twice.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/3160. Find the Number of Distinct Colors Among the Balls.md",
-    "Data Structure and Algorithm/Techniques/Backtracking.md",
-    "Data Structure and Algorithm/Basic Data Structures/Math/2698. Punishment number.md",
-    "Data Structure and Algorithm/Basic Data Structures/Math/441. Arranging Coins.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/136. Single Number.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/167. Two Sum II - Input Array is Sorted.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/495. Teemo Attack.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/46. Permutations.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1415. The kth Lexicographical String of All Happy Strings of Length n.md",
+    "0,1],[1,0.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/2375. Construct Smallest Number From DI String.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1863. Sum of All Subset XOR Totals.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/78. Subsets.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/66. Plus One.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/28. Find the Index of the First Occurrence in a String.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/19. Remove Nth Node From End of List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/35. Search Insert Position.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1980. Find Unique Binary String.md",
+    "Data Structure and Algorithm/Sorting Algorithm/Bubble Sort.md",
+    "Data Structure and Algorithm/Sorting Algorithm/Selection sort.md",
+    "Data Structure and Algorithm/Sorting Algorithm/Insertion Sort.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/860. Lemonade Change.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/997. Squared of Sorted Array.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1352. Product of the Last K Numbers.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sums.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1718. Construct the Lexicographically Largest Valid Sequence.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1079. Letter Tile Possibilities.md",
+    "Data Structure and Algorithm/Techniques/Two Pointers.md",
+    "Object Oriented Analysis & Design/C2/Class Vs Struct.md",
+    "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
+    "Object Oriented Analysis & Design/C2/Declarative Programming.md",
+    "Object Oriented Analysis & Design/C2/Imperative Programming.md",
+    "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
+    "Object Oriented Analysis & Design/C2",
+    "Object Oriented Analysis & Design/C1/Project.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1726. Tuple with Same Product.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1752. Check if Array is Sorted and Rotated.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1800. Maximum Ascending Subarray Sum.md",
     "Computer Architecture/Attachment/CPU Time.png",
     "Computer Architecture/Attachment",
     "Computer Architecture",
-    "Object Oriented Analysis & Design/C0/Chapter 0 - Introduction.canvas",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Object Oriented Analysis & Design/Attachment/Development Process.jpg",
     "Object Oriented Analysis & Design/Attachment",
-    "Object Oriented Analysis & Design/C0",
+    "Object Oriented Analysis & Design/C1",
     "Object Oriented Analysis & Design",
     "Data Structure and Algorithm/Basic Data Structures/Stacks",
     "Data Structure and Algorithm/Basic Data Structures/Strings",
@@ -218,7 +221,6 @@
     "Data Structure and Algorithm/Solution Choosing",
     "Data Structure and Algorithm/Attachments/Count node.png",
     "Data Structure and Algorithm/Attachments/Node.png",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists",
     "Data Structure and Algorithm/Attachments/Data Structure Example.png",
     "Data Structure and Algorithm/Attachments/Data Stru ture Example.png",
     "Data Structure and Algorithm/Attachments/Data Struture Example.png",
