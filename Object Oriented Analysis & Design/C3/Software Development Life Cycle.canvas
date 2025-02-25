@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"0831156bfd39eccb","type":"file","file":"Object Oriented Analysis & Design/C3/What is Software Lifecycle?.md","x":-380,"y":-280,"width":400,"height":400},
+		{"id":"b9c1e4a72e22acd5","type":"text","text":"System Specification","x":160,"y":-440,"width":250,"height":60},
+		{"id":"52175afef27fd9b3","type":"text","text":"Code and Fix","x":520,"y":-440,"width":250,"height":60},
+		{"id":"dc8a3da930eb151f","type":"text","text":"Release","x":880,"y":-440,"width":250,"height":60},
+		{"id":"a565ffdd294fbc32","type":"file","file":"Object Oriented Analysis & Design/C3/Code-and-Fix Model.md","x":445,"y":-280,"width":400,"height":400},
+		{"id":"acde0246a7ae9723","type":"file","file":"Object Oriented Analysis & Design/Attachment/SDLC.png","x":-541,"y":160,"width":722,"height":200}
+	],
+	"edges":[
+		{"id":"72dab0916985618e","fromNode":"b9c1e4a72e22acd5","fromSide":"right","toNode":"52175afef27fd9b3","toSide":"left"},
+		{"id":"ec9ade3d50fec0d1","fromNode":"52175afef27fd9b3","fromSide":"right","toNode":"dc8a3da930eb151f","toSide":"left"}
+	]
+}

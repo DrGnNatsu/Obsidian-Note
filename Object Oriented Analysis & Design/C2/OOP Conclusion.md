@@ -1,0 +1,9 @@
+- Modularity: Encapsulation enables objects to be self-contained, making troubleshooting and collaborative development easier.
+- Reusability: Code can be reused through inheritance, meaning a team does not have to write the same code multiple times.
+- Productivity: Programmers can construct new programs quickly through the use of multiple libraries and reusable code.
+- Easily upgradable and scalable: Programmers can implement system functionalities independently.
+- Interface descriptions. Descriptions of external systems are simple, due to message-passing techniques that are used for object communication.
+- Security. Using encapsulation and abstraction, complex code is hidden, software maintenance is easier and internet protocols are protected.
+- Flexibility. Polymorphism enables a single function to adapt to the class it is placed in. Different objects can also pass through the same interface.
+- Code maintenance. Parts of a system can be updated and maintained without needing to make significant adjustments.
+- Lower cost. Other benefits, such as its maintenance and reusability, reduce development costs.
