@@ -1,0 +1,4 @@
+- The programmer describes **how** to solve a problem with instructions that change a program’s state.
+	- The execution of every instruction is sensitive to the program's state, and can change it.
+- **State**:  the data stored in variables, data structures, or accessible from external sources.
+- Program = collection of instructions: assignments, changes of mutable data (lists, arrays, etc.), etc.

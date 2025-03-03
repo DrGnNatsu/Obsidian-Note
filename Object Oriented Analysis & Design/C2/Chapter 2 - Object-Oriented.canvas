@@ -1,28 +1,30 @@
 {
 	"nodes":[
-		{"id":"319b57080b7e16ce","type":"file","file":"Object Oriented Analysis & Design/C2/Imperative Programming.md","x":-480,"y":-20,"width":400,"height":400},
-		{"id":"2295ec70a34feaba","type":"text","text":"Programming Styles","x":-120,"y":-240,"width":250,"height":60},
-		{"id":"6f90d27aa93d4166","type":"file","file":"Object Oriented Analysis & Design/C2/Declarative Programming.md","x":100,"y":-20,"width":400,"height":400},
-		{"id":"654fa1f134d90e41","type":"text","text":"Classes: Include 2 parts","x":920,"y":-240,"width":250,"height":60},
-		{"id":"f8864bfdcfd91fdc","type":"text","text":"Interface: WHAT:\n- What kind of functionality will serve if you are the user?\n- What kind of functionality will serve if you are the dev, company?","x":670,"y":-20,"width":250,"height":300},
-		{"id":"ad087d812dac245b","type":"text","text":"Implementation: HOW","x":1170,"y":-20,"width":250,"height":300},
-		{"id":"7f71cfce8f578206","x":795,"y":480,"width":400,"height":400,"type":"file","file":"Object Oriented Analysis & Design/C2/OOP Conclusion.md"},
 		{"id":"2e0533494a809ebf","type":"file","file":"Object Oriented Analysis & Design/C2/Class Vs Struct.md","x":580,"y":1800,"width":840,"height":424},
 		{"id":"63f38e94f18e5c17","type":"file","file":"Object Oriented Analysis & Design/C2/Abstraction.md","x":-70,"y":1160,"width":400,"height":424},
 		{"id":"2e3f230dd379a95c","type":"file","file":"Object Oriented Analysis & Design/C2/Encapsulation.md","x":500,"y":1160,"width":400,"height":424},
 		{"id":"a751dc35cca23de9","type":"file","file":"Object Oriented Analysis & Design/C2/Inheritance.md","x":1095,"y":1160,"width":400,"height":424},
-		{"id":"074557b9e77992ac","x":1680,"y":1160,"width":400,"height":424,"type":"file","file":"Object Oriented Analysis & Design/C2/Polymorphism (Interface).md"}
+		{"id":"074557b9e77992ac","type":"file","file":"Object Oriented Analysis & Design/C2/Polymorphism (Interface).md","x":1680,"y":1160,"width":400,"height":424},
+		{"id":"7f71cfce8f578206","type":"file","file":"Object Oriented Analysis & Design/C2/Object - Oriented Programming.md","x":740,"y":460,"width":500,"height":400},
+		{"id":"2295ec70a34feaba","type":"text","text":"Programming Styles","x":80,"y":-320,"width":250,"height":60},
+		{"id":"319b57080b7e16ce","type":"file","file":"Object Oriented Analysis & Design/C2/Imperative Programming.md","x":-280,"y":-100,"width":400,"height":400},
+		{"id":"6f90d27aa93d4166","type":"file","file":"Object Oriented Analysis & Design/C2/Declarative Programming.md","x":300,"y":-100,"width":400,"height":400},
+		{"id":"654fa1f134d90e41","type":"text","text":"Classes: Include 2 parts","x":1830,"y":460,"width":250,"height":60},
+		{"id":"f8864bfdcfd91fdc","type":"text","text":"Interface: WHAT:\n- What kind of functionality will serve if you are the user?\n- What kind of functionality will serve if you are the dev, company?","x":1580,"y":680,"width":250,"height":300},
+		{"id":"ad087d812dac245b","type":"text","text":"Implementation: HOW","x":2080,"y":680,"width":250,"height":300}
 	],
 	"edges":[
 		{"id":"49b89d73b28e40dd","fromNode":"2295ec70a34feaba","fromSide":"bottom","toNode":"319b57080b7e16ce","toSide":"top"},
 		{"id":"8ffff05115d872a5","fromNode":"2295ec70a34feaba","fromSide":"bottom","toNode":"6f90d27aa93d4166","toSide":"top"},
 		{"id":"02d960206821d5ff","fromNode":"654fa1f134d90e41","fromSide":"bottom","toNode":"f8864bfdcfd91fdc","toSide":"top"},
-		{"id":"d8afd6f92ae11145","fromNode":"654fa1f134d90e41","fromSide":"bottom","toNode":"ad087d812dac245b","toSide":"top"},
 		{"id":"dcd1cca65770dab4","fromNode":"f8864bfdcfd91fdc","fromSide":"right","toNode":"ad087d812dac245b","toSide":"left","color":"4"},
 		{"id":"ccbdfa344b630c22","fromNode":"7f71cfce8f578206","fromSide":"bottom","toNode":"2e0533494a809ebf","toSide":"top"},
 		{"id":"02f576dcb02b9930","fromNode":"7f71cfce8f578206","fromSide":"bottom","toNode":"63f38e94f18e5c17","toSide":"top"},
 		{"id":"faa2efb3fbbb339a","fromNode":"7f71cfce8f578206","fromSide":"bottom","toNode":"2e3f230dd379a95c","toSide":"top"},
 		{"id":"66e96082692913e2","fromNode":"7f71cfce8f578206","fromSide":"bottom","toNode":"a751dc35cca23de9","toSide":"top"},
-		{"id":"d915bbe9838e0ef9","fromNode":"7f71cfce8f578206","fromSide":"bottom","toNode":"074557b9e77992ac","toSide":"top"}
+		{"id":"d915bbe9838e0ef9","fromNode":"7f71cfce8f578206","fromSide":"bottom","toNode":"074557b9e77992ac","toSide":"top"},
+		{"id":"3dcb485dbcc5e112","fromNode":"6f90d27aa93d4166","fromSide":"bottom","toNode":"7f71cfce8f578206","toSide":"top"},
+		{"id":"86fdeb8ce8bdae8c","fromNode":"7f71cfce8f578206","fromSide":"right","toNode":"654fa1f134d90e41","toSide":"top"},
+		{"id":"d8afd6f92ae11145","fromNode":"654fa1f134d90e41","fromSide":"bottom","toNode":"ad087d812dac245b","toSide":"top"}
 	]
 }

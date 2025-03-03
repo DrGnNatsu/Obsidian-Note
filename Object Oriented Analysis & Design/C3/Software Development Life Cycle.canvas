@@ -1,14 +1,24 @@
 {
 	"nodes":[
-		{"id":"0831156bfd39eccb","type":"file","file":"Object Oriented Analysis & Design/C3/What is Software Lifecycle?.md","x":-380,"y":-280,"width":400,"height":400},
-		{"id":"b9c1e4a72e22acd5","type":"text","text":"System Specification","x":160,"y":-440,"width":250,"height":60},
-		{"id":"52175afef27fd9b3","type":"text","text":"Code and Fix","x":520,"y":-440,"width":250,"height":60},
-		{"id":"dc8a3da930eb151f","type":"text","text":"Release","x":880,"y":-440,"width":250,"height":60},
-		{"id":"a565ffdd294fbc32","type":"file","file":"Object Oriented Analysis & Design/C3/Code-and-Fix Model.md","x":445,"y":-280,"width":400,"height":400},
-		{"id":"acde0246a7ae9723","type":"file","file":"Object Oriented Analysis & Design/Attachment/SDLC.png","x":-541,"y":160,"width":722,"height":200}
+		{"id":"b9c1e4a72e22acd5","type":"text","text":"System Specification","x":220,"y":-260,"width":250,"height":60},
+		{"id":"52175afef27fd9b3","type":"text","text":"Code and Fix","x":580,"y":-260,"width":250,"height":60},
+		{"id":"dc8a3da930eb151f","type":"text","text":"Release","x":940,"y":-260,"width":250,"height":60},
+		{"id":"a565ffdd294fbc32","type":"file","file":"Object Oriented Analysis & Design/C3/Code-and-Fix Model.md","x":345,"y":-100,"width":720,"height":500},
+		{"id":"acde0246a7ae9723","type":"file","file":"Object Oriented Analysis & Design/Attachment/SDLC.png","x":-541,"y":-400,"width":722,"height":200},
+		{"id":"0831156bfd39eccb","type":"file","file":"Object Oriented Analysis & Design/C3/What is Software Lifecycle?.md","x":-430,"y":-100,"width":500,"height":500},
+		{"id":"c3285ecf7cfdde5b","type":"file","file":"Object Oriented Analysis & Design/C3/Agile Model.md","x":-400,"y":760,"width":440,"height":400},
+		{"id":"da6da406556f5836","x":430,"y":760,"width":400,"height":400,"type":"file","file":"Object Oriented Analysis & Design/C3/Scrum.md"},
+		{"id":"88bb26ea29bc0d96","type":"text","text":"Waterfall Model","x":-1124,"y":618,"width":250,"height":60},
+		{"id":"ea506d59af128909","type":"file","file":"Object Oriented Analysis & Design/Attachment/Waterfall Model.png","x":-1360,"y":778,"width":721,"height":365}
 	],
 	"edges":[
 		{"id":"72dab0916985618e","fromNode":"b9c1e4a72e22acd5","fromSide":"right","toNode":"52175afef27fd9b3","toSide":"left"},
-		{"id":"ec9ade3d50fec0d1","fromNode":"52175afef27fd9b3","fromSide":"right","toNode":"dc8a3da930eb151f","toSide":"left"}
+		{"id":"ec9ade3d50fec0d1","fromNode":"52175afef27fd9b3","fromSide":"right","toNode":"dc8a3da930eb151f","toSide":"left"},
+		{"id":"4ed767461095c6cb","fromNode":"52175afef27fd9b3","fromSide":"bottom","toNode":"a565ffdd294fbc32","toSide":"top"},
+		{"id":"6cca90399883d9fa","fromNode":"0831156bfd39eccb","fromSide":"top","toNode":"acde0246a7ae9723","toSide":"bottom"},
+		{"id":"ed4ff0159ea44d74","fromNode":"88bb26ea29bc0d96","fromSide":"bottom","toNode":"ea506d59af128909","toSide":"top"},
+		{"id":"96594a7db7cfbc6c","fromNode":"0831156bfd39eccb","fromSide":"bottom","toNode":"88bb26ea29bc0d96","toSide":"top"},
+		{"id":"474b585cbd1bad62","fromNode":"0831156bfd39eccb","fromSide":"bottom","toNode":"c3285ecf7cfdde5b","toSide":"top"},
+		{"id":"91751cfd3b87b02b","fromNode":"0831156bfd39eccb","fromSide":"bottom","toNode":"da6da406556f5836","toSide":"top"}
 	]
 }

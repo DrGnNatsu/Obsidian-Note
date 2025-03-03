@@ -1,0 +1,2 @@
+- The program describes **what** relationships hold between various entities.
+- Program = collection of definitions of the functions or relations.
