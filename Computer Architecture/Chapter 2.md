@@ -40,11 +40,12 @@ If your OS said that it is 32 bits, it means that your **System bus** is 32 bits
 			2. Ex: we have the address of the WORD is `0xCA|FE|FA|CE` that mean the address write in term of hexadecimal. The `CA` on the left is Most Significant byte (MSB) and `CE` is Least Significant Byte (LSB).
 				1. The computer have two way to put that in to the WORD.
 					1. Little endian (Intel): LSB is stored at lowest address.
-					2. Big endian (MIPS): MSB is stored at lowest address.
+					2. **Big endian (MIPS): MSB is stored at lowest address.**
 					3. No one is better based on the assumption.
 
-| 0xCE     | 0xFA     | 0xFE     | 0xCA     | Little endian  |
+| 7        | 6        | 5        | 4        |                |
 | :------- | :------- | -------- | -------- | -------------- |
+| **0xCE**     | **0xFA**     | **0xFE**     | **0xCA**     | **Little endian**  |
 | **0xCA** | **0xFE** | **0xFA** | **0xCE** | **Big endian** |
 | **4**    | **5**    | **6**    | **7**    |                |
 
@@ -116,4 +117,79 @@ sub $s4, $t0, $t1
 	- Copy data from R to M ( copy from R 2025 to address 4)
 		- P sends the value in the R (2025) & address 4 in the M 
 		- M comes to the WORD at address 4
-		- M updates data of the WORD (101) to new value (2025).
+		- M updates the WORD (101) data to new value (2025).
+___
+# Data Transfer Instructions
+- Assembly instruction format![[Assembly Instruction.png]]
+- Opcode: 
+	- Size of data: 1 byte, 2 bytes (half of word), 4 bytes (a word)
+	- Behaviors: load or store
+- Register
+	- Load: destination
+	- Store: source
+- Memory Operand: offset (base register)
+	- Offset: short integer number
+	- Byte address: each address identifies an 8-bit byte 
+	- “words” are aligned in memory (address must be multiple of 4)
+___
+# Memory Operand
+$$
+Memory\;Address=<offset>\;+\;value(base\;register)
+$$
+![[Memory Operand.png]]
+**Given Data:**
+- **Register Information**:
+    - `$s0` stores the value **8**.
+    - We need to determine the memory operand to access the byte storing **0x9A**.
+**Solution:**
+1. **Find the address of 0x9A in the memory map:**
+    - Looking at the table, **0x9A is stored at address 12**.
+2. **Calculate the offset from $s0 (which stores 8):**
+    - Offset = Address of **0x9A** - Value in `$s0`
+    - Offset = **12 - 8 = 4**
+3. **Memory Operand Representation:**
+    - The memory operand is represented as **offset(base register)**.
+    - Since the base register is `$s0` and the offset is `4`, the memory operand is:**`4($s0)`**
+**Final Answer:**
+The memory operand used to access the byte storing the value **0x9A** is: **`4($s0)`**
+**Another Solution:** we can use the `$zero`, always have the base value is 0 ⇒  the memory operand is:**`12($zero)`**
+___
+# Load Instruction
+**Remind**: “load” means copying data from memory to a 32-bit register. 
+- Instructions:
+	- lw: load word 
+		- eg.: lw $s0, 100($s1) # copy 4 bytes from memory to $s0 
+		- If the word is 100 + $ s1 it is 
+			- 100 + $ s1: 0x12
+			- 101 + $ s1: 0x34
+			- 102 + $ s1: 0x56
+			- 103 + $ s1: 0x78
+			- The MIPS is **Big endian**: MSB is at lowest address ⇒ $ s0: 0x12345678
+	- lh: load half - sign extended 
+		- eg.: lh $ s0, 100($ s1) # copy 2 bytes to $s0 and extend signed bit 
+		- The address of the right and left half must be an even number. (constraints)
+		- 100 + $ s1: 0xCA
+		- 101 + $ s1: 0xFE
+		- ⇒ 0xCAFE = 1100-1010-1111-1110 (base 2) ⇒ $ s0 = 0xFFFFCAFE (we replicate the MSbit - complements of the number - so we duplicate the 0)
+		- Xem hình trong attachments
+	- lhu: load half unsigned - zero extended 
+		- eg.: lhu $ s0, 100($ s1) # copy 2 bytes to $s0 and extend signed bit 
+		- The address of the right and left half must be an even number. (constraints)
+		- 100 + $ s1: 0xCA
+		- 101 + $ s1: 0xFE
+		- ⇒ 0xCAFE = 1100-1010-1111-1110 (base 2) ⇒ $ s0 = 0x0000CAFE
+	- lb: load byte - sign extended - No constraints
+	- lbu: load byte unsigned - zero extended  - No constraints
+	- Special case: lui - load upper immediate 
+		- eg.: lui $ s0, 0x1234 # $s0 = 0x12340000
+		- Copy the intermediate number and copy it to the left half, and the other numbers are zero
+___
+# Store Instructions
+- **Remind**: “store” means copying data from a register to memory 
+- Instructions: 
+	- sw: store word - must be a 4-digit 4 number. (constraints)
+	- eg.: sw $ s0, 100($ s1) # copy 4 bytes in $s0 to memory 
+	- sh: store half - **two least significant bytes** - must be an even number. (constraints)
+		- eg.: sh $ s0, 100($s1) # copy 2 bytes in $s0 to memory 
+	- sb: store byte - **the least significant byte** 
+		- eg.: sb $ s0, 100($s1) # copy 1 bytes in $s0 to memory

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"3874c4956da58b55","type":"file","file":"Object Oriented Analysis & Design/C4/Unified Modeling Language (UML).md","x":-105,"y":-133,"width":400,"height":400},
+		{"id":"7b83ce224f905c3f","type":"file","file":"Object Oriented Analysis & Design/Attachment/Scrum Team.png","x":400,"y":-128,"width":420,"height":391},
+		{"id":"67459d280529d0ff","type":"text","text":"UML Diagram Type","x":-30,"y":400,"width":250,"height":60},
+		{"id":"98930dea42b295ed","type":"file","file":"Object Oriented Analysis & Design/Attachment/UML_Diagram_Type.png","x":400,"y":301,"width":420,"height":259},
+		{"id":"e4c8e0d8c36b2e04","type":"text","text":"Structural Diagram","x":-460,"y":560,"width":200,"height":50},
+		{"id":"1e19ff1135ccbb6a","type":"text","text":"Behavioral Diagram","x":-10,"y":720,"width":210,"height":50},
+		{"id":"5b60d1326528f1fe","type":"text","text":"Interaction Diagrams","x":275,"y":900,"width":250,"height":60},
+		{"id":"cc62e9e32afe961c","type":"file","file":"Object Oriented Analysis & Design/C4/Use Case Modeling.md","x":-410,"y":900,"width":400,"height":400},
+		{"id":"1909de1a7d80f0f2","x":-860,"y":900,"width":400,"height":400,"type":"file","file":"Object Oriented Analysis & Design/C4/Check List for Use Case.md"}
+	],
+	"edges":[
+		{"id":"3969dd033cb8afa4","fromNode":"3874c4956da58b55","fromSide":"right","toNode":"7b83ce224f905c3f","toSide":"left","fromEnd":"arrow","color":"1"},
+		{"id":"2fc44393ba2b6efb","fromNode":"3874c4956da58b55","fromSide":"bottom","toNode":"67459d280529d0ff","toSide":"top"},
+		{"id":"530ebdc8101bb7a7","fromNode":"67459d280529d0ff","fromSide":"bottom","toNode":"1e19ff1135ccbb6a","toSide":"top","label":"Behaviour of Object"},
+		{"id":"696652caded5546c","fromNode":"67459d280529d0ff","fromSide":"bottom","toNode":"e4c8e0d8c36b2e04","toSide":"top","label":"Object to fulfill requirements"},
+		{"id":"53d8ad5741eba558","fromNode":"1e19ff1135ccbb6a","fromSide":"bottom","toNode":"5b60d1326528f1fe","toSide":"top","label":"How to interact"},
+		{"id":"d8321462b0321add","fromNode":"67459d280529d0ff","fromSide":"right","toNode":"98930dea42b295ed","toSide":"left"},
+		{"id":"4e1915a2d1536bd3","fromNode":"1e19ff1135ccbb6a","fromSide":"left","toNode":"cc62e9e32afe961c","toSide":"top","label":"contains"},
+		{"id":"ff814b4e0ff103ef","fromNode":"cc62e9e32afe961c","fromSide":"left","toNode":"1909de1a7d80f0f2","toSide":"right"}
+	]
+}

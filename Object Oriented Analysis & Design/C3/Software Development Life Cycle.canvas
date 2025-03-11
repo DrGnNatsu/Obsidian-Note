@@ -7,7 +7,7 @@
 		{"id":"acde0246a7ae9723","type":"file","file":"Object Oriented Analysis & Design/Attachment/SDLC.png","x":-541,"y":-400,"width":722,"height":200},
 		{"id":"0831156bfd39eccb","type":"file","file":"Object Oriented Analysis & Design/C3/What is Software Lifecycle?.md","x":-430,"y":-100,"width":500,"height":500},
 		{"id":"c3285ecf7cfdde5b","type":"file","file":"Object Oriented Analysis & Design/C3/Agile Model.md","x":-400,"y":760,"width":440,"height":400},
-		{"id":"da6da406556f5836","x":430,"y":760,"width":400,"height":400,"type":"file","file":"Object Oriented Analysis & Design/C3/Scrum.md"},
+		{"id":"da6da406556f5836","type":"file","file":"Object Oriented Analysis & Design/C3/Scrum.md","x":430,"y":760,"width":400,"height":400},
 		{"id":"88bb26ea29bc0d96","type":"text","text":"Waterfall Model","x":-1124,"y":618,"width":250,"height":60},
 		{"id":"ea506d59af128909","type":"file","file":"Object Oriented Analysis & Design/Attachment/Waterfall Model.png","x":-1360,"y":778,"width":721,"height":365}
 	],

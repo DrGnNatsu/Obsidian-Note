@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"b448877319d1a04b","type":"text","text":"Use Case Diagrams","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"28cdae33cfcb6055","type":"text","text":"Activity Diagram","x":-125,"y":140,"width":250,"height":60},
+		{"id":"c23707015acd7667","type":"text","text":"State Diagrams","x":-580,"y":400,"width":250,"height":60},
+		{"id":"5b34b0125a4bb079","type":"text","text":"Interaction Diagrams","x":300,"y":410,"width":250,"height":60},
+		{"id":"92e7aee5a86e4399","type":"file","file":"Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md","x":-200,"y":340,"width":400,"height":400},
+		{"id":"84981d019c4a4230","type":"text","text":"Application System","x":320,"y":970,"width":250,"height":60},
+		{"id":"cec3acd9a330356e","type":"text","text":"Use Cases","x":320,"y":1140,"width":250,"height":60},
+		{"id":"224f3d9687b78bc3","type":"text","text":"Steps","x":320,"y":1340,"width":250,"height":60},
+		{"id":"c4ca47b2dabb32b9","type":"text","text":"Drawing Activity Diagram","x":320,"y":820,"width":250,"height":60},
+		{"id":"49d51cffbcf6c90c","type":"file","file":"Object Oriented Analysis & Design/Attachment/Structure of Activity Diagram.png","x":-160,"y":828,"width":400,"height":172}
+	],
+	"edges":[
+		{"id":"42e58ca5f4dbff87","fromNode":"c23707015acd7667","fromSide":"top","toNode":"28cdae33cfcb6055","toSide":"left","label":"Workflow Presentartion"},
+		{"id":"d3c96945f1a9bc84","fromNode":"28cdae33cfcb6055","fromSide":"right","toNode":"5b34b0125a4bb079","toSide":"top","label":"Refinement of \ninteraction timing and \nsequence ordering"},
+		{"id":"3a84c320049893fd","fromNode":"b448877319d1a04b","fromSide":"bottom","toNode":"28cdae33cfcb6055","toSide":"top","label":"Visualization of high-level reaction to events"},
+		{"id":"1005f9e5f65e9a8b","fromNode":"28cdae33cfcb6055","fromSide":"bottom","toNode":"92e7aee5a86e4399","toSide":"top","color":"1"},
+		{"id":"147d6b8033156ebe","fromNode":"84981d019c4a4230","fromSide":"bottom","toNode":"cec3acd9a330356e","toSide":"top","label":"If Application is complex "},
+		{"id":"36950671403dc13c","fromNode":"cec3acd9a330356e","fromSide":"bottom","toNode":"224f3d9687b78bc3","toSide":"top","label":"If use cases are complex"},
+		{"id":"a010d0fd747e2003","fromNode":"c4ca47b2dabb32b9","fromSide":"bottom","toNode":"84981d019c4a4230","toSide":"top"}
+	]
+}
