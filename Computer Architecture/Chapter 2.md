@@ -182,10 +182,10 @@ ___
 	- lbu: load byte unsigned - zero extended  - No constraints
 	- Special case: lui - load upper immediate 
 		- eg.: lui $ s0, 0x1234 # $s0 = 0x12340000
-		- Copy the intermediate number and copy it to the left half, and the other numbers are zero
+		- Copy the intermediate number to the left half, and the other numbers are zero.
 ___
 # Store Instructions
-- **Remind**: “store” means copying data from a register to memory 
+- **Remind**: “store” means copying data from a register to memory. 
 - Instructions: 
 	- sw: store word - must be a 4-digit 4 number. (constraints)
 	- eg.: sw $ s0, 100($ s1) # copy 4 bytes in $s0 to memory 
@@ -193,3 +193,72 @@ ___
 		- eg.: sh $ s0, 100($s1) # copy 2 bytes in $s0 to memory 
 	- sb: store byte - **the least significant byte** 
 		- eg.: sb $ s0, 100($s1) # copy 1 bytes in $s0 to memory
+___
+# 3rd Group: Logical instructions
+ - Instruction format: The same as arithmetic instructions
+ - Bitwise manipulation
+	 - Process operands bit by bit
+
+| Operation   | C Operation | MIPS opcode | Explain                                                                                              | Example                      |
+| ----------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------- | ---------------------------- |
+| Shift left  | >>          | sll         | Shift the value in the first source to the left and fill the least significant positions with 0 bits | $s0, $s1, 4 # $s0 = $s1 << 4 |
+| Shift right | <<          | srl         | Shift the value in the first source to the right and fill the most significant positions with 0 bits | $s0, $s1, 4 # $s0 = $s1 >> 4 |
+| AND         | &           | and, andi   |                                                                                                      |                              |
+| OR          | \|          | or, ori     |                                                                                                      |                              |
+| NOT         | ~           | nor         |                                                                                                      |                              |
+## Shift Operation
+Shift left (sll) :
+- The maximum number of bits we can shift is 31 bits.
+- Special case: sll by bits multiplies by $2^i$
+Shift right (srl):
+- The maximum number of bits we can shift is 31 bits.
+- Special case: srl by bits divides by $2^i$(unsigned number only)
+## AND Operation
+Bitwise AND two source operands 
+- and: two source registers 
+	- e.g., and $s0, $s1, $s2 # $s0 = $s1 & $s2 
+- andi: the second source is a short integer number (16 bit) 
+	- 16 high-significant bits of the result are 0s 
+	- e.g., andi $s0, $s1, 100 # $ s0 = {16’b0,$s1(5:0)&100} 
+- Useful to mask bits in a register:
+	- Select some bits and clear others to 0
+## OR Operation
+Bitwise OR two source operands 
+- or: two registers 
+	- e.g., or $s0, $s1, $s2 # $s0 = $s1 | $s2 
+- ori: the second source is a short integer number (16 bit) 
+	- Copy 16 high-significant bits from the first source to the destination. 
+	- e.g., ori $s0, $s1, 100 # $ s0 = {$ s1(31:16),$ s1(15:0)|100} 
+- Useful to include bits in a word:
+	- Set some bits to 1, leave others unchanged.
+## NOT Operation
+Don’t have a “not” instruction in MIPS ISA:
+- 2-operand instruction 
+- Useful to invert all bits in a register 
+Can be done by the nor operator, a 3-operand instruction 
+- a NOR b = NOT (a OR b) 
+- NOT a = NOT (a OR 0) = a NOR 0 
+- e.g., nor $s0, $s0, $zero 
+- What else?
+___
+# 4th Group: Conditional Branch Instructions
+- Branch to a label if a condition is true; otherwise, continue sequentially. 
+- Only two standard conditional branch instructions 
+	- beq $rs, $rt, L1 # branch if equal 
+		- If (rs == rt), go to L1 
+	- bne $rs, $rt, L1 
+		- If (rs != rt), go to L1 
+- Label: a given name format: `<label>: <instruction>`
+![[Branch Instructions.png ]]
+___
+# 5th Group: Unconditional Jump Instructions
+Immediately jump to a label:
+- Without any condition checked 
+- Three standard unconditional jumps:
+
+# Set-on-less than instruction
+Used for comparing less than or greater than: Results (destination registers) are always 0 (false) or 1 (true) 
+- slt $rd, $rs, $rt: if (rs < rt) rd = 1; else rd = 0; 
+- slti $rt, $rs, immediate: if (rs < immediate) rt = 1; else rt = 0; 
+- sltu $rd, $rs, $rt: Values are unsigned numbers 
+- sltui $rt, $rs, immediate: Values in registers & immediate are unsigned numbers

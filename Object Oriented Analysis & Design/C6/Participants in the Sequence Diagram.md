@@ -1,0 +1,3 @@
+- A sequence diagram is made up of a collection of participants.
+- Participants are the system parts (including the system, but it may also have some users who collaborate in the sequence) that **interact with each other during the sequence**.
+- Classes or Objects: each object (class) in the interaction is represented by its named icon at the top of the diagram.

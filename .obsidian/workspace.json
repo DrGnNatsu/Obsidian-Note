@@ -11,14 +11,17 @@
             "id": "588a697878c778c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
-                "mode": "source",
-                "source": false
+                "file": "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
+                "viewState": {
+                  "x": 240,
+                  "y": 550,
+                  "zoom": -1.1514764663025392
+                }
               },
-              "icon": "lucide-file",
-              "title": "Role of Activity Diagram in UML"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sequence Diagram"
             }
           }
         ]
@@ -158,12 +161,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,29 +180,40 @@
   },
   "active": "588a697878c778c5",
   "lastOpenFiles": [
+    "Object Oriented Analysis & Design/C6/Control structure.md",
+    "Object Oriented Analysis & Design/Attachment/Fragment-types.png",
+    "Object Oriented Analysis & Design/C6/Message and Focus of Control.md",
+    "Object Oriented Analysis & Design/Attachment/Message-types.png",
+    "Object Oriented Analysis & Design/C6/Participants in the Sequence Diagram.md",
+    "Object Oriented Analysis & Design/C6/Lifeline.md",
+    "Object Oriented Analysis & Design/Attachment/create-deletion.png",
+    "Object Oriented Analysis & Design/Attachment/Messages.png",
+    "Object Oriented Analysis & Design/Attachment/Types-of-Lifelines.png",
+    "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
+    "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model?.md",
+    "Object Oriented Analysis & Design/C6/Interaction Diagrams.md",
+    "Object Oriented Analysis & Design/Attachment/Role-of-Interaction-Diagram.png",
+    "Computer Architecture/Chapter 2.md",
+    "Object Oriented Analysis & Design/C6",
+    "Computer Architecture/Attachment/Branch Instructions.png",
+    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
+    "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
     "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
     "Object Oriented Analysis & Design/C5/Notation in Activity Diagram.md",
     "Object Oriented Analysis & Design/Attachment/Synchronisation_bar.png",
     "Object Oriented Analysis & Design/Attachment/Guards_DecisionPoint.png",
-    "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
     "Object Oriented Analysis & Design/Attachment/Structure of Activity Diagram.png",
     "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",
     "Object Oriented Analysis & Design/C4/Check List for Use Case.md",
     "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
     "Object Oriented Analysis & Design/C4/Use Case Modeling.md",
     "Object Oriented Analysis & Design/C5",
-    "Computer Architecture/Chapter 2.md",
     "Computer Architecture/Chapter 1.md",
     "Computer Architecture/Attachment/Load Half.HEIC",
     "Computer Architecture/Attachment/Load Half Example.HEIC",
-    "Computer Architecture/Attachment/CPU Time.png",
-    "Computer Architecture/Attachment/Instruction Execution Module.png",
-    "Computer Architecture/Attachment/Memory Operand.png",
     "Computer Architecture/Attachment/load half.HEIC",
-    "Computer Architecture/Attachment/Assembly Instruction.png",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1726. Tuple with Same Product.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
-    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2073. Time Needed to Buy Tickets.md",
@@ -211,15 +224,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/2375. Construct Smallest Number From DI String.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
-    "Data Structure and Algorithm/Basic Data Structures/Queue/0. Theory.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/217. Contain Duplicate.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/219. Contains Duplicate II.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/832. Flipping an image.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/46. Permutations.md",
-    "Object Oriented Analysis & Design/Attachment/UseCase_Relationship.png",
-    "Object Oriented Analysis & Design/Attachment/Role_of_ Use_Case_Diagram.png",
-    "Object Oriented Analysis & Design/Attachment/Use_Case_Modeling.png",
     "Object Oriented Analysis & Design/C4",
     "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
     "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
@@ -227,7 +231,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Queue",
     "Object Oriented Analysis & Design/C2",
     "Computer Architecture/Attachment",
-    "Computer Architecture",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas"
   ]
 }

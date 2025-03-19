@@ -1,0 +1,3 @@
+- An interaction diagram typically captures the behaviour of a **user goal use case**.
+- Sequence diagrams: emphasise the order or concurrency of the interactions
+- Collaboration diagrams: emphasise the interacting objects

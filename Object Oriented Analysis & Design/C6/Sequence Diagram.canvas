@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"78f4d29e3ffc1c57","type":"file","file":"Object Oriented Analysis & Design/Attachment/Role-of-Interaction-Diagram.png","x":-200,"y":-280,"width":499,"height":295},
+		{"id":"7965a34467fe2b41","type":"file","file":"Object Oriented Analysis & Design/C6/Participants in the Sequence Diagram.md","x":300,"y":440,"width":400,"height":400},
+		{"id":"dfc6a27d725e9641","type":"file","file":"Object Oriented Analysis & Design/C6/Lifeline.md","x":-220,"y":980,"width":400,"height":400},
+		{"id":"4a83b844ab64c73b","type":"file","file":"Object Oriented Analysis & Design/C6/Interaction Diagrams.md","x":-150,"y":80,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"5de0a019cc703aad","fromNode":"78f4d29e3ffc1c57","fromSide":"bottom","toNode":"4a83b844ab64c73b","toSide":"top"},
+		{"id":"4b6d09d09d01c3d8","fromNode":"4a83b844ab64c73b","fromSide":"bottom","toNode":"7965a34467fe2b41","toSide":"left"},
+		{"id":"2d12be04336a362e","fromNode":"7965a34467fe2b41","fromSide":"bottom","toNode":"dfc6a27d725e9641","toSide":"top"}
+	]
+}

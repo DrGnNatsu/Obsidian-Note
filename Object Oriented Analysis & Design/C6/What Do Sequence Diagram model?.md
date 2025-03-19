@@ -1,0 +1,5 @@
+- Capture the interaction between objects in the context of a collaboration.
+	- Ex: How many instances to fulfil in a single interaction? 
+		- Login: IU, Fraud Detection, System.
+- Show object instances that play the roles defined in a collaboration.
+- Show the order of the interaction visually by using the vertical axis of the diagram to represent time what messages are sent and when.
