@@ -11,17 +11,14 @@
             "id": "588a697878c778c5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
-                "viewState": {
-                  "x": 240,
-                  "y": 550,
-                  "zoom": -1.1514764663025392
-                }
+                "file": "Computer Architecture/Chapter 2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sequence Diagram"
+              "icon": "lucide-file",
+              "title": "Chapter 2"
             }
           }
         ]
@@ -180,6 +177,10 @@
   },
   "active": "588a697878c778c5",
   "lastOpenFiles": [
+    "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
+    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
+    "Computer Architecture/Chapter 2.md",
+    "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
     "Object Oriented Analysis & Design/C6/Control structure.md",
     "Object Oriented Analysis & Design/Attachment/Fragment-types.png",
     "Object Oriented Analysis & Design/C6/Message and Focus of Control.md",
@@ -189,14 +190,11 @@
     "Object Oriented Analysis & Design/Attachment/create-deletion.png",
     "Object Oriented Analysis & Design/Attachment/Messages.png",
     "Object Oriented Analysis & Design/Attachment/Types-of-Lifelines.png",
-    "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
     "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model?.md",
     "Object Oriented Analysis & Design/C6/Interaction Diagrams.md",
     "Object Oriented Analysis & Design/Attachment/Role-of-Interaction-Diagram.png",
-    "Computer Architecture/Chapter 2.md",
     "Object Oriented Analysis & Design/C6",
     "Computer Architecture/Attachment/Branch Instructions.png",
-    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
     "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
     "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
     "Object Oriented Analysis & Design/C5/Notation in Activity Diagram.md",
@@ -221,7 +219,6 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1980. Find Unique Binary String.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1800. Maximum Ascending Subarray Sum.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/20. Valid Parentheses.md",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/2375. Construct Smallest Number From DI String.md",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
     "Object Oriented Analysis & Design/C4",
