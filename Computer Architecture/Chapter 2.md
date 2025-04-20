@@ -212,12 +212,12 @@ Shift left (sll) :
 - Special case: sll by bits multiplies by $2^i$
 Shift right (srl):
 - The maximum number of bits we can shift is 31 bits.
-- Special case: srl by bits divides by $2^i$(unsigned number only)
+- Special case: srl by bits divided by $2^i$(unsigned number only)
 ## AND Operation
 Bitwise AND two source operands 
 - and: two source registers 
 	- e.g., and $s0, $s1, $s2 # $s0 = $s1 & $s2 
-- andi: the second source is a short integer number (16 bit) 
+- andi: the second source is a short integer number (16-bit) 
 	- 16 high-significant bits of the result are 0s 
 	- e.g., andi $s0, $s1, 100 # $ s0 = {16’b0,$s1(5:0)&100} 
 - Useful to mask bits in a register:
@@ -226,16 +226,16 @@ Bitwise AND two source operands 
 Bitwise OR two source operands 
 - or: two registers 
 	- e.g., or $s0, $s1, $s2 # $s0 = $s1 | $s2 
-- ori: the second source is a short integer number (16 bit) 
+- Ori: the second source is a short integer number (16-bit) 
 	- Copy 16 high-significant bits from the first source to the destination. 
 	- e.g., ori $s0, $s1, 100 # $ s0 = {$ s1(31:16),$ s1(15:0)|100} 
 - Useful to include bits in a word:
-	- Set some bits to 1, leave others unchanged.
+	- Set some bits to 1, and leave others unchanged.
 ## NOT Operation
 Don’t have a “not” instruction in MIPS ISA:
 - 2-operand instruction 
-- Useful to invert all bits in a register 
-Can be done by the nor operator, a 3-operand instruction 
+- It is useful to invert all bits in a register 
+The nor operator, a 3-operand instruction, can do this 
 - a NOR b = NOT (a OR b) 
 - NOT a = NOT (a OR 0) = a NOR 0 
 - e.g., nor $s0, $s0, $zero 
@@ -262,3 +262,103 @@ Used for comparing less than or greater than: Results (destination registers) ar
 - slti $rt, $rs, immediate: if (rs < immediate) rt = 1; else rt = 0; 
 - sltu $rd, $rs, $rt: Values are unsigned numbers 
 - sltui $rt, $rs, immediate: Values in registers & immediate are unsigned numbers
+___
+# Procedure Calling
+- Caller vs. Callee 
+- Steps required to call a procedure :
+	- Place parameters in registers 
+	- Transfer control to the procedure 
+	- Acquire storage for the procedure 
+	- Perform procedure operations 
+	- Place the result in the register for the caller 
+	- Return to the place of call
+```C++
+int main(){ // caller
+	fact(4);	
+}
+int fact(int a){}//callee
+```
+## Register Usage
+### CAN MODIFY:
+- $a0 – $a3: arguments 
+- $v0, $v1: result values 
+- $t0 – $t9: temporaries: Can be overwritten by the callee 
+- $s0 – $s7: saved Must be saved/restored by callee 
+### NOT MODIFY:
+- $gp: global pointer for static data 
+- $sp: stack pointer 
+- $fp: frame pointer 
+- $ra: return address
+## Stack Addressing Model
+![[Stack Addressing Model.png]]
+## Procedure Call Instructions
+- Procedure call: jump and link 
+	- `jal ProcedureLabel` 
+	- Address of following instruction put in $ra 
+	- Jumps to target address 
+- Procedure return: jump register 
+	- `jr $ra` 
+	- Copies $ra to the program counter 
+	- Can also be used for computed jumps 
+	- e.g., for case/switch statements
+## Leaf Procedure
+- Leaf-procedure: will not call any sub-procedure or itself. No need to care about any else, except saved registers.
+```C
+int leaf_example (int g, h, i, j) {
+	int f;
+	f = (g + h) - (i + j);
+	return f;
+}
+```
+## Non-leaf Procedure
+- Non-leaf procedure: will call at least another procedure or itself 
+	- Need to care: 
+		- Return address ($ra) (**always**!!!) 
+			- Caller calls A ($ra = caller: address of the instruction after jal A) 
+			- A call B ($ra = A: address of the instruction after jal B) 
+			- Overwrite the value of $ra 
+			- B return to A ($ra = A) 
+			- **Cannot return to Caller** 
+		- Arguments are transferred from the Caller if needed (sometimes!!!) 
+	- Use the stack to back up.
+```C
+int factorial (int a) {
+	if (n < 1) return 1;
+	return n * factorial (n - 1);
+}
+```
+___
+# Machine Instructions
+- Instructions are encoded in binary Called machine code. 
+- MIPS instructions:
+	- Encoded as 32-bit instruction words 
+	- A small number of formats encoding operation code (opcode), register numbers, … 
+	- Regularity! 
+- Representing instructions: 
+	- Instruction format: R, I, and J 
+	- Opcode: **predefined** (check the reference card) 
+	- Operands: 
+		- Register numbers: predefined (check the reference card) 
+		- Immediate: integer to binary 
+		- Memory operands: offset + base register
+## Instruction Format
+- MIPS machine instructions use one of three formats 
+	- R-format: encoding all-register-operands instructions and two shift instructions 
+		- add $s0, $s1, $s2 # all operand are registers 
+		- sll $s0, $s1, 4 # shift instruction 
+	- I-format: encoding instructions with one operand different from registers 
+		- ***except sll, srl, j, and jal*** 
+		- addi $s0, $s1, 100 # immediate 
+		- lw $s1, 100($s0) # memory operand 
+	- J-format: encoding j and jal
+		- j Label1
+### R-Format Instruction
+![[R-format.png]]
+- op: always 0 for R-format instructions
+	- 6 bits for all formats: do the same behaviour: take value from 2 registers and assign it into the new register.
+- rs: first resource register number
+	- **shift do not use the RS**
+- rt: second resource register number
+- rd: destination resource register number
+- shamt: shift amount, how many bits we will shift (0 for non-instructions) - 5 bits only for shifting because the field reserved only 5 bits from 0 to 31
+- funct: identify operators

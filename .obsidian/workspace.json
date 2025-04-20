@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/Chapter 2.md",
+                "file": "Computer Architecture/Chapter 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 2"
+              "title": "Chapter 3"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "map.mer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
+                "file": "Computer Architecture/Chapter 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Role of Activity Diagram in UML"
+              "title": "Outline of Chapter 3"
             }
           },
           {
@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,11 +175,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "588a697878c778c5",
+  "active": "a96d708e0ef4ea7b",
   "lastOpenFiles": [
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
-    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
+    "IEEE-754_format.png",
+    "Division.png",
+    "IntegerAddition.png",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/78. Subsets.md",
+    "Computer Architecture/Chapter 3.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
+    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/21. Merge Two Sorted Lists.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/15. Three Sums (3Sum).md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sums.md",
+    "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
+    "Object Oriented Analysis & Design/C2/Declarative Programming.md",
+    "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
+    "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",
+    "Object Oriented Analysis & Design/C4/Use Case Modeling.md",
+    "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
+    "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
+    "Computer Architecture/Chapter 1.md",
     "Computer Architecture/Chapter 2.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/24. Swap Nodes in Pairs.md",
+    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
+    "Computer Architecture/Attachment/R-format.png",
+    "Computer Architecture/Attachment/Stack Addressing Model.png",
+    "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
     "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
     "Object Oriented Analysis & Design/C6/Control structure.md",
     "Object Oriented Analysis & Design/Attachment/Fragment-types.png",
@@ -194,36 +217,14 @@
     "Object Oriented Analysis & Design/C6/Interaction Diagrams.md",
     "Object Oriented Analysis & Design/Attachment/Role-of-Interaction-Diagram.png",
     "Object Oriented Analysis & Design/C6",
-    "Computer Architecture/Attachment/Branch Instructions.png",
     "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
-    "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
     "Object Oriented Analysis & Design/C5/Notation in Activity Diagram.md",
-    "Object Oriented Analysis & Design/Attachment/Synchronisation_bar.png",
-    "Object Oriented Analysis & Design/Attachment/Guards_DecisionPoint.png",
-    "Object Oriented Analysis & Design/Attachment/Structure of Activity Diagram.png",
-    "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",
     "Object Oriented Analysis & Design/C4/Check List for Use Case.md",
-    "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
-    "Object Oriented Analysis & Design/C4/Use Case Modeling.md",
     "Object Oriented Analysis & Design/C5",
-    "Computer Architecture/Chapter 1.md",
     "Computer Architecture/Attachment/Load Half.HEIC",
     "Computer Architecture/Attachment/Load Half Example.HEIC",
     "Computer Architecture/Attachment/load half.HEIC",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1726. Tuple with Same Product.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/876.  Middle of Linked List.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/169. Majority Element.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2239. Find Closet Number to Zero.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2073. Time Needed to Buy Tickets.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2016. Maximum Difference Between Increasing Elements.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1980. Find Unique Binary String.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1800. Maximum Ascending Subarray Sum.md",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/20. Valid Parentheses.md",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/2375. Construct Smallest Number From DI String.md",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
     "Object Oriented Analysis & Design/C4",
-    "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
-    "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
     "Object Oriented Analysis & Design/C3",
     "Data Structure and Algorithm/Basic Data Structures/Queue",
     "Object Oriented Analysis & Design/C2",
