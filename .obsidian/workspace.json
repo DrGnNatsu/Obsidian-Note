@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d380c8c71ed4ed3a",
+        "id": "26579f62c82572e9",
         "type": "tabs",
         "children": [
           {
-            "id": "588a697878c778c5",
+            "id": "1e09f0de8ec9a119",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Architecture/Chapter 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 3"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "merge",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,13 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/Chapter 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 3"
+              "title": "Outline"
             }
           },
           {
@@ -162,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,19 +170,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a96d708e0ef4ea7b",
+  "active": "1e09f0de8ec9a119",
   "lastOpenFiles": [
-    "IEEE-754_format.png",
-    "Division.png",
-    "IntegerAddition.png",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/78. Subsets.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
+    "Computer Architecture/Chapter 1.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sums.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/1726. Tuple with Same Product.md",
+    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/21. Merge Two Sorted Lists.md",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/46. Permutations.md",
+    "README.md",
+    "Computer Architecture/Chapter 4.md",
+    "Computer Architecture/Attachment/Single-Cycle Pipeline Diagram.png",
+    "Computer Architecture/Attachment/Multi-Cycle Pipeline Diagram.png",
+    "Computer Architecture/Attachment/Pipelining Analogy.png",
+    "Object Oriented Analysis & Design/C12/Testing and QA.md",
+    "Object Oriented Analysis & Design/C11/System Architecture.md",
+    "Object Oriented Analysis & Design/C12",
+    "Object Oriented Analysis & Design/Attachment/MVC.png",
+    "Object Oriented Analysis & Design/C10/Design Pattern.md",
+    "Computer Architecture/Attachment/Example Datapath.png",
     "Computer Architecture/Chapter 3.md",
+    "Object Oriented Analysis & Design/C11",
+    "Object Oriented Analysis & Design/C9/Package Diagram.md",
+    "Object Oriented Analysis & Design/C10",
+    "Object Oriented Analysis & Design/C7/State Diagram.md",
+    "Object Oriented Analysis & Design/C9",
+    "Computer Architecture/Attachment/Instruction decode.png",
+    "Computer Architecture/Attachment/Instruction Fecth.png",
+    "Computer Architecture/Attachment/Chapter4-10.jpg",
+    "Computer Architecture/Attachment/CPU.heic",
+    "Object Oriented Analysis & Design/Attachment/Events.png",
+    "Computer Architecture/Attachment/IMG_0231.heic",
+    "IMG_0231 1.heic",
+    "IMG_0231.heic",
+    "Object Oriented Analysis & Design/Attachment/States_Example.png",
+    "Object Oriented Analysis & Design/C7",
+    "Data Structure and Algorithm/Basic Data Structures/Arrays/78. Subsets.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
     "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/21. Merge Two Sorted Lists.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/15. Three Sums (3Sum).md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sums.md",
     "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
     "Object Oriented Analysis & Design/C2/Declarative Programming.md",
     "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
@@ -195,40 +217,13 @@
     "Object Oriented Analysis & Design/C4/Use Case Modeling.md",
     "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
     "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
-    "Computer Architecture/Chapter 1.md",
     "Computer Architecture/Chapter 2.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
     "Data Structure and Algorithm/Basic Data Structures/Linked Lists/24. Swap Nodes in Pairs.md",
     "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
-    "Computer Architecture/Attachment/R-format.png",
-    "Computer Architecture/Attachment/Stack Addressing Model.png",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
     "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
-    "Object Oriented Analysis & Design/C6/Control structure.md",
-    "Object Oriented Analysis & Design/Attachment/Fragment-types.png",
-    "Object Oriented Analysis & Design/C6/Message and Focus of Control.md",
-    "Object Oriented Analysis & Design/Attachment/Message-types.png",
-    "Object Oriented Analysis & Design/C6/Participants in the Sequence Diagram.md",
-    "Object Oriented Analysis & Design/C6/Lifeline.md",
-    "Object Oriented Analysis & Design/Attachment/create-deletion.png",
-    "Object Oriented Analysis & Design/Attachment/Messages.png",
-    "Object Oriented Analysis & Design/Attachment/Types-of-Lifelines.png",
-    "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model?.md",
-    "Object Oriented Analysis & Design/C6/Interaction Diagrams.md",
-    "Object Oriented Analysis & Design/Attachment/Role-of-Interaction-Diagram.png",
     "Object Oriented Analysis & Design/C6",
-    "Object Oriented Analysis & Design/C5/Role of Activity Diagram in UML.md",
-    "Object Oriented Analysis & Design/C5/Notation in Activity Diagram.md",
-    "Object Oriented Analysis & Design/C4/Check List for Use Case.md",
-    "Object Oriented Analysis & Design/C5",
-    "Computer Architecture/Attachment/Load Half.HEIC",
-    "Computer Architecture/Attachment/Load Half Example.HEIC",
-    "Computer Architecture/Attachment/load half.HEIC",
-    "Object Oriented Analysis & Design/C4",
-    "Object Oriented Analysis & Design/C3",
-    "Data Structure and Algorithm/Basic Data Structures/Queue",
-    "Object Oriented Analysis & Design/C2",
-    "Computer Architecture/Attachment",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas"
   ]
 }
