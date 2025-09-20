@@ -1,5 +1,6 @@
 #os 
 ___
+RELATIVE RESOURCES: [[Chapter 2 - Operating System Overview]]
 **Process states** that characterise the behaviour of processes.
 **Data structures** used to manage processes.
 # Requirements of OS
@@ -190,6 +191,13 @@ A key security issue in the design of any OS is to prevent anything (user or pro
 	- Misfeasor (insider)
 	- Clandestine user (outside or insider)
 - Malicious software (malware)
+## Countermeasures: Intrusion Detection
+- Intrusion detection systems are typically designed to detect human intruders and malicious software behaviour.
+- May be host or network-based
+- Intrusion detection systems (IDS) typically comprise
+	- Sensors
+	- Analyzers
+	- User Interface
 ## Countermeasures: Authentication
 - Two Stages:
 	- Identification
