@@ -177,6 +177,37 @@ The steps in a process switch are:
 7. Restore the context of the selected process
 ## Is the OS a Process?
 - If the OS is just a collection of programs and if it is executed by the processor just like any other program, is the OS a process? Yes, it is a special program which controls other programs. The OS have two parts: Kernels and Services
-- If so, how is it controlled? Who (what) controls it? Kerne, Services, Process Switching
+- If so, how is it controlled? Who (what) controls it? Kerne, Services, and Process Switching
+### Non-Processor Kernel
+## Security Issue
+An OS associates a set of privileges with each process.
+- The highest level is administrator, supervisor, or root access.
+A key security issue in the design of any OS is to prevent anything (user or process) from gaining unauthorised privileges on the system
+- Especially, from gaining root access.
+## System access threats
+- Intruders
+	- Masquerader (outsider)
+	- Misfeasor (insider)
+	- Clandestine user (outside or insider)
+- Malicious software (malware)
+## Countermeasures: Authentication
+- Two Stages:
+	- Identification
+	- Verification
+- Four Factors:
+	- Something the individual **knows**
+	- Something the individual **possesses**
+	- Something the individual is **(static biometrics)**
+	- Something the individual does **(dynamic biometrics)**
+## Countermeasures: Access Control
+- A policy governing access to resources
+- A security administrator maintains an authorisation database
+	- The access control function consults this to determine whether to grant access.
+- An auditing function monitors and keeps a record of user accesses to system resources.
+## Countermeasures: Firewalls
+- Traditionally, a firewall is a dedicated computer that:
+	- interfaces with computers outside a network
+	- has special security precautions built into it to
+	- protect sensitive files on computers within the network.
 
 
