@@ -4,20 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "26579f62c82572e9",
+        "id": "adc8702dad0e1b94",
         "type": "tabs",
         "children": [
           {
-            "id": "1e09f0de8ec9a119",
+            "id": "5601d9d289764498",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "image",
+              "state": {
+                "file": "Operating System/Attachments/Two Queues.png"
+              },
+              "icon": "lucide-image",
+              "title": "Two Queues"
+            }
+          },
+          {
+            "id": "ae3550a6b559fb0a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Operating System/Attachments/Five-State Process Model.png"
+              },
+              "icon": "lucide-image",
+              "title": "Five-State Process Model"
+            }
+          },
+          {
+            "id": "f2b812350bbe4fbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Chapter 3 - Process Description and Control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3 - Process Description and Control"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "merge",
+                "query": "tag:#data_mining",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for C2 - Lexical Analysis - Part 1"
             }
           },
           {
@@ -108,11 +138,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from C2 - Lexical Analysis - Part 1"
+            }
+          },
+          {
+            "id": "bd75f2b46de8df83",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -122,7 +163,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -134,12 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of C2 - Lexical Analysis - Part 1"
             }
           },
           {
@@ -151,18 +195,43 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "786342c54c1bce03",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "789c85ff2dd00ffe",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 436.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -170,8 +239,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e09f0de8ec9a119",
+  "active": "a96d708e0ef4ea7b",
   "lastOpenFiles": [
+    "Operating System/Attachments/Suspended Process.png",
+    "Operating System/Attachments/Multiple Blocked Queue.png",
+    "Operating System/Attachments/Multiprogramming.png",
+    "Operating System/Attachments/Five-State Process Model.png",
+    "Operating System/Attachments/Two Queues.png",
+    "Operating System/Attachments",
+    "Operating System/Chapter 3 - Process Description and Control.md",
+    "Operating System/Attachments/Two-state Process Model.png",
+    "Operating System/Attachments/Queue Diagram.png",
+    "Operating System/Attachments/Virtual Memory.png",
+    "Operating System/Chapter 2 - Operating System Overview.md",
+    "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
+    "Principles of Programming Languages/C1 - Introduction.md",
+    "Principles of Programming Languages/Attachments/Lexical Parser.png",
+    "Principles of Programming Languages/Attachments",
+    "Principles of Programming Languages/Attachments/Lexical Analyser.png",
+    "Principles of Programming Languages/Attachments/FE Overview.png",
+    "Principles of Programming Languages/Untitled.base",
+    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
+    "Data Mining/Chapter 1.md",
+    "Operating System/Chapter 1 - Computer System Overview.md",
+    "Operating System",
+    "Principles of Programming Languages",
+    "Data Science and Data Visualization/Chapter 1 - Visualisation.md",
+    "Data Mining",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
     "Computer Architecture/Chapter 1.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sums.md",
@@ -180,50 +274,25 @@
     "Data Structure and Algorithm/Basic Data Structures/Arrays/46. Permutations.md",
     "README.md",
     "Computer Architecture/Chapter 4.md",
-    "Computer Architecture/Attachment/Single-Cycle Pipeline Diagram.png",
-    "Computer Architecture/Attachment/Multi-Cycle Pipeline Diagram.png",
-    "Computer Architecture/Attachment/Pipelining Analogy.png",
     "Object Oriented Analysis & Design/C12/Testing and QA.md",
     "Object Oriented Analysis & Design/C11/System Architecture.md",
     "Object Oriented Analysis & Design/C12",
-    "Object Oriented Analysis & Design/Attachment/MVC.png",
     "Object Oriented Analysis & Design/C10/Design Pattern.md",
-    "Computer Architecture/Attachment/Example Datapath.png",
     "Computer Architecture/Chapter 3.md",
     "Object Oriented Analysis & Design/C11",
     "Object Oriented Analysis & Design/C9/Package Diagram.md",
     "Object Oriented Analysis & Design/C10",
     "Object Oriented Analysis & Design/C7/State Diagram.md",
     "Object Oriented Analysis & Design/C9",
-    "Computer Architecture/Attachment/Instruction decode.png",
-    "Computer Architecture/Attachment/Instruction Fecth.png",
-    "Computer Architecture/Attachment/Chapter4-10.jpg",
-    "Computer Architecture/Attachment/CPU.heic",
-    "Object Oriented Analysis & Design/Attachment/Events.png",
-    "Computer Architecture/Attachment/IMG_0231.heic",
-    "IMG_0231 1.heic",
-    "IMG_0231.heic",
-    "Object Oriented Analysis & Design/Attachment/States_Example.png",
-    "Object Oriented Analysis & Design/C7",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/78. Subsets.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
     "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/15. Three Sums (3Sum).md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/11. Contain the most water.md",
     "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
-    "Object Oriented Analysis & Design/C2/Declarative Programming.md",
     "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
     "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",
-    "Object Oriented Analysis & Design/C4/Use Case Modeling.md",
     "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
     "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
-    "Computer Architecture/Chapter 2.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/206. Reverse Linked List.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/24. Swap Nodes in Pairs.md",
-    "Data Structure and Algorithm/Basic Data Structures/Queue/255. Implement Stack using Queues.md",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/232. Implement Queue using Stack.md",
     "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
-    "Object Oriented Analysis & Design/C6",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas"
   ]
 }
