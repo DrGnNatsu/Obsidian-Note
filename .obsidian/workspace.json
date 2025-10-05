@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "adc8702dad0e1b94",
+        "id": "1026647e1bf93bd9",
         "type": "tabs",
         "children": [
           {
-            "id": "5601d9d289764498",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Operating System/Attachments/Two Queues.png"
-              },
-              "icon": "lucide-image",
-              "title": "Two Queues"
-            }
-          },
-          {
-            "id": "ae3550a6b559fb0a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Operating System/Attachments/Five-State Process Model.png"
-              },
-              "icon": "lucide-image",
-              "title": "Five-State Process Model"
-            }
-          },
-          {
-            "id": "f2b812350bbe4fbf",
+            "id": "329b05e754b829e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 3 - Process Description and Control.md",
+                "file": "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3 - Process Description and Control"
+              "title": "Chapter 5 - Concurrency - Mutual Exclusion and Synchronization"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e500579504db789d",
@@ -225,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.5
+    "width": 355.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,53 +216,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f2b812350bbe4fbf",
+  "active": "329b05e754b829e2",
   "lastOpenFiles": [
+    "Screenshot 2025-10-04 at 15.32.27.png",
+    "Screenshot 2025-10-04 at 13.28.18.png",
+    "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
+    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
+    "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
+    "Data Mining/Attachment",
+    "Data Mining/Chapter 3 - Data Preprocessing.md",
+    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
+    "Computer Architecture/Chapter 4.md",
+    "Computer Architecture/Chapter 3.md",
+    "Computer Architecture/Chapter 2.md",
+    "Computer Architecture/Chapter 1.md",
+    "Operating System/Chapter 4 - Threads, SMP, and Microkernels.md",
+    "Operating System/Attachments/Relationships Between ULT Thread and Process States.png",
+    "Operating System/Attachments/RPC Multithread.png",
+    "Operating System/Attachments/RPC Single Thread.png",
+    "Operating System/Attachments/Single Vs. Multi.png",
+    "Operating System/Chapter 3 - Process Description and Control.md",
+    "Operating System/Attachments/Processes and Threads.png",
+    "Principles of Programming Languages/Attachments/NFA to DFA.png",
+    "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
+    "Data Science and Data Visualization/Chapter 3 - Data.md",
+    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
+    "Data Science and Data Visualization/Chapter 1 - Visualisation.md",
+    "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
+    "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
+    "Untitled.md",
     "Operating System/Chapter 2 - Operating System Overview.md",
     "Operating System/Chapter 1 - Computer System Overview.md",
-    "Operating System/Chapter 3 - Process Description and Control.md",
     "Operating System/Attachments/Suspended Process.png",
     "Operating System/Attachments/Multiple Blocked Queue.png",
     "Operating System/Attachments/Multiprogramming.png",
-    "Operating System/Attachments/Five-State Process Model.png",
-    "Operating System/Attachments/Two Queues.png",
     "Operating System/Attachments",
-    "Operating System/Attachments/Two-state Process Model.png",
-    "Operating System/Attachments/Queue Diagram.png",
-    "Operating System/Attachments/Virtual Memory.png",
-    "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Principles of Programming Languages/C1 - Introduction.md",
-    "Principles of Programming Languages/Attachments/Lexical Parser.png",
     "Principles of Programming Languages/Attachments",
-    "Principles of Programming Languages/Attachments/Lexical Analyser.png",
     "Principles of Programming Languages/Untitled.base",
-    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Data Mining/Chapter 1.md",
     "Operating System",
     "Principles of Programming Languages",
-    "Data Science and Data Visualization/Chapter 1 - Visualisation.md",
     "Data Mining",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/26. Remove the Duplicated from Sorted Array.md",
-    "Computer Architecture/Chapter 1.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1. Two Sums.md",
     "Data Structure and Algorithm/Basic Data Structures/Arrays/1726. Tuple with Same Product.md",
-    "Data Structure and Algorithm/Basic Data Structures/Linked Lists/21. Merge Two Sorted Lists.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/46. Permutations.md",
-    "README.md",
-    "Computer Architecture/Chapter 4.md",
-    "Object Oriented Analysis & Design/C12/Testing and QA.md",
-    "Object Oriented Analysis & Design/C11/System Architecture.md",
     "Object Oriented Analysis & Design/C12",
-    "Object Oriented Analysis & Design/C10/Design Pattern.md",
-    "Computer Architecture/Chapter 3.md",
     "Object Oriented Analysis & Design/C11",
-    "Object Oriented Analysis & Design/C9/Package Diagram.md",
     "Object Oriented Analysis & Design/C10",
-    "Object Oriented Analysis & Design/C7/State Diagram.md",
-    "Object Oriented Analysis & Design/C9",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/78. Subsets.md",
-    "Data Structure and Algorithm/Basic Data Structures/Arrays/2364. Count Number of Bad Pairs.md",
-    "Data Structure and Algorithm/Basic Data Structures/Strings/1768. Merge String Alternatively.md",
     "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
     "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
     "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",

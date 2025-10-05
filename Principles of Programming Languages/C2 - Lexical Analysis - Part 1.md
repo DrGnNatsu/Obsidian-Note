@@ -1,4 +1,5 @@
 #ppl 
+Further Reading: [[C3 - Lexical Analysis (Part 2)]]
 ___
 # Lexical Analysis
 ___

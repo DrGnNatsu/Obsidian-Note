@@ -216,6 +216,6 @@ A key security issue in the design of any OS is to prevent anything (user or pro
 - Traditionally, a firewall is a dedicated computer that:
 	- interfaces with computers outside a network
 	- has special security precautions built into it to
-	- protect sensitive files on computers within the network.
+	- Protect sensitive files on computers within the network.
 
 
