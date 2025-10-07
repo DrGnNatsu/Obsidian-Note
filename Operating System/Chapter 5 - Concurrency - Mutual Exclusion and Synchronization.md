@@ -65,7 +65,7 @@ The OS must:
 - Protect the data and resources of each process from interference by other processes.
 - Ensure that the process execution results are independent of the processing speed.
 ## Process Interaction
-![[Screenshot 2025-10-04 at 13.28.18.png]]
+![[Relationship.png]]
 - Three-level interaction:
 	- Process unaware of each other:
 		- Word vs Facebook → Competition
@@ -265,7 +265,7 @@ void main() {
 	parbegin (producer, consumer);
 }
 ```
-![[Screenshot 2025-10-04 at 15.32.27.png]]
+![[Critical Section (Fail).png]]
 Problem:
 - n: global variable, it is a critical section, but we do not protect it.
 Fix:
