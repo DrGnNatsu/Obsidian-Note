@@ -119,5 +119,9 @@ $T \rightarrow T * F \;|\; T / F \;|\; F$  
 $F \rightarrow ( E ) \;|\; id$
 # Derivation
 ---
-- **Steps**: (1) Identify a non-terminal symbol in the current string; (2) Replace this non-terminal symbol with the right-hand side of one of its production rules. 
-- **Types**: (1) Leftmost and (2) Rightmost.
+- **Steps**: 
+1.  Identify a non-terminal symbol in the current string; 
+2. Replace this non-terminal symbol with the right-hand side of one of its production rules. 
+- **Types**: 
+1. Leftmost: pick the element in the rightmost to use production rule.
+2. Rightmost: pick the element in the leftmost to use production rule.
