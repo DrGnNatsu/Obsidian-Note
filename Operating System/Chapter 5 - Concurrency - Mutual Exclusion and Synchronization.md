@@ -283,7 +283,7 @@ Fix:
 - **Chief Characteristics**:
 	- Local data variables are accessible only by the monitor's procedures.
 	- A process enters the monitor by invoking one of its procedures.
-	- **Only one process may be executing in the monitor at a time**, providing implicit mutual exclusion.
+	- **Only one process can execute in the monitor at a time**, providing implicit mutual exclusion.
 ## Synchronization in Monitors
 - Synchronization is achieved using **condition variables** within the monitor.
 - **cwait(c)**: Suspends the execution of the calling process on condition `c`. The monitor is now available for another process.
@@ -305,9 +305,29 @@ Fix:
 - **Non-blocking receive**: The receiver retrieves a message if available, but does not wait if one is not.
 ## Addressing
 - **Direct Addressing**: The `send` primitive explicitly identifies the destination process. The `receive` primitive can specify the desired source process.
+	- You can not send it if the receiver does not accept
 - **Indirect Addressing**:
 	- Messages are sent to a shared data structure called a **mailbox**.
 	- Processes communicate by sending messages to and receiving messages from the mailbox.
+## Mutual Exclusion for Messages
+``` C
+/* program mutualexclusion */
+const int n = /* number of process */
+void P(int i) {
+	message msg;
+	while (true) {
+		receive (box, msg);
+		/* critical section */; // one receives message, others wait
+		send (box, msg);
+		/* remainder */; // Start new race
+	}
+}
+void main() {
+	create mailbox (box);
+	send (box, null);
+	parbegin (P(1), P(2), . . . , P(n)); 
+}
+```
 # Readers/Writers Problem
 ---
 ## The Readers/Writers Problem
@@ -322,3 +342,32 @@ Fix:
 - There are two main variations of the problem based on priority:
 	- **Readers have Priority**: No reader will be kept waiting unless a writer has already obtained permission to write. A waiting writer may be starved by a continuous stream of new readers.
 	- **Writers have Priority**: Once a writer is ready to write, no new readers are allowed to start reading. A waiting reader may be starved by a continuous stream of new writers.
+``` C
+/* program readersandwriters */
+int readcount;
+semaphore x = 1,wsem = 1;
+void reader(){
+	while (true){
+		semWait (x);
+		readcount++;
+		if(readcount == 1) semWait (wsem);
+		semSignal (x);
+		READUNIT();
+		semWait (x);
+		readcount--;
+		if(readcount == 0) semSignal (wsem);
+		semSignal (x);
+	}
+}
+void writer() {
+	while (true) {
+		semWait (wsem);
+		WRITEUNIT();
+		semSignal (wsem);
+	}
+}
+void main() {
+	readcount = 0;
+	parbegin (reader,writer);
+}
+```
