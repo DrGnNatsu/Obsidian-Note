@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
+                "file": "Data Mining/Chapter 6 - Mining Algorithms - Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 6 - Concurrency - Deadlock and Starvation"
+              "title": "Chapter 6 - Mining Algorithms - Classification"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
+                "file": "Data Mining/Chapter 6 - Mining Algorithms - Classification.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of C2 - Lexical Analysis - Part 1"
+              "title": "Outline of Chapter 6 - Mining Algorithms - Classification"
             }
           },
           {
@@ -194,14 +195,25 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "6e6bb8109877dcb6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Data Mining/Chapter 6 - Mining Algorithms - Classification.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Chapter 6 - Mining Algorithms - Classification"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,26 +227,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a96d708e0ef4ea7b",
+  "active": "da7dc67ec2ba4e7a",
   "lastOpenFiles": [
+    "Data Mining/Chapter 6 - Mining Algorithms - Classification.md",
+    "Data Mining/Attachment/Decision Tree.png",
+    "Untitled.md",
+    "Data Mining/Attachment/Supervised Learning.png",
+    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
+    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
+    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
+    "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Operating System/Attachments/Banker's Algorithm Deadlock.png",
     "Operating System/Attachments/Banker's Algorithm 4.png",
     "Operating System/Attachments/Example of Two Processes Competing for Consumable Resources.png",
-    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
     "Operating System/Attachments/Banker's Algorithm 3.png",
     "Operating System/Attachments/Banker's Algorithm.png",
     "Operating System/Attachments/Banker's Algorithm 2.png",
     "Operating System/Attachments/Process Initiation Denial.png",
     "Operating System/Attachments/Examples of Resource Allocation Graphs.png",
-    "Operating System/Attachments/Example of Two Processes Competing for Reusable Resources 2.png",
-    "Operating System/Attachments/Example of Two Processes Competing for Reusable Resources.png",
-    "Operating System/Attachments/Example No Deadlock.png",
     "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
-    "Principles of Programming Languages/C5 - Syntax Analysis.md",
-    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
-    "Untitled.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Attachment",
     "Data Mining/Chapter 3 - Data Preprocessing.md",
@@ -257,7 +269,6 @@
     "Principles of Programming Languages/C1 - Introduction.md",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",
-    "Data Mining/Chapter 1.md",
     "Operating System",
     "Principles of Programming Languages",
     "Data Mining",
