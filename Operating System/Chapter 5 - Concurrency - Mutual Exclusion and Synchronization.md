@@ -89,11 +89,11 @@ A valid solution to the mutual exclusion (situation) problem must satisfy these 
 	1. The OS treats all processes the same, regardless of size, speed, or big computation.
 	2. They have the same limited time in the critical section.
 6.  A process remains inside its critical section for a finite time only.
-	   -The finite time used to lock other process 
+	   -The finite time used to lock other processes 
 	   -Ex: we have the account back (money = critical section) and transaction = processes
-			- If we have the parallel transactions withdraw money and transfer money. 
-			- Bank system will lock the money and execute sequencely transactions.
-			- The back system will check every time execute the transactions
+			- If we have parallel transactions, withdraw money and transfer money. 
+			- The bank system will lock the money and execute transactions.
+			- The back system will check every time it execute the transactions
 # Mutual Exclusion: Hardware Support
 ---
 ## Disabling Interrupts
