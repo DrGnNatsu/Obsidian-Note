@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principles of Programming Languages/C5 - Syntax Analysis.md",
+                "file": "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C5 - Syntax Analysis"
+              "title": "C6 - Syntax Analysis Part 2"
             }
           }
         ]
@@ -229,11 +229,12 @@
   },
   "active": "c5231aee6bf598d1",
   "lastOpenFiles": [
+    "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/C5 - Syntax Analysis.md",
+    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
     "Data Mining/Chapter 6 - Mining Algorithms - Classification.md",
     "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
-    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
     "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
@@ -247,7 +248,6 @@
     "Operating System/Attachments/Banker's Algorithm.png",
     "Operating System/Attachments/Banker's Algorithm 2.png",
     "Operating System/Attachments/Process Initiation Denial.png",
-    "Operating System/Attachments/Examples of Resource Allocation Graphs.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Attachment",
@@ -267,7 +267,6 @@
     "Operating System/Chapter 2 - Operating System Overview.md",
     "Operating System/Chapter 1 - Computer System Overview.md",
     "Operating System/Attachments",
-    "Principles of Programming Languages/C1 - Introduction.md",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",
     "Operating System",

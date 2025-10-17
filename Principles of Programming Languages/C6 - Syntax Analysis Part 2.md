@@ -9,8 +9,9 @@ ___
 | Linear CFG                                                                            | Non-linear CFG                                                                                                                                           |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Production rules have **at most one non-terminal (variable)** on the right-hand side. | Production rules have **more than one non-terminal** on the right-hand side. We need to consider the implementation strategies: leftmost, rightmost, ... |
+
 In CFGs that are not linear, a derivation may involve sentential forms with multiple variables.
-Example
+*Example*
 1. $S \rightarrow AB$
 2. $A \rightarrow aaA$
 3. $A \rightarrow \lambda$
@@ -27,6 +28,7 @@ Example: $w = aaaab$
 | $A \rightarrow \lambda$ | $aaaaB$           | $A \rightarrow aaA$     | $aaAb$            | Sentential form |
 | $B \rightarrow Bb$      | $aaaaBb$          | $A \rightarrow aaA$     | $aaaaAb$          | Sentential form |
 | $B \rightarrow \lambda$ | $aaaab$           | $A \rightarrow \lambda$ | $aaaab$           | Sentence        |
+
 **COMPARING LM and RIGHT MOST**:
 - Number of steps: may equals or not equals
 - Derivation Process: Different
@@ -52,13 +54,13 @@ Let $G = (V, T, S, P)$ be a CFG. An ordered tree is a **derivation tree** for $G
 5. A leaf labeled $\lambda$ has no siblings.
 ### Examples
 Illustrating derivation steps corresponding to parse tree construction.
+![[Parse Tree.png]]
 ### Left-most vs. Right-most Derivations
 - **Leftmost derivation**: At each step, replace the **leftmost** non-terminal.
 - **Rightmost derivation**: At each step, replace the **rightmost** non-terminal.
-(Comparison shown on Slide 18 for the same resulting string).
 ### Derivation and Parse Tree Relationship
-- Right-most and left-most derivations have the **same parse tree**.
-- The difference lies in **the order** in which branches are added. (Slide 19)
+- Right-most and left-most derivations have the **same parse tree** (100% the same).
+- The difference lies in **the order** in which branches are added.
 ### Partial Derivation Trees
 - If $t_G$ iI any partial derivation tree for $G$ whose root is labeled $S$, then the yield of $t_G$ is a **sentential form** of $G$. (Slide 30)
 - **Yield**: The string formed by the leaves of the tree (reading order matters). (Slide 25 illustrates yield calculation).

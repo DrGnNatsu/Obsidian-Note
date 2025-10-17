@@ -65,7 +65,7 @@ Read productions as replacement rules.
 - $X \rightarrow \varepsilon$ : Means $X$ can be erased (replaced with the empty string)
 ## Key Idea
 ---
-1. Begin with a string consisting of the start symbol "$S$"
+1. Begin with a string consisting of the start symbol $S$.
 2. Replace any non-terminal $X$ in the string by the right-hand side of some production.
 $$X \rightarrow {Y_1 \cdots Y_n}$$
 3. Repeat step 2 until there are no non-terminals in the string.
@@ -94,16 +94,16 @@ $$
 # Notational Conventions (- ref.)
 ---
 1. **These symbols are terminals:**
-   - Lowercase letters early in the alphabet, such as *a*, *b*, *c*.  
-   - Operator symbols such as `+`, `*`, and so on.  
-   - Punctuation symbols such as parentheses, comma, and so on.  
-   - The digits `0, 1, …, 9`.  
-   - Boldface strings such as **id** or **if**, each of which represents a single terminal symbol.
+- Lowercase letters early in the alphabet, such as *a*, *b*, *c*.  
+- Operator symbols such as `+`, `*`, and so on.  
+- Punctuation symbols such as parentheses, comma, and so on.  
+- The digits `0, 1, …, 9`.  
+- Boldface strings such as **id** or **if**, each of which represents a single terminal symbol.
 2. **These symbols are nonterminals:**
-   - Uppercase letters early in the alphabet, such as *A*, *B*, *C*.  
-   - The letter *S*, which, when it appears, is usually the start symbol.  
-   - Lowercase, italic names such as *expr* or *stmt*.  
-   - When discussing programming constructs, uppercase letters may be used to represent nonterminals for the constructs.  
+- Uppercase letters early in the alphabet, such as *A*, *B*, *C*.  
+- The letter *S*, which, when it appears, is usually the start symbol.  
+- Lowercase, italic names such as *expr* or *stmt*.  
+- When discussing programming constructs, uppercase letters may be used to represent nonterminals for the constructs.  
   For example, nonterminals for expressions, terms, and factors are often represented by **E**, **T**, and **F**, respectively.
 # Notational Conventions
 ---
