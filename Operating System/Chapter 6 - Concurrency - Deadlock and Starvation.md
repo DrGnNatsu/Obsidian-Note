@@ -134,9 +134,7 @@ Can any of the remaining processes can be completed? **Note that P2 is completed
 	- If safe, grant the request.
 	- If not, block the process until it is safe to grant the request.
 ### Deadlock Avoidance Logic
-![[Pasted image 20251010194936.png]]
-![[Pasted image 20251010194948.png]]
-![[Pasted image 20251010195006.png]]
+
 ### Deadlock Avoidance Advantages
 - It is not necessary to preempt and rollback processes, as in deadlock detection
 - It is less *restrictive* than deadlock prevention.
@@ -150,39 +148,40 @@ Can any of the remaining processes can be completed? **Note that P2 is completed
 ---
 ### Deadlock Detection Strategy
 - ==Deadlock prevention and avoidance strategies can be very conservative==, limiting access to resources and restricting processes.
-- ==Deadlock detection strategies are the opposite==; they grant resource requests whenever possible.
-- The system does not check for deadlock before granting a resource. Instead, the OS periodically performs an algorithm to check for the presence of deadlock.
+- ==Deadlock detection strategies are the opposite==:
+	- They ***grant resource requests*** whenever possible.
+	- The system ***does not check for deadlock before granting a resource***. Instead, the OS periodically **performs an algorithm to check for the presence of deadlock**.
 
 ***
 ### A Common Detection Algorithm
-*   Use a Allocation matrix and Available vector as previous.
-*   Also use a request matrix **Q**
+*   Use an Allocation matrix and an Available vector as previously.
+*   Also, use a request matrix **Q**
     *   Where $Q_{ij}$ indicates that an amount of resource *j* is requested by process *i*.
-*   First 'un-mark' all processes that are not deadlocked.
+*   First =='un-mark' all processes that are not deadlocked.== (mark is deadlock)
     *   Initially that is all processes.
-
 ### Detection Algorithm
-1.  Mark each process that has a row in the Allocation matrix of all zeros.
-2.  Initialize a temporary vector **W** to equal the Available vector.
+1.  Mark each process that has a row in the Allocation matrix of all zeros. (Assume all the processes is deadlock)![[Deadlock Detection Algo.png]]
+	1. Q: Need resources to finish
+	2. A: Already allocated
+	3. Resource Vector: resources we have
+	4. W: Available vector:  (3) - A
+2.  Initialize a temporary vector W to equal the Available vector.
 3.  Find an index *i* such that process *i* is currently unmarked and the *i*th row of **Q** is less than or equal to **W**.
     *   i.e. $Q_{ik} \le W_k$ for $1 \le k \le m$.
     *   If no such row is found, terminate.
-
-### Detection Algorithm cont.
 4.  If such a row is found,
     *   mark process *i* and add the corresponding row of the allocation matrix to **W**.
     *   i.e. set $W_k = W_k + A_{ik}$, for $1 \le k \le m$.
     *   Return to step 3.
 *   A deadlock exists if and only if there are unmarked processes at the end.
 *   Each unmarked process is deadlocked.
-
+> ==Note:== Give conclusion deadlock or not, list the process is mark.
 ***
-
 ### Recovery Strategies Once Deadlock Detected
 - Abort all deadlocked processes.
 - Back up each deadlocked process to some previously defined checkpoint, and restart all process.
-- Successively abort deadlocked processes until deadlock no longer exists.
-- Successively preempt resources until deadlock no longer exists.
+- Successively abort deadlocked processes until deadlock no longer exists. (delete one-by one until no deadlock).
+- Successively preempt resources until deadlock no longer exists. (take back resources - only happen in priority system)
 
 ---
 # Dining Philosophers Problem
@@ -191,7 +190,6 @@ Can any of the remaining processes can be completed? **Note that P2 is completed
 - Devise a ritual (algorithm) that will allow the philosophers to eat.
 - No two philosophers can use the same fork at the same time (mutual exclusion).
 - No philosopher must starve to death (avoid deadlock and starvation ... literally!).
-
 ### Solutions Presented in the Slides
 - **A first solution using semaphores**: A solution is presented where each philosopher waits on `fork[i]` and then `fork[(i+1) mod 5]`. This can lead to deadlock.
 - **Avoiding deadlock**: A second solution is presented that adds a `semaphore room = {4}`. This ensures at most four philosophers can attempt to pick up forks, preventing deadlock.
