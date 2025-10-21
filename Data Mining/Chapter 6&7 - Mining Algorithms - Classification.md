@@ -187,22 +187,21 @@ $$
     - $P(H|X)$: **posteriori probability** (What we should choose)
     - $P(X|H)$: **likelihood** (What we just see)
     - $P(H)$: **prior probability** (What we knew previously)
-- **Classification**: Derive the **maximum posteriori**. (Page 17).
+    - $\propto$: Tỉ lệ thuận 
+Classification: Derive the *maximum posteriori*.
 ## Naive Bayes Classifier
 - **Simplified assumption**: Attributes are **conditionally independent** given the class.
 $$
 P(X|C_i) = \prod_{k=1}^{n} P(x_k|C_i)
 $$
-- This greatly reduces the computation cost.
+- This greatly reduces the computation cost. (only work for nominal or discrete value)
 ### Handling Continuous Attributes in Naive Bayes
 - If attribute $A_k$ is **continuous-valued**, $P(x_k|C_i)$ is usually computed based on **Gaussian distribution** with mean $\mu$ and standard deviation $\sigma$.
 $$
 g(x, \mu, \sigma) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
 $$
-## Avoiding the Zero-Probability Problem
-
+### Avoiding the Zero-Probability Problem
 - Naïve Bayesian prediction requires each conditional prob. be **non-zero**.
-
 - Use **Laplacian correction (or Laplacian estimator)**:
 
 $$
@@ -212,183 +211,87 @@ P(w_k|c) = \frac{count(w_k, c) + 1}{\sum_{w \in V} (count(w, c) + 1)} = \frac{co
 $$
 
 where $|V|$ is the number of possible values for the attribute.
-
-  
-
-## Rule-based Classification
-
-  
-
-### Using IF-THEN Rules for Classification
-
+## Pros and Cons
+***Strength:***
+- Performance: A _naïve Bayesian classifier_, has comparable performance with decision tree and selected neural network classifiers
+- Incremental: Each training example can incrementally increase/decrease the probability that a hypothesis is correct—prior knowledge can be combined with observed data
+***Weakness:***
+- Assumption: attributes conditional independence, therefore loss of accuracy.
+	- E.g., Patient’s Profile: (age, family history),
+	- Patient’s Symptoms: (fever, cough),
+	- Patient’s Disease: (lung cancer, diabetes).
+	- Dependencies among these cannot be modeled by Naïve Bayes Classifier
+____
+# Rule-based Classification
+____
+## Using IF-THEN Rules for Classification
 - Knowledge represented as: **IF (antecedent/precondition) THEN (rule consequent)**.
-
 - Assessment of a rule $R$:
-
     - **coverage**$(R) = n_{covers} / |D|$
-
     - **accuracy**$(R) = n_{correct} / n_{covers}$
-
 - **Conflict Resolution** (if multiple rules trigger):
-
     - **Size ordering**: Highest priority to rules with the "toughest" requirement.
-
     - **Class-based ordering**: Rules for the most prevalent class come first.
-
     - **Rule-based ordering** (decision list): Long priority list.
-
-  
-
-### Rule Extraction from a Decision Tree
-
+## Rule Extraction from a Decision Tree
 - One rule is created for each path from the root to a leaf.
-
-- Rules are **mutually exclusive and exhaustive**. (See example on page 22).
-
-  
-
-### Rule Induction: Sequential Covering Method
-
+- Rules are easier to understand than large trees.
+- Each attribute-value pair along a path forms a conjunction: the leaf holds the class prediction.
+## Rule Induction: Sequential Covering Method
 - Extracts rules directly from training data.
-
 - **Steps**: Rules are learned one at a time; covered tuples are removed; repeat until termination condition.
-
-(See diagram on page 23 illustrating covering positive examples sequentially).
-
-  
-
-#### How to Learn-One-Rule?
-
+## How to Learn-One-Rule?
 - Start with the most general rule (condition = empty).
-
 - Use a **greedy depth-first strategy**, picking the one that most improves the rule quality.
-
 - **Rule-Quality measures**: FOIL-gain and FOIL-Prune.
-
-  
-
-## Model Evaluation and Selection
-
-  
-
-### Evaluation Metrics
-
+____
+# Model Evaluation and Selection
+___
+## Evaluation Metrics
 - Use **validation test set** of class-labeled tuples instead of training set when assessing accuracy.
-
 - Methods for estimating accuracy: Holdout, Random Subsampling, Cross-validation, Bootstrap.
-
-  
-
-#### Classifier Evaluation Metrics: Confusion Matrix
-
+### Classifier Evaluation Metrics: Confusion Matrix
 The matrix shows: Actual Class vs. Predicted Class.
 
 | Actual class/Predicted class | $C_1$                | $\sim C_1$           |
 | :--------------------------- | :------------------- | :------------------- |
 | $C_1$                        | True Positives (TP)  | False Negatives (FN) |
 | $\sim C_1$                   | False Positives (FP) | True Negatives (TN)  |
-
-
-#### Accuracy, Error Rate, Sensitivity and Specificity
-
+### Accuracy, Error Rate, Sensitivity and Specificity
 - **Accuracy** $= (\text{TP} + \text{TN}) / \text{All}$
-
 - **Error rate** $= 1 - \text{Accuracy} = (\text{FP} + \text{FN}) / \text{All}$
-
 - **Sensitivity** (True Positive recognition rate) $= \text{TP} / P$ (where $P$ is total actual positives)
-
 - **Specificity** (True Negative recognition rate) $= \text{TN} / N$ (where $N$ is total actual negatives)
-
-(See page 27 for the confusion matrix layout and definitions).
-
-  
-
-#### Class Imbalance Problem
-
+### Class Imbalance Problem
 - Occurs when one class is rare (minority class). Sensitivity and Specificity become important.
-
-  
-
-#### Precision and Recall, and F-measures
-
+### Precision and Recall, and F-measures
 - **Precision** (Exactness): $\text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}$
-
 - **Recall** (Completeness): $\text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}$
-
 - **F measure** ($F_\beta$ score): Harmonic mean of precision and recall.
-
 $$
-
+F = \frac{2 \times \text{precision} \times \text{recall}}{ \text{precision} + \text{recall}}
+$$
+$$
 F_\beta = \frac{(1+\beta^2) \times \text{precision} \times \text{recall}}{(\beta^2 \times \text{precision}) + \text{recall}}
-
 $$
-
-(See page 28/29 for calculation examples and diagrams).
-
-  
-
-### Classifier Evaluation Techniques
-
-  
-
-#### Holdout Method
-
+## Classifier Evaluation Techniques
+### Holdout Method
 - Data randomly partitioned into **Training Set** (e.g., 2/3) and **Test Set** (e.g., 1/3).
-
 - **Repeated random sub-sampling validation**: Repeat holdout $k$ times; accuracy is the average.
-
-  
-
-#### Cross-Validation
-
+### Cross-Validation
 - **$k$-fold** (k=10 is popular): Data partitioned into $k$ subsets; each subset is used once as the test set, others as training set.
-
 - **Leave-one-out**: $k$ equals the number of tuples.
-
 - ***Stratified cross-validation***: Folds are stratified to maintain class distribution.
-
-  
-
-#### Model Selection: ROC Curves
-
+### Model Selection: ROC Curves
 - **ROC Curve**: Shows the trade-off between the **True Positive Rate (TP/P)** (Y-axis) and the **False Positive Rate (FP/N)** (X-axis).
-
 - **AUC (Area Under Curve)**: A measure of accuracy. Closer to 1.0 is better; closer to 0.5 (diagonal line) means less accurate.
-
-  
-
-#### Evaluating Classifier Accuracy: Bootstrap
-
+### Evaluating Classifier Accuracy: Bootstrap
 - Works well with **small data sets**.
-
 - Samples training tuples **uniformly with replacement**.
-
 - **0.632 bootstrap**: Uses 63.2% of data as training and the remaining 36.8% as the test set.
-
-  
-
-### Issues Affecting Model Selection
-
+## Issues Affecting Model Selection
 - **Accuracy**: Predicting class label.
-
 - **Speed**: Training time, prediction time.
-
 - **Robustness**: Handling noise and missing values.
-
 - **Scalability**: Efficiency in disk-resident databases.
-
-- **Interpretability**: Understanding provided by the model.
-
-  
-
-## Summary (I & II)
-
-- **Classification** extracts models describing important data classes.
-
-- Effective methods include decision tree induction, Naive Bayesian classification, and rule-based classification.
-
-- **Evaluation metrics** include: accuracy, sensitivity, specificity, precision, recall, $F$ measure, and $F_\beta$ measure.
-
-- **Stratified $k$-fold cross-validation** is recommended for accuracy estimation. **Bagging and boosting** can improve overall accuracy.
-
-- No single method is superior over all others for all data sets. Trade-offs regarding accuracy, time, robustness, and interpretability exist.
+- **Interpretability**: Understanding provided by the model. 

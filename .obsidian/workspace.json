@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Midterm.md",
+                "file": "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Midterm"
+              "title": "Chapter 6&7 - Mining Algorithms - Classification"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e500579504db789d",
@@ -229,15 +230,15 @@
   },
   "active": "c5231aee6bf598d1",
   "lastOpenFiles": [
-    "Operating System/Chapter 3 - Process Description and Control.md",
+    "Operating System/Attachments/Deadlock Detection Algo.png",
     "Operating System/Midterm.md",
+    "Operating System/Chapter 3 - Process Description and Control.md",
     "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
-    "Deadlock Detection Algo.png",
     "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
-    "Data Mining/Chapter 6 - Mining Algorithms - Classification.md",
+    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
@@ -266,7 +267,6 @@
     "Data Science and Data Visualization/Chapter 4 - Mark - Channels.md",
     "Data Science and Data Visualization/Chapter 5 - Design Guildline.md",
     "Operating System/Chapter 2 - Operating System Overview.md",
-    "Operating System/Chapter 1 - Computer System Overview.md",
     "Operating System/Attachments",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",
