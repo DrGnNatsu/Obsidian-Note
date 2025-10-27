@@ -1,6 +1,6 @@
 #DSA
 #Overview #Why
-[[What are Data Structure?]]
+[[What are Data Structure]]
 ___
 # What is DSA?
 ## Definitions

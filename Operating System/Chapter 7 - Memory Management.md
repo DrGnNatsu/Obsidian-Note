@@ -79,32 +79,34 @@ ___
 # Buddy System
 - The entire space available is treated as a single block of $2^U$.
 - If the request size $s$ falls within $2^{U-1} < s \le 2^U$ The entire block is allocated.
-- Otherwise, the block is split into two equal buddies. Process continues until the smallest suitable block is generated.
-
+- Otherwise, the block is split into two equal buddies. Process continues until the smallest suitable block is generated. $0(logn)$
+	- E.g.: 100KB will be $64 =2^6KB < 100KB \leq 128=2^7KB$
+![[Buddy System.png]]
 ## Relocation
 - When a program is loaded, actual (absolute) memory locations are determined.
 - Different absolute memory locations are used during execution if the process moves partitions (due to swapping or compaction).
-
-## Addresses
+___
+# Addresses
 - **Logical**: Reference independent of current memory assignment.
+	- Only appear when applying the paging
 - **Relative**: Address expressed relative to some known point.
 - **Physical or Absolute**: Actual location in main memory.
-
-### Registers Used during Execution
+## Registers Used during Execution
 - **Base register**: Starting address for the process.
 - **Bounds register**: Ending location of the process.
 - These values are set when the process is loaded or swapped in.
 - The base register value is added to a relative address to get an absolute address, which is then checked against the bounds register.
-
-## Paging
-- Partition memory into small equal **fixed-size chunks**:
+___
+# Paging (Logical Scheme)
+- Partition memory into small, equal, **fixed-size chunks**:
     - Process chunks are called **pages**.
     - Memory chunks are called **frames**.
 - The OS maintains a **page table** for each process, containing the frame location for each page.
 - A memory address consists of a **page number** and an **offset** within the page.
+- We said that we would divide the process into many pages and load it into the frames, which are part of the main memory.
 (See Figure 7.12(a) on page 7 illustrating logical-to-physical address translation in Paging).
-
-## Segmentation
+___
+# Segmentation
 - A program can be subdivided into **segments**.
 - Segments may vary in length (but there is a maximum segment length).
 - Addressing consists of a **segment number** and an **offset**.

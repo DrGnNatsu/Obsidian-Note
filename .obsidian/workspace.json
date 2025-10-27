@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "351747b8994e3fef",
+        "id": "425c5757d37d469a",
         "type": "tabs",
         "children": [
           {
-            "id": "c5231aee6bf598d1",
+            "id": "edfd3a450d57e1ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Chapter 7 - Memory Management.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chapter 7 - Memory Management"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "file:?",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,10 +224,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c5231aee6bf598d1",
+  "active": "edfd3a450d57e1ce",
   "lastOpenFiles": [
-    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
+    "Object Oriented Analysis & Design/C3/What is Software Lifecycle.md",
+    "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model.md",
+    "Data Structure and Algorithm/Theory/What are Data Structure.md",
+    "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
+    "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
     "Operating System/Chapter 7 - Memory Management.md",
+    "Operating System/Attachments/Buddy System.png",
+    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
     "Operating System/Attachments/Addressing.png",
     "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
     "Operating System/Chapter 2 - Operating System Overview.md",
@@ -253,7 +256,6 @@
     "Operating System/Attachments/Banker's Algorithm 4.png",
     "Operating System/Attachments/Example of Two Processes Competing for Consumable Resources.png",
     "Operating System/Attachments/Banker's Algorithm 3.png",
-    "Operating System/Attachments/Banker's Algorithm.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Attachment",
@@ -263,9 +265,6 @@
     "Computer Architecture/Chapter 3.md",
     "Computer Architecture/Chapter 2.md",
     "Computer Architecture/Chapter 1.md",
-    "Operating System/Chapter 4 - Threads, SMP, and Microkernels.md",
-    "Data Science and Data Visualization/Chapter 3 - Data.md",
-    "Data Science and Data Visualization/Chapter 2 - Color - Popout.md",
     "Operating System/Attachments",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",
@@ -279,7 +278,6 @@
     "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",
     "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
     "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
-    "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas",
-    "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas"
+    "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas"
   ]
 }
