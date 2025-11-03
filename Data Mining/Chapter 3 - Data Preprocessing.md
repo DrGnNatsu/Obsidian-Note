@@ -2,7 +2,6 @@
 tags:
   - "#data_mining"
 ---
-
 ___
 # Data Preprocessing: An Overview
 - The first phase of the pipeline: how to correct and explore the data
