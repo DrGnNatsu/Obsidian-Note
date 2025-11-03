@@ -408,5 +408,5 @@ FodyWeavers.xsd
 
 # Obsidian
 .obsidian
-.obsidian\*
 /.obsidian
+.obsidian/*
