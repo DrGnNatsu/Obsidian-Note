@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fb325ad7d76703eb",
+        "id": "836e5bec6a3a8c91",
         "type": "tabs",
         "children": [
           {
-            "id": "a239e60013ea253c",
+            "id": "c9a6287535f58cc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Midterm Print.md",
+                "file": "Data Mining/Chapter 3 - Data Preprocessing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Midterm Print"
+              "title": "Chapter 3 - Data Preprocessing"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "file:?",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Midterm Print.md",
+                "file": "Principles of Programming Languages/C5 - Syntax Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Midterm Print"
+              "title": "Outline of C5 - Syntax Analysis"
             }
           },
           {
@@ -167,8 +167,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -227,47 +227,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a239e60013ea253c",
+  "active": "c9a6287535f58cc3",
   "lastOpenFiles": [
-    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
-    "Operating System/Chapter 7 - Memory Management.md",
+    "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
+    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
+    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Operating System/Midterm Print.md",
-    "Untitled.md",
-    "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
-    "Operating System/Chapter 4 - Threads, SMP, and Microkernels.md",
-    "Operating System/Chapter 3 - Process Description and Control.md",
-    "Operating System/Chapter 2 - Operating System Overview.md",
-    "Operating System/Chapter 1 - Computer System Overview.md",
-    "Operating System/Attachments/Virtual Memory.png",
+    "Operating System/Attachments/Top-Level View.png",
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",
-    "Operating System/Attachments/Top-Level View.png",
-    "Operating System/Midterm.md",
+    "Data Mining/Chapter 1.md",
+    "Untitled.md",
+    "Data Mining/Chapter 3 - Data Preprocessing.md",
+    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
+    "Data Mining/Chapter 1 - Introduction to Data Mining.md",
     "Object Oriented Analysis & Design/C3/What is Software Lifecycle.md",
     "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model.md",
     "Data Structure and Algorithm/Theory/What are Data Structure.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
+    "Operating System/Chapter 7 - Memory Management.md",
     "Operating System/Attachments/Buddy System.png",
+    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
     "Operating System/Attachments/Addressing.png",
     "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
-    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
+    "Operating System/Chapter 2 - Operating System Overview.md",
+    "Operating System/Chapter 1 - Computer System Overview.md",
     "Operating System/Attachments/Deadlock Detection Algo.png",
+    "Operating System/Midterm.md",
+    "Operating System/Chapter 3 - Process Description and Control.md",
     "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
+    "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
     "Data Mining/Attachment/Decision Tree.png",
     "Data Mining/Attachment/Supervised Learning.png",
+    "Operating System/Attachments/Banker's Algorithm Deadlock.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
-    "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Attachment",
-    "Data Mining/Chapter 3 - Data Preprocessing.md",
-    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Computer Architecture/Chapter 4.md",
-    "Computer Architecture/Chapter 3.md",
     "Operating System/Attachments",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",
