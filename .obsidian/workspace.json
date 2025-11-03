@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
+                "file": "Principles of Programming Languages/C5 - Syntax Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C6 - Syntax Analysis Part 2"
+              "title": "C5 - Syntax Analysis"
             }
           }
         ],
@@ -244,6 +244,7 @@
   },
   "active": "af3be1520da4e50c",
   "lastOpenFiles": [
+    "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
     "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
@@ -273,7 +274,6 @@
     "Operating System/Chapter 1 - Computer System Overview.md",
     "Operating System/Attachments/Deadlock Detection Algo.png",
     "Operating System/Chapter 3 - Process Description and Control.md",
-    "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
