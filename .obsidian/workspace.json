@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Chapter 3 - Data Preprocessing.md",
+                "file": "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3 - Data Preprocessing"
+              "title": "Chapter 5 - Evaluating what’s been learned"
             }
           }
         ]
@@ -230,17 +230,18 @@
   "active": "c9a6287535f58cc3",
   "lastOpenFiles": [
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
-    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
+    "Data Mining/Chapter 3 - Data Preprocessing.md",
+    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Operating System/Midterm Print.md",
     "Operating System/Attachments/Top-Level View.png",
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",
     "Data Mining/Chapter 1.md",
-    "Untitled.md",
-    "Data Mining/Chapter 3 - Data Preprocessing.md",
-    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
+    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
+    "Operating System/Midterm.md",
     "Data Mining/Chapter 1 - Introduction to Data Mining.md",
+    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
+    "Untitled.md",
     "Object Oriented Analysis & Design/C3/What is Software Lifecycle.md",
     "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model.md",
     "Data Structure and Algorithm/Theory/What are Data Structure.md",
@@ -254,7 +255,6 @@
     "Operating System/Chapter 2 - Operating System Overview.md",
     "Operating System/Chapter 1 - Computer System Overview.md",
     "Operating System/Attachments/Deadlock Detection Algo.png",
-    "Operating System/Midterm.md",
     "Operating System/Chapter 3 - Process Description and Control.md",
     "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
@@ -267,7 +267,6 @@
     "Operating System/Attachments/Banker's Algorithm Deadlock.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
     "Data Mining/Attachment",
-    "Computer Architecture/Chapter 4.md",
     "Operating System/Attachments",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",

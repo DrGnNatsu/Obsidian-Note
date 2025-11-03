@@ -148,6 +148,7 @@ though
 train
 ten
 targets
+totals
 data
 discrete
 decision
@@ -441,6 +442,7 @@ mathematically
 minimal
 making
 minimizes
+multiplying
 Data
 Decision
 Deployment
@@ -694,6 +696,8 @@ approximation
 averaging
 accounts
 account
+agreement
+achieved
 Classification
 Construct
 Construction
@@ -1167,6 +1171,9 @@ compromise
 compresses
 corresponds
 confident
+chance
+calculated
+cell
 Tree
 The
 Training
@@ -1795,6 +1802,8 @@ Subsets
 Schemes
 Seek
 Squared
+Statistic
+Sum
 vs
 values
 valued
@@ -2271,6 +2280,8 @@ slick
 significant
 squared
 stands
+statistic
+summing
 observations
 or
 on
@@ -2489,6 +2500,7 @@ inadequate
 informational
 isn
 impacts
+improvement
 which
 with
 work
@@ -2895,6 +2907,8 @@ prevent
 probabilities
 perfect
 produce
+products
+predictor
 example
 establish
 existence
@@ -3030,6 +3044,7 @@ evidence
 exceeds
 encode
 especially
+entries
 Prediction
 Problems
 Predict
@@ -3763,6 +3778,7 @@ Histogram
 Hamming
 Hierarchy
 Head
+Here
 White
 What
 Weakness
@@ -3887,6 +3903,7 @@ Formation
 Function
 Frequent
 Fault
+Formula
 just
 job
 jobs
@@ -3961,6 +3978,7 @@ KDD
 Key
 Know
 Kelvin
+Kappa
 quality
 queue
 quantities
