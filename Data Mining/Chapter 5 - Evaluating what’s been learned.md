@@ -1,16 +1,16 @@
----
-tags:
-  - data_mining
----
-----
+#data_mining  
+___
 # Evaluation: the key to success 
+___
 > How predictive is the model we learned? 
-- Error on training data **isn’t a good indicator** of performance on future data.
+- Error on the training data is **not** a good indicator of performance on future data. 
 	- Otherwise, 1-NN would be the optimum classifier! 
-- **Simple solution (if labeled data is abundant)**: Split data into training and test sets.
-- **Limitation**: Labeled data is usually limited, necessitating more sophisticated techniques
----
+- Simple solution that can be used if lots of (labeled) data is available: 
+	- Split the data into a *training set* and a *test set*.
+- However, (labeled) data is usually limited:
+	- More sophisticated techniques need to be used.
 # Issues: training and testing 
+___
 - Statistical *reliability* of estimated differences in performance (→  significance tests) 
 - Choice of performance measure: 
 	- Number of correct classifications 
@@ -23,7 +23,7 @@ tags:
 	- **Success:** instance’s class is predicted correctly 
 	- **Error:** instance’s class is predicted incorrectly 
 	- **Error rate:** proportion of errors made over the whole set of instances 
-	- **Resubstitution error**: Error rate obtained from the *training* data.
+- Resubstitution error: error rate obtained from training data
 - Test set: independent instances that have *played no part in the formation of the classifier*
 	- Assumption: both training data and test data are representative samples of the underlying problem
 - Training set: 
@@ -43,8 +43,8 @@ ___
 	- Depends on the amount of test data 
 - Prediction is just like tossing a (biased!) coin.
 	- “Head” is a “success”, “tail” is an “error” 
-- In statistics, a succession of independent events like this is called a **Bernoulli process**.
-	- Statistical theory provides us with **confidence intervals** for the true underlying proportion.
+- In statistics, a succession of independent events like this is called a Bernoulli process.
+	- Statistical theory provides us with confidence intervals for the true underlying proportion.
 ## Confidence intervals
 - We can say: $p$ lies within a certain specified interval with a certain specified confidence.
 	- Example: $S=750$ successes in $N=1000$ trials 
@@ -77,7 +77,8 @@ ___
 ## Holdout
 ### Holdout estimation
 > What to do if the amount of data is limited? 
-- The holdout method reserves a certain amount for testing and uses the remainder for training (typically 1/3 test, 2/3 train).
+- The holdout method reserves a certain amount for testing and uses the remainder for training
+	- Usually: one third for testing, the rest for training 
 - Problem: the samples might not be representative 
 	- Example: class might be missing in the test data 
 - Advanced version uses *stratification*
@@ -95,14 +96,16 @@ ___
 	- Second step: use each subset in turn for testing, the remainder for training
 - Called *k-fold cross-validation*  = divide into `k` part using `1` part for testing, rest for training
 	- Normally, People use $k=5$
-- Often, the subsets are stratified before the cross-validation is performed 
+- Often the subsets are stratified before the crossvalidation is performed 
 - The error estimates are averaged to yield an overall error estimate
 ### Leave-One-Out Cross-Validation
 - Leave-One-Out: a particular form of cross-validation: 
-	- Set the number of folds to the number of training instances 
-	- I.e., for n training instances, build a classifier n times
-- Makes the best use of data, involves no random subsampling, but is **very computationally expensive** (except for NN).
-- **Disadvantage**: Stratification is not possible as the test set contains only one instance. (exception: NN)
+	- Set number of folds to number of training instances 
+	- I.e., for n training instances, build classifier n times
+- Makes best use of the data 
+- Involves no random subsampling 
+- Very computationally expensive
+	- (exception: NN)
 ## Bootstrap
 - CV uses sampling without replacement 
 	- The same instance, once selected, cannot be selected again for a particular training/test set 
@@ -113,13 +116,9 @@ ___
 ### The 0.632 bootstrap
 - Also called the 0.632 bootstrap 
 	- A particular instance has a probability of $1– \dfrac{1}{n}$ of not being picked 
-	- Probability of being in the test set is $1 - (1 - 1/n)^n \approx 1 - e^{-1} \approx 0.368$.
-	- Training data contains approximately $63.2\%$ of the instances.
-	- **Estimated Error**: $\text{err} = 0.632 \times e_{\text{test}} + 0.368 \times e_{\text{training}}$. 
+	- Thus, its probability of ending up in the test data is: 
 	- This means the training data will contain approximately $63.2\%$ of the instances
-#### More on the Bootstrap
-- Probably the best way to estimate performance for **very small datasets**.
-- **Problem**: A perfect memorizer yields $0\%$ resubstitution error but $\sim 50\%$ error on the test set, leading to a bootstrap estimate of $31.6\%$ error (when true expected error is $50\%$).
+
 # Comparing schemes: the t-test 
 ___
 - Frequent question: which of two learning schemes performs better? 
@@ -135,29 +134,6 @@ ___
 	- Sample infinitely many dataset of specified size 
 	- Obtain cross-validation estimate on each dataset for each scheme 
 	- Check if mean accuracy for scheme A is better than mean accuracy for scheme B
-## Summary of Some Measures
-| Domain | Plot | Explanation |
-| :--- | :--- | :--- |
-| Lift chart | Marketing | TP Subset size vs TP (fraction of relevant records found) |
-| ROC curve | Communications | TP rate vs FP rate |
-| Recall-precision curve | Information retrieval | Recall vs Precision |
-## Evaluating Numeric Prediction
-- Same strategies apply: independent test set, cross-validation, significance tests.
-- **Difference**: Error measures.
-- Most popular measure: **Mean-squared error (MSE)**.
-$$\text{MSE} = \frac{\sum_{i=1}^{n} (p_i - a_i)^2}{n}$$
-- Easy to manipulate mathematically.
-### Other Measures (Numeric)
-- **Root mean-squared error (RMSE)**.
-- **Mean absolute error (MAE)**: Less sensitive to outliers than MSE.
-- **Relative error values** (e.g., $10\%$ error when predicting $500$).
-### Improvement on the Mean
-Measures how much the scheme improves compared to simply predicting the average ($\bar{a}$).
-- **Relative squared error**: $\frac{\sum(p_i - a_i)^2}{\sum(\bar{a} - a_i)^2}$
-- **Relative absolute error**: $\frac{\sum|p_i - a_i|}{\sum|\bar{a} - a_i|}$
-### Correlation Coefficient (Numeric Prediction)
-Measures statistical correlation ($r_{PA}$) between predicted ($p$) and actual ($a$) values. Performance leads to large positive values.
-
 # Predicting probabilities: loss functions 
 ___
 - Performance measure so far: success rate 
@@ -165,22 +141,11 @@ ___
 - Most classifiers produces class probabilities 
 - Depending on the application, we might want to check the accuracy of the probability estimates 
 - 0-1 loss is not the right thing to use in those cases
-## Quadratic Loss Function
-$$ \text{Quadratic loss} = \sum_j (p_j - a_j)^2 = 1 - 2p_c + \sum_j p_j^2 $$
-Minimized when $p_j = p_j^*$ (the true probabilities).
+## Quadratic loss function
+## Informational loss function
 
-## Informational Loss Function
-$$-\log(p_c)$$
-- Where $p_c$ is the probability of the true class. Represents the number of bits required to communicate the class.
-- Minimized when $p_j = p_j^*$.
-- **Difficulty**: Zero-frequency problem.
-## Discussion on Loss Functions
-- Quadratic loss accounts for all class estimates; Informational loss focuses only on the actual class probability.
-- Quadratic loss is bounded (never exceeds 2).
-- Informational loss can be infinite.
-- Informational loss is related to the **MDL principle**.
----
 # Cost-sensitive measures 
+___
 - In practice, different types of classification errors often incur different costs
 - Examples: 
 	- Loan decisions
@@ -188,54 +153,8 @@ $$-\log(p_c)$$
 	- Fault diagnosis 
 	- Promotional mailing
 - The confusion matrix:
-
-|              | Yes | NO  | Predicted Class |
-| ------------ | --- | --- | --------------- |
-| Yes          | TP  | FP  |                 |
-| No           | FN  | TN  |                 |
-| Actual Class |     |     |                 |
-- Can take costs into account when making predictions, especially when errors have different impacts. 
-- **Basic Idea**: Only predict a high-cost class when very confident. 
-- **Expected Cost**: Calculated by the dot product of the vector of class probabilities and the appropriate column in the cost matrix. 
-- **Goal**: Choose the column (class) that minimizes the expected cost.
-Here is the definition and formula for the Kappa statistic as presented in the slides:
-
-## Kappa Statistic
-The Kappa statistic ($\kappa$) is used to measure the agreement between two classifications (or prediction schemes) relative to agreement achieved by random chance.
-**Application**: Comparing two confusion matrices for a $k$-class problem: one showing actual vs. predicted by the learning scheme ($D_{\text{observed}}$), and one showing prediction by a random classifier ($D_{\text{random}}$).
-### Calculation Steps (For $k$ classes)
-1.  **Calculate $D_{\text{observed}}$ (Sum of entries on the diagonal of the observed matrix):**
-    $$D_{\text{observed}} = \sum_{i} \text{Count}(C_i, C_i)$$
-    (Where $C_i$ is the actual class matching the predicted class $i$).
-2.  **Calculate $D_{\text{random}}$ (Sum of entries expected by chance):**
-    This is calculated by multiplying the row totals by the column totals for each cell and summing these products, divided by the total number of instances.
-3.  **Calculate $D_{\text{perfect}}$ (Maximum possible sum of diagonal entries):**
-    This is the sum of the minimum of the row total and the column total for each class.
-4.  **Kappa Statistic Formula:**
-$$\kappa = \frac{D_{\text{observed}} - D_{\text{random}}}{D_{\text{perfect}} - D_{\text{random}}}$$
-
-**Interpretation**: Kappa measures the relative improvement over a random predictor. A value of 1 indicates perfect agreement, 0 indicates agreement no better than random chance.
-
----
 # Evaluating numeric prediction 
-- **Same strategies** apply: independent test sets, cross-validation, significance tests. - **Difference**: Error measures used. 
-- Actual targets: $a_1, a_2, \ldots, a_n$. Predicted targets: $p_1, p_2, \ldots, p_n$. 
-- Most popular measure: **Mean-squared error (MSE)**. $$\text{MSE} = \frac{\sum_{i=1}^{n} (p_i - a_i)^2}{n}$$ - Other measures: Root Mean-Squared Error (RMSE), **Mean Absolute Error (MAE)** (less sensitive to outliers). 
-- **Relative Error Measures** (Squared or Absolute) compare performance against simply predicting the average ($\bar{a}$).
-
----
+___
 # The Minimum Description Length principle
-MDL stands for **minimum description length**.
-Description length ($L$):
-$$L = \text{space required to describe a theory} + \text{space required to describe the theory's mistakes}$$
-- Aim: Seek a classifier with minimal DL.
-- MDL principle is a **model selection criterion**.
-## Model Selection Criteria
-- Attempt to find a compromise between model complexity and prediction accuracy on the training data.
-- Also known as **Occam's Razor**: the best theory is the smallest one that describes all the facts.
-## MDL and Compression
-- MDL principle relates to data compression: the best theory compresses the data the most.
-- We need to compute: (a) size of the model, and (b) space needed to encode the errors (using informational loss function for this).
-## MDL and MAP
-- **MAP** (maximum a posteriori probability) finding the best theory corresponds to finding the MDL theory.
-- The difficult part of MAP is determining the prior probability $\text{Pr}[T]$, which corresponds to the coding scheme for the theory in MDL.
+___
+

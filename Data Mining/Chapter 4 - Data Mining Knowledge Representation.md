@@ -1,7 +1,4 @@
----
-tags:
-  - data_mining
----
+#os 
 ___
 # Output: representing structural patterns 
 - Many different ways of representing patterns 
@@ -14,22 +11,16 @@ ___
 # Tables 
 Simplest way of representing output:  Use the same format as input!
 *Main problem:* selecting the right attributes
-___
 # Linear models 
 - Another simple representation 
 - Regression model: Inputs (attribute values) and output are all numeric 
 	- $Y = w_1X_1 + w_2X_2 + \dots+ w_nX_n$
 - Output is the sum of weighted attribute values: The *trick* is to find good values for the weights.
 ## Linear Models for Classification
-- **Regression model**.
-	- Inputs (attribute values) and output are all **numeric**.
-- Output is the sum of weighted attribute values.
-	- The trick is to find good values for the weights.
 - Binary classification 
 - Line separates the two classes: Decision boundary - defines where the decision changes from one class value to the other.
 - Prediction is made by plugging in observed values of the attributes into the expression: Predict one class if $output \geq 0$, and the other class if $output < 0$ 
 - The boundary becomes a high-dimensional plane (*hyperplane*) when there are multiple attributes.
----
 # Trees 
 - *“Divide-and-conquer”* approach produces a tree. 
 - Nodes involve testing a particular attribute. 
@@ -54,10 +45,11 @@ ___
 		- Real: below, within, above
 ## Missing values
 Does the absence of value have some significance? 
-	- Yes: “missing” is a separate value. 
-	- No:  “missing” must be treated specially.
-- **Solution A**: Assign instance to the most popular branch.
-- **Solution B**: Split the instance into pieces, receiving weight according to the fraction of training instances that go down each branch.
+- Yes: “missing” is a separate value. 
+- No:  “missing” must be treated specially.
+- Solution A: Assign the instance to the most popular branch 
+- Solution B: split the instance into pieces 
+- Pieces receive weight according to the fraction of training instances that go down each branch.
 - Classifications from leave nodes are combined using the weights that have percolated to them.
 ## Trees for Numeric Predictions
 - Regression: the process of computing an expression that predicts a numeric quantity
@@ -65,7 +57,6 @@ Does the absence of value have some significance?
 	- Predicted value is the average value of training instances that reach the leaf 
 - Model tree: “regression tree” with linear regression models at the leaf nodes 
 	- Linear patches approximate a continuous function
----
 # Rules 
 ## Classification rules 
 - Popular alternative to decision trees 
@@ -118,7 +109,7 @@ Example: 4 cool days with normal humidity
 Normally: minimum support and confidence prespecified (e.g., 58 rules with $support \geq 2$ and $confidence \geq 95\%$ for weather data)
 
 # Rules with exceptions 
-Allows rules to have exceptions (e.g., `... THEN Class A EXCEPT if condition THEN Class B`).
+Idea: allow rules to have exceptions
 ## Advantages of Using Exception
 - Rules can be updated incrementally:
 	- Easy to incorporate new data 
@@ -149,7 +140,7 @@ Simple solution: add extra attributes (e.g., a binary attribute is width < heigh
 	- The instances themselves represent the knowledge 
 	- Also called instance-based learning 
 - Similarity function defines what’s “learned” 
-- Instance-based learning is **lazy learning**.
+- Instance-based learning is lazy learning 
 - Methods: nearest-neighbor, k-nearest-neighbor, …
 ## The Distance Function
 - Simplest case: one numeric attribute:
@@ -166,7 +157,3 @@ Simple solution: add extra attributes (e.g., a binary attribute is width < heigh
 - Rectangles are rules! (But they can be more conservative than “normal” rules.) 
 - Nested rectangles are rules with exceptions
 # Clusters
-- Partition the data set into clusters based on **similarity**.
-- Store cluster representation (e.g., centroid and diameter).
-- **Representing Clusters I**: Simple 2-D representation vs. Venn diagram.
-- **Representing Clusters II**: Probabilistic assignment vs. Dendrogram (hierarchical clustering structure)

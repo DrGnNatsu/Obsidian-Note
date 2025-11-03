@@ -1,4 +1,7 @@
-#os 
+---
+tags:
+  - "#os"
+---
 ___
 Mutual Exclusion: Loại trừ tương hỗ
 - To find the resource while still collaborating.
@@ -10,48 +13,38 @@ ___
 # Principles of Concurrency
 ___
 ## Multiple Processes
-Central to the design of modern Operating Systems is managing multiple processes 
-- Multiprogramming
-- Multiprocessing 
-- Distributed Processing
-The Big Issue is Concurrency: Managing the interaction of all of these processes.
+ - Central to modern OS is managing multiple processes through:
+    - Multiprogramming
+    - Multiprocessing
+    - Distributed Processing
+- **Big Issue is Concurrency**: Managing the interaction of all these processes.
 ## Concurrency
 Concurrency arises in: 
 - Multiple applications: Sharing time 
 - Structured applications: Extension of modular design 
-- Operating system structure: OS themselves implemented as a set of processes or threads
+- OS structure (OS implemented as a set of processes or threads)
 ## Key terms
-Atomic Operations:
-- Indivisible: smallest
-- No allowed anything to interfere with the operation.
-- No middle state: finish or finish
-Critical Section:
-- The shared resources
-- Only stay there for a specific period of time
-Deadlock:
-- Two or more processes block each other
-- Ex: Process A needs resources 1 and 2. Process B needs resources 2 and 1. They block each other. A waits to get 2, B waits to get 1 
-Livelock:
-- Still running but not doing a useful thing, go to the target
-- Ex: go into the memory, then go out, not do something.
-Mutual Exclusion:
-- Ex: Have a critical section, many processes want to access the critical section
-Race Condition:
-- Using race to detect who will go into the critical section when we have many processes that want to access the critical section.
-Starvation:
-- Always lose the race: never get the resources
+
+| Term                 | Description                                                                                                                                                                                                                                                          |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **atomic operation** | A sequence of one or more statements that appears indivisible; no other process can see an intermediate state or interrupt the operation. No middle state: finish or finish                                                                                          |
+| **critical section** | A section of code within a process that requires access to shared resources and must not be executed while another process is in a corresponding section. The process only stay there for a specific period of time                                                  |
+| **deadlock**         | A situation where two or more processes are unable to proceed because each is waiting for the other. Ex: go into the memory, then go out, not do something.                                                                                                          |
+| **livelock**         | A situation where two or more processes continuously change their states in response to changes in others without doing any useful work.                                                                                                                             |
+| **mutual exclusion** | The requirement that when one process is in a critical section accessing shared resources, no other process may access any of those shared resources.                                                                                                                |
+| **race condition**   | A situation where the final result depends on the relative timing of multiple threads/processes reading/writing a shared data item. Using race to detect who will go into the critical section when we have many processes that want to access the critical section. |
+| **starvation**       | A situation where a runnable process is overlooked indefinitely by the scheduler.                                                                                                                                                                                    |
+
 ## Interleaving and Overlapping Processes
 **Concurrency - Multi-tasking - multiprogramming - interleaving**: Two processes run at the same time, but when we specify a period of time, *only one is running*.
 **Parallel - Multiprocessing - Overlapping**: Two processes run at the same time. When we specify a period of time, many processes are running.
-## Difficulties of Concurrency
-Sharing of global resources 
-Optimally managing the allocation of resources 
-Difficult to locate programming errors as results are not deterministic and reproducible. A billion combinations of code can be generated.
-## Difficulties of Concurrency
+### Difficulties of Concurrency
 - **Sharing of global resources**: Safely managing access to shared global resources is difficult.
 - **Optimal resource allocation**: It is difficult for the OS to manage the allocation of resources optimally.
 - **Locating programming errors**: Errors are hard to locate because results are often non-deterministic and difficult to reproduce.
 > This makes debugging concurrency-related bugs extremely difficult, as they are not always reproducible and may only occur under specific timing conditions.
+### Enforce Single Access
+If a rule enforces that only one process can enter the function (mutual exclusion), P1 runs, P2 blocks until P1 completes, then P2 resumes.
 ## Race Condition
 A race condition occurs when:
 - Multiple processes or threads read and write shared data items.
@@ -78,26 +71,24 @@ Three main control problems arise from process competition:
 2.  **Deadlock**
 3.  **Starvation**
 ## Requirements for Mutual Exclusion
-A valid solution to the mutual exclusion (situation) problem must satisfy these conditions:
-	-Example: many students want to edit the project at the same time.
-	-Mutual Exclusion: make the computer slow
-1.  Only **one process** can be in its **critical section at a time** for a resource (same resources)
-2.  A process that halts in its noncritical section must not interfere with other processes.
-3.  It must not be possible for a process requiring access to a critical section to be delayed indefinitely (no deadlock or starvation).
-4.  When no process is in a critical section, any process that requests entry must be permitted to enter without delay.
-5.  No assumptions are made about relative process speeds or the number of processors.
+1. Only **one process** can be in its **critical section at a time** for a resource 
+2. A process halted in its noncritical section must not interfere with others.
+3. It must not be possible for a process requiring access to a critical section to be delayed indefinitely (no deadlock or starvation).
+4. When no process is in a critical section, any process that requests entry must be permitted to enter without delay.
+5. A process must not be delayed access to a critical section if no one else is using it.
 	1. The OS treats all processes the same, regardless of size, speed, or big computation.
 	2. They have the same limited time in the critical section.
 6.  A process remains inside its critical section for a finite time only.
-	   -The finite time used to lock other processes 
-	   -Ex: we have the account back (money = critical section) and transaction = processes
-			- If we have parallel transactions, withdraw money and transfer money. 
-			- The bank system will lock the money and execute transactions.
-			- The back system will check every time it execute the transactions
-# Mutual Exclusion: Hardware Support
+	1. The finite time used to lock other processes 
+	2. Ex: Account back (money = critical section) and transaction = processes
+		- If we have parallel transactions, withdraw and transfer money. 
+		- The bank system will lock the money and execute transactions.
+		- The back system will check every time it execute the transactions
 ---
+# Mutual Exclusion: Hardware Support
 ## Disabling Interrupts
-- On a uniprocessor system, mutual exclusion can be guaranteed by disabling interrupts. A process will continue to run without being preempted until it enables interrupts again.
+- Works only on **Uniprocessors**.
+- Mutual exclusion can be guaranteed by disabling interrupts. A process will continue to run without being preempted until it enables interrupts again.
 	- Example: The process interrupts in the critical section 
 ``` C
 while (true) {
@@ -170,10 +161,7 @@ void main() {
 }
 ```
 ## Hardware Mutual Exclusion: Advantages & Disadvantages
-- **Advantages**:
-	- Applicable to any number of processes on both single-processor and multiprocessor systems.
-	- Simple and therefore easy to verify.
-	- Can be used to support multiple critical sections.
+- **Advantages**: Applicable to any number of processes (single or multiprocessor), simple to verify, supports multiple critical sections.
 - **Disadvantages**:
 	- **Busy-waiting**: A process repeatedly checks a condition in a loop, consuming processor time without performing useful work.
 	- **Starvation** is possible because the selection of the next process to enter the critical section is not necessarily fair.
@@ -181,7 +169,11 @@ void main() {
 # Semaphores
 ---
 ## Semaphore (Data Structure)
-- A semaphore is **an** integer variable used for signaling among processes. It’s the number of resource values, it can be negative:
+- A semaphore is an integer value used for signaling among processes. Operations must be **atomic**: `initialize`, `Decrement (semwait)`, and `increment (semSignal)`.
+	- **Binary Semaphore**: Value is restricted to zero or one (used like a lock).
+	- **Strong Semaphores**
+	- **Weak Semaphores
+- It’s the number of resource values, it can be negative:
 	- Example: I have 3 resources, a requests consume 3 → it becomes 0, and the second requests consume 2 → it becomes -2 (but it means that we do not have -2, but we need to wait 2 resources to execute the requests in the queue)
 - Only three **atomic** operations are permitted on a semaphore:
 	1. **Initialize**: Set the semaphore to a non-negative value.
@@ -193,7 +185,6 @@ struct semaphore {
 	int count;
 	queueType queue;
 };
-
 void semWait(semaphore s) { 
 	s.count--;
 	if (s.count < 0) { // We dont have enough resources
@@ -201,7 +192,6 @@ void semWait(semaphore s) {
 		/* block this process */;
 	}
 }
-
 void semSignal(semaphore s) {
 	s.count++;
 	if (s.count<= 0) { // We don’t have enough resources, we have the process in the queue, we need to execute the queue first
@@ -210,7 +200,6 @@ void semSignal(semaphore s) {
 	}
 }
 ```
-Assumption:
 ## Strong/Weak Semaphore
 - The distinction lies in how processes are unblocked from the semaphore's queue.
 - **Weak Semaphore**: Does not specify the order in which processes are removed from the queue. (Random pick up, may have starvation)
@@ -338,7 +327,6 @@ void main() {
 	1.  Any number of readers may simultaneously read the file.
 	2.  Only one writer at a time may write to the file.
 	3.  If a writer is writing to the file, no reader may read it.
-
 - There are two main variations of the problem based on priority:
 	- **Readers have Priority**: No reader will be kept waiting unless a writer has already obtained permission to write. A waiting writer may be starved by a continuous stream of new readers.
 	- **Writers have Priority**: Once a writer is ready to write, no new readers are allowed to start reading. A waiting reader may be starved by a continuous stream of new writers.
