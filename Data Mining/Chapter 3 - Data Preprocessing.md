@@ -1,20 +1,17 @@
----
-tags:
-  - "#data_mining"
----
-
+#data_mining 
 ___
 # Data Preprocessing: An Overview
 - The first phase of the pipeline: how to correct and explore the data
+___
 ## Data Quality: Why Preprocess the Data?
 *Measures for data quality*: A multidimensional view
-- **Accuracy**: Correct or wrong, accurate or not.
-- **Completeness**: Not recorded, unavailable, ...
-- **Consistency**: some modified but some not, dangling, ...
+- Accuracy: correct or wrong, accurate or not
+- Completeness: not recorded, unavailable, …
+- Consistency: some modified but some not, dangling, ...
 	- One variable can be defined in many ways; you need to make in the same meaning.
-- **Timeliness**: Timely update?
-- **Believability**: How trustworthy is the data are correct? Is the survey correct, reliable?
-- **Interpretability**: How easily can the data be understood?
+- Timeliness: timely update?
+- Believability: How trustworthy is the data are correct? Is the survey correct, reliable?
+- Interpretability: how easily can the data be understood?
 ## Major Tasks in Data Preprocessing
 **Data cleaning**: Fill in missing values, smooth noisy data, identify or remove outliers, and resolve inconsistencies
 **Data integration**: Integration of multiple databases, data cubes, or files
@@ -25,8 +22,8 @@ ___
 **Data transformation and data discretisation:**
 - Normalization
 - Concept hierarchy generation
-___
 # Data Cleaning
+___
 Data in the Real World is Dirty: Lots of potentially incorrect data, e.g., instrument faulty, human or computer error, transmission error
 - *Incomplete*: lacking attribute values, lacking certain attributes of interest, or containing only aggregate data
 	- e.g., _Occupation_ = “ ” (missing data)
@@ -41,9 +38,17 @@ Data in the Real World is Dirty: Lots of potentially incorrect data, e.g., instr
 	- Missing data may need to be inferred
 - *Noisy*: containing noise, errors, or outliers
 	- e.g., _Salary_ = $−10$ (an error)
-	- **Noise**: Random error or variance in a measured variable.
-	- **Incorrect attribute values** due to: faulty collection instruments, data entry problems, transmission problems, and naming convention inconsistencies.
-	- **Other data problems**: Duplicate records, incomplete data, and inconsistent data.
+	- Noise: random error or variance in a measured variable
+	- Incorrect attribute values may be due to
+		- faulty data collection instruments
+		- data entry problems
+		- data transmission problems
+		- technology limitation
+		- Inconsistency in naming convention
+	- Other data problems which require data cleaning
+		- duplicate records
+		- incomplete data
+		- inconsistent data
 - *Inconsistent:* containing discrepancies in codes or names, e.g.,
 	- _Age_ = “42”, _Birthday_ = “03/07/2010”
 	- Was rating “1, 2, 3”, now rating “A, B, C”
@@ -57,7 +62,7 @@ Ignore the tuple: usually done when the class label is missing (when doing class
 	- A global constant: e.g., “unknown”, a new class?!
 	- The attribute mean
 	- The attribute mean for all samples belonging to the same class: smarter
-	- The **most probable value** (inference-based, like Bayesian formula or decision tree) - predict technique.
+	- *The most probable value: inference-based, such as a Bayesian formula or a decision tree* - predict technique.
 ## How to Handle Noisy Data?
 **Binning**: 
 - First, sort the data and partition into (equal-frequency) bins
@@ -79,14 +84,14 @@ Ignore the tuple: usually done when the class label is missing (when doing class
 - Data migration tools: allow transformations to be specified
 - ETL (Extraction/Transformation/Loading) tools: allow users to specify transformations through a graphical user interface
 **Integration of the two processes**: Iterative and interactive (e.g., Potter’s Wheels)
----
 # Data Integration
+___
 **Data integration**: Combines data from multiple sources into a coherent store
-**Schema integration**: e.g., `A.cust-id = B.cust-#`
+**Schema integration**: e.g., A.cust-id $=$ B.cust-#
 - Integrate metadata (the data describes that data) from different sources
 **Entity identification problem**:
 - Identify real-world entities from multiple data sources, e.g., Bill Clinton = William Clinton.
-Detecting and resolving **Data value conflicts**
+Detecting and resolving data value conflicts
 - For the same real-world entity, attribute values from different sources are different.
 - Possible reasons: different representations, different scales, e.g., metric vs. British units.
 ## Handling Redundancy in Data Integration
@@ -143,8 +148,8 @@ Correlation coefficient $r_{A,B}=\frac{Cov(A,B)}{{\sigma}_A{\sigma}_B}$
 **Negative covariance**:  if $Cov_{A,B}<0$, then if $A$ larger than their expected values, $B$ is likely to be smaller than its expected value.
 **Independence:** $Cov_{A,B}=0$ but the converse is not true
 	Some pairs of random variables may have a covariance of 0 but are not independent. Only under some additional assumptions (e.g., the data follow multivariate normal distributions) does a covariance of 0 imply independence
----
 # Data Reduction
+___
 ## Data Reduction Strategies
 **Data reduction**: Obtain a reduced representation of the data set that is much smaller in volume but yet produces the same (or almost the same) analytical results
 *Why data reduction?* — A database/data warehouse may store terabytes of data. Complex data analysis may take a very long time to run on the complete data set.
@@ -175,10 +180,10 @@ Correlation coefficient $r_{A,B}=\frac{Cov(A,B)}{{\sigma}_A{\sigma}_B}$
 
 ## Attribute Subset Selection
 Another way to reduce the dimensionality of data
-**Redundant attributes:**
+Redundant attributes:
 - Duplicate much or all of the information contained in one or more other attributes
 - E.g., the purchase price of a product and the amount of sales tax paid
-**Irrelevant attributes:**
+Irrelevant attributes:
 - Contain no information that is useful for the data mining task at hand
 - E.g., students' ID is often irrelevant to the task of predicting students' GPA
 ## Heuristic Search in Attribute Selection
@@ -201,10 +206,9 @@ Three general methodologies:
 	- Data discretization
 ### Data Reduction 2: Numerosity Reduction
 Reduce data volume by choosing alternative, _smaller forms_ of data representation
-**Parametric methods** (e.g., regression): Assume the data fits some model, estimate the model parameters, store only the parameters, and discard the data (except possible outliers)
-- Ex: Log-linear models—obtain value at a point in _m_-D space as the product of the appropriate marginal subspaces
-- **Regression and Log-Linear Models**: Model data to fit a straight line ($Y=wX+b$) or approximate discrete distributions. (Page 18).
-- **Regression Analysis**: Estimation using the **least squares method**. (Page 19)
+**Parametric methods** (e.g., regression):
+- Assume the data fits some model, estimate the model parameters, store only the parameters, and discard the data (except possible outliers)
+- Ex.: Log-linear models—obtain value at a point in _m_-D space as the product of the appropriate marginal subspaces
 **Non-parametric** methods:
 - Do not assume models
 - Major families: histograms, clustering, sampling, …
@@ -221,32 +225,3 @@ Reduce data volume by choosing alternative, _smaller forms_ of data representati
 	- Simple random sampling may have very poor performance in the presence of skew
 	- Develop adaptive sampling methods: e.g., stratified sampling:
 - Note: Sampling may not reduce database I/Os (page at a time)
-#### Data Cube Aggregation
-- The lowest level is the **base cuboid**.
-- Aggregated data can be referenced at multiple levels to further reduce data size. Queries should use the cube when possible.
-___
-# Data Transformation and Data Discretization
-## Data Transformation
-A function that maps the entire set of values of a given attribute to a new set of replacement values.
-- **Methods**: Smoothing (noise removal), Attribute/feature construction, Aggregation (summarization), **Normalization**, and **Discretization**.
-### Normalization
-Scaling data to fall within a smaller, specified range.
-- **Min-max normalization**: Scales data to $[new_{min}, new_{max}]$.
-$$v' = \frac{v - \min_A}{\max_A - \min_A} (\text{new\_max} - \text{new\_min}_A) + \text{new\_min}_A$$
-- **Z-score normalization**: Uses $\mu$ (mean) and $\sigma$ (standard deviation): $v' = \frac{v - \mu}{\sigma}$
-- **Normalization by decimal scaling**: $v' = v / 10^j$.
-### Discretization
-Dividing the range of a continuous attribute into intervals (labels replace actual data values).
-- **Three types of attributes handled**: Nominal, Ordinal, Numeric (real numbers).
-### Data Discretization Methods (Applied Recursively)
-- **Binning** (Top-down split, unsupervised).
-- **Histogram analysis** (Top-down split, unsupervised).
-- **Clustering analysis** (Unsupervised, top-down split or bottom-up merge).
-- **Decision-tree analysis** (Supervised, top-down split).
-- **Correlation ($\chi^2$) analysis** (Unsupervised, bottom-up merge).
-### Concept Hierarchy Generation
-Organizes concepts (attribute values) hierarchically.
-- Facilitates **drilling and rolling** in data warehouses.
-- Formation can be **explicitly specified** by experts or **automatically generated** (For numeric data, use discretization methods).
-### Automatic Concept Hierarchy Generation
-Hierarchy level is based on the number of distinct values per attribute (fewer distinct values means higher level in hierarchy).
