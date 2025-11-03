@@ -3,8 +3,15 @@ tags:
   - data_mining
 ---
 ___
+# Data mining algorithms: Classification (Outline)
+- Basic concepts
+- Decision Tree Induction
+- Bayes Classification Methods
+- Rule-based Classification
+- Model Evaluation and Selection
+___
 # Supervised vs. Unsupervised Learning
-
+___
 ## Supervised learning (classification)
 - **Supervision**: The training data, such as observations or measurements, are accompanied by **labels** indicating the classes to which they belong.
 - New data is classified based on the models built from the training set.
@@ -15,7 +22,7 @@ ___
 - Given a set of observations or measurements, establish the possible existence of classes or clusters in the data.
 ___
 # Prediction Problems: Classification vs. Numeric Prediction
-
+____
 ## Classification
 - Predict **categorical** class labels (discrete or nominal).
 - Construct a model based on the training set and the class labels (the values in a classifying attribute) and use it in classifying new data.
@@ -24,6 +31,7 @@ ___
 (See image on page 3 showing a scatter plot with a regression line).
 ___
 # Classification—Model Construction, Validation, and Testing
+___
 ## Model Construction and Training
 - **Model**: Represented as decision trees, rules, mathematical formulas, or other forms.
 - **Assumption**: Each sample belongs to a predefined class/class label.
