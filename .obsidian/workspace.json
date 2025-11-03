@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
+                "file": "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 6&7 - Mining Algorithms - Classification"
+              "title": "C6 - Syntax Analysis Part 2"
             }
           }
         ],
@@ -244,6 +244,9 @@
   },
   "active": "af3be1520da4e50c",
   "lastOpenFiles": [
+    "Principles of Programming Languages/C5 - Syntax Analysis.md",
+    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
+    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 3 - Data Preprocessing.md",
     "Data Mining/Chapter 2 - Getting to Know Your Data.md",
@@ -253,7 +256,6 @@
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",
     "Data Mining/Chapter 1.md",
-    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Operating System/Midterm.md",
     "Untitled.md",
@@ -273,8 +275,6 @@
     "Operating System/Chapter 3 - Process Description and Control.md",
     "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
-    "Principles of Programming Languages/C5 - Syntax Analysis.md",
-    "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
     "Data Mining/Attachment/Decision Tree.png",
