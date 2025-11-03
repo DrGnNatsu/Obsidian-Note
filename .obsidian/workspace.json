@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Chapter 2 - Getting to Know Your Data.md",
+                "file": "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 2 - Getting to Know Your Data"
+              "title": "Chapter 6&7 - Mining Algorithms - Classification"
             }
           }
         ],
@@ -244,6 +244,9 @@
   },
   "active": "af3be1520da4e50c",
   "lastOpenFiles": [
+    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
+    "Data Mining/Chapter 3 - Data Preprocessing.md",
+    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Data Mining/Chapter 1 - Introduction to Data Mining.md",
     "Operating System/Midterm Print.md",
     "Operating System/Attachments/Top-Level View.png",
@@ -251,10 +254,7 @@
     "Operating System/Attachments/Basic Instruction Cycle.png",
     "Data Mining/Chapter 1.md",
     "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
-    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
-    "Data Mining/Chapter 3 - Data Preprocessing.md",
     "Operating System/Midterm.md",
     "Untitled.md",
     "Object Oriented Analysis & Design/C3/What is Software Lifecycle.md",
