@@ -158,6 +158,12 @@ takes
 tokens
 terminal
 terminals
+translate
+translator
+target
+tabs
+token
+tab
 data
 discrete
 decision
@@ -330,6 +336,7 @@ distinguishing
 derivation
 discussing
 derivations
+digit
 mining
 measurements
 models
@@ -464,6 +471,7 @@ minimizes
 multiplying
 moving
 matters
+members
 Data
 Decision
 Deployment
@@ -562,6 +570,8 @@ Deterministic
 Derivation
 Defining
 Derivations
+DSL
+Diagram
 algorithms
 and
 as
@@ -735,6 +745,10 @@ abstract
 appear
 appears
 applying
+analyser
+already
+applied
+automata
 Classification
 Construct
 Construction
@@ -866,6 +880,11 @@ Current
 Call
 COMPARING
 Conversely
+Course
+Compilation
+Compilers
+Compiler
+Code
 Outline
 Overfitting
 One
@@ -963,6 +982,8 @@ But
 Bernoulli
 Begin
 Boldface
+Between
+Building
 concepts
 classification
 classes
@@ -1235,6 +1256,11 @@ consisting
 comma
 constructs
 consider
+convert
+characters
+consistent
+converts
+category
 Tree
 The
 Training
@@ -1316,6 +1342,11 @@ Trial
 Therefore
 Transition
 Treat
+Take
+Takes
+Translator
+Token
+Tokens
 Induction
 If
 It
@@ -1404,6 +1435,11 @@ Ideally
 Improvement
 Including
 Illustrating
+Internal
+Interpreters
+Interpreter
+Intermediate
+IC
 Methods
 Model
 Majority
@@ -1585,6 +1621,9 @@ RM
 RIGHT
 Right
 Relationship
+Reason
+Reads
+Reading
 based
 by
 belong
@@ -1677,6 +1716,7 @@ bits
 bounded
 balancing
 begins
+blank
 Evaluation
 Each
 Estimate
@@ -1903,6 +1943,12 @@ String
 Sentential
 Sentence
 Slide
+SQL
+Scheme
+Share
+Semantic
+Simplication
+Satisfy
 vs
 values
 valued
@@ -1955,6 +2001,7 @@ video
 version
 valid
 vertex
+validity
 Unsupervised
 Unstable
 Use
@@ -2067,6 +2114,8 @@ Lowercase
 Leftmost
 LM
 Left
+Latex
+Lexeme
 learning
 labels
 line
@@ -2161,6 +2210,7 @@ lexemes
 linguistics
 letter
 leftmost
+lexical
 such
 set
 showing
@@ -2419,6 +2469,12 @@ side
 stmt
 sentential
 siblings
+study
+simplify
+specialised
+scanner
+substring
+spaces
 observations
 or
 on
@@ -2499,6 +2555,10 @@ obtained
 overlap
 overlapping
 ordered
+outputs
+operands
+optimiser
+optimise
 indicating
 is
 image
@@ -2645,6 +2705,8 @@ indivisible
 italic
 illustrates
 iI
+identifies
+identifier
 which
 with
 work
@@ -2713,6 +2775,8 @@ would
 works
 want
 word
+whitespaces
+whitespace
 New
 Numeric
 No
@@ -3068,6 +3132,9 @@ productions
 parentheses
 properties
 partial
+purpose
+parsing
+position
 example
 establish
 existence
@@ -3324,6 +3391,10 @@ Purpose
 Precedence
 Punctuation
 Partial
+PPL
+Policy
+Phases
+Portability
 unknown
 use
 used
@@ -3416,6 +3487,9 @@ Generalizes
 Goal
 Grammar
 Generating
+GBL
+Grading
+Generator
 nominal
 new
 node
@@ -3497,6 +3571,8 @@ nothing
 nonterminal
 ned
 nonterminals
+newlines
+newline
 regression
 rules
 result
@@ -3675,6 +3751,9 @@ reachable
 replaced
 ref
 rightmost
+recognised
+recognise
+regular
 Validation
 Valued
 Very
@@ -3802,6 +3881,8 @@ Accept
 Analyzer
 AST
 Associativity
+Analyser
+Accepts
 known
 knew
 knowledge
@@ -3837,6 +3918,7 @@ kinds
 key
 kind
 keywords
+keyword
 greedy
 gain
 given
@@ -3895,6 +3977,7 @@ generalizations
 generalizes
 grammar
 grammatical
+generator
 heuristic
 has
 higher
@@ -3986,6 +4069,7 @@ Hamming
 Hierarchy
 Head
 Here
+Have
 White
 What
 Weakness
@@ -4117,6 +4201,7 @@ Finite
 Functionality
 Free
 Form
+Further
 just
 job
 jobs
