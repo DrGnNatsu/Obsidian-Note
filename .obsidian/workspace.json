@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "425c5757d37d469a",
+        "id": "836e5bec6a3a8c91",
         "type": "tabs",
         "children": [
           {
-            "id": "edfd3a450d57e1ce",
+            "id": "c9a6287535f58cc3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,8 +223,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "edfd3a450d57e1ce",
+  "active": "c9a6287535f58cc3",
   "lastOpenFiles": [
+    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
+    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
+    "Untitled.md",
+    "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
+    "Data Mining/Chapter 3 - Data Preprocessing.md",
+    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
+    "Data Mining/Chapter 1 - Introduction to Data Mining.md",
     "Object Oriented Analysis & Design/C3/What is Software Lifecycle.md",
     "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model.md",
     "Data Structure and Algorithm/Theory/What are Data Structure.md",
@@ -238,7 +244,6 @@
     "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
     "Operating System/Chapter 2 - Operating System Overview.md",
     "Operating System/Chapter 1 - Computer System Overview.md",
-    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Operating System/Attachments/Deadlock Detection Algo.png",
     "Operating System/Midterm.md",
     "Operating System/Chapter 3 - Process Description and Control.md",
@@ -246,25 +251,19 @@
     "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Operating System/Chapter 5 - Concurrency - Mutual Exclusion and Synchronization.md",
     "Data Mining/Attachment/Decision Tree.png",
-    "Untitled.md",
     "Data Mining/Attachment/Supervised Learning.png",
     "Operating System/Attachments/Banker's Algorithm Deadlock.png",
     "Operating System/Attachments/Banker's Algorithm 4.png",
     "Operating System/Attachments/Example of Two Processes Competing for Consumable Resources.png",
     "Operating System/Attachments/Banker's Algorithm 3.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
-    "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Attachment",
-    "Data Mining/Chapter 3 - Data Preprocessing.md",
-    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Computer Architecture/Chapter 4.md",
     "Computer Architecture/Chapter 3.md",
     "Computer Architecture/Chapter 2.md",
-    "Computer Architecture/Chapter 1.md",
     "Operating System/Attachments",
     "Principles of Programming Languages/Attachments",
     "Principles of Programming Languages/Untitled.base",
