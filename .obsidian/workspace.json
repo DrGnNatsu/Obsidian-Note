@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
+                "file": "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4 - Data Mining Knowledge Representation"
+              "title": "Chapter 5 - Evaluating what’s been learned"
             }
           },
           {
@@ -244,8 +244,8 @@
   "active": "c9a6287535f58cc3",
   "lastOpenFiles": [
     "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
+    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 3 - Data Preprocessing.md",
     "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
