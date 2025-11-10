@@ -164,6 +164,7 @@ target
 tabs
 token
 tab
+tighter
 data
 discrete
 decision
@@ -337,6 +338,9 @@ derivation
 discussing
 derivations
 digit
+dangerous
+details
+dashed
 mining
 measurements
 models
@@ -472,6 +476,8 @@ multiplying
 moving
 matters
 members
+multiplication
+match
 Data
 Decision
 Deployment
@@ -572,6 +578,9 @@ Defining
 Derivations
 DSL
 Diagram
+Dangling
+Dependency
+DEV
 algorithms
 and
 as
@@ -749,6 +758,13 @@ analyser
 already
 applied
 automata
+ambiguous
+ambiguity
+associativity
+away
+actions
+action
+abstracting
 Classification
 Construct
 Construction
@@ -885,6 +901,10 @@ Compilation
 Compilers
 Compiler
 Code
+Color
+Case
+Concrete
+Calculating
 Outline
 Overfitting
 One
@@ -932,6 +952,8 @@ On
 Oil
 Occam
 Operator
+Order
+ONLY
 Basic
 Bayes
 Best
@@ -984,6 +1006,7 @@ Begin
 Boldface
 Between
 Building
+Bad
 concepts
 classification
 classes
@@ -1261,6 +1284,11 @@ characters
 consistent
 converts
 category
+curly
+consequently
+constraints
+construct
+concrete
 Tree
 The
 Training
@@ -1347,6 +1375,7 @@ Takes
 Translator
 Token
 Tokens
+Task
 Induction
 If
 It
@@ -1440,6 +1469,7 @@ Interpreters
 Interpreter
 Intermediate
 IC
+Its
 Methods
 Model
 Majority
@@ -1530,6 +1560,8 @@ MAP
 Moves
 Means
 MOST
+MIF
+Matched
 Rule
 Represented
 Resulting
@@ -1717,6 +1749,13 @@ bounded
 balancing
 begins
 blank
+brown
+behaved
+black
+big
+building
+bad
+binds
 Evaluation
 Each
 Estimate
@@ -1784,6 +1823,9 @@ Expression
 Entries
 Epsilon
 Every
+Else
+Eliminate
+Everything
 Selection
 Supervised
 Supervision
@@ -1949,6 +1991,7 @@ Share
 Semantic
 Simplication
 Satisfy
+Study
 vs
 values
 valued
@@ -2050,6 +2093,8 @@ Usually
 Uncorrelated
 Unknown
 Uppercase
+UIF
+Unmatched
 Learning
 Lower
 Let
@@ -2116,6 +2161,7 @@ LM
 Left
 Latex
 Lexeme
+Languages
 learning
 labels
 line
@@ -2211,6 +2257,10 @@ linguistics
 letter
 leftmost
 lexical
+lecture
+looser
+lexer
+lines
 such
 set
 showing
@@ -2475,6 +2525,13 @@ specialised
 scanner
 substring
 spaces
+semantic
+sentences
+semicolons
+successor
+subexpressions
+satisfies
+said
 observations
 or
 on
@@ -2559,6 +2616,10 @@ outputs
 operands
 optimiser
 optimise
+operator
+outer
+occurring
+operation
 indicating
 is
 image
@@ -2707,6 +2768,10 @@ illustrates
 iI
 identifies
 identifier
+interpretations
+imposing
+including
+itself
 which
 with
 work
@@ -2777,6 +2842,7 @@ want
 word
 whitespaces
 whitespace
+white
 New
 Numeric
 No
@@ -2829,6 +2895,7 @@ Nondeterministic
 NFA
 NFAs
 Notational
+NOTE
 from
 for
 functions
@@ -3135,6 +3202,10 @@ partial
 purpose
 parsing
 position
+precedence
+preference
+parser
+paging
 example
 establish
 existence
@@ -3278,6 +3349,10 @@ extract
 elementary
 erased
 expr
+enforced
+equations
+extracts
+eliminated
 Prediction
 Problems
 Predict
@@ -3395,6 +3470,8 @@ PPL
 Policy
 Phases
 Portability
+Preserving
+PLUS
 unknown
 use
 used
@@ -3456,6 +3533,7 @@ unambiguous
 unique
 uniquely
 uppercase
+unmatched
 Given
 Gini
 Greedy
@@ -3573,6 +3651,7 @@ ned
 nonterminals
 newlines
 newline
+nest
 regression
 rules
 result
@@ -3754,6 +3833,10 @@ rightmost
 recognised
 recognise
 regular
+ragged
+retains
+refer
+refining
 Validation
 Valued
 Very
@@ -3883,6 +3966,12 @@ AST
 Associativity
 Analyser
 Accepts
+Ambiguous
+Ambiguity
+Abstract
+Actions
+Annotated
+ASTs
 known
 knew
 knowledge
@@ -3978,6 +4067,7 @@ generalizes
 grammar
 grammatical
 generator
+grammars
 heuristic
 has
 higher
@@ -4202,6 +4292,10 @@ Functionality
 Free
 Form
 Further
+Fur
+Fixing
+Factor
+FOR
 just
 job
 jobs
