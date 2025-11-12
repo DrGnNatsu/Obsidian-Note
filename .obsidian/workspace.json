@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 7 - Memory Management.md",
+                "file": "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 7 - Memory Management"
+              "title": "Chapter 9&10 - Data mining algorithms Association rules"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Chapter 7 - Memory Management.md",
+                "file": "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 7 - Memory Management"
+              "title": "Outline of Chapter 9&10 - Data mining algorithms Association rules"
             }
           },
           {
@@ -226,12 +226,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c9a6287535f58cc3",
+  "active": "a96d708e0ef4ea7b",
   "lastOpenFiles": [
+    "Data Mining/Attachment/Aproiri Algo.png",
+    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
+    "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
+    "Data Mining/Midterm Note.md",
+    "Operating System/Chapter 7 - Memory Management.md",
     "Principles of Programming Languages/C8 - Semantic Analysis.md",
     "Principles of Programming Languages/Attachments/Ambiguity CFG.png",
-    "Data Mining/Midterm Note.md",
-    "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Chapter 3 - Data Preprocessing.md",
@@ -254,12 +257,10 @@
     "Data Structure and Algorithm/Theory/What are Data Structure.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
-    "Operating System/Chapter 7 - Memory Management.md",
     "Operating System/Attachments/Buddy System.png",
     "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
     "Operating System/Attachments/Addressing.png",
     "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
-    "Operating System/Chapter 2 - Operating System Overview.md",
     "Operating System/Attachments/Deadlock Detection Algo.png",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Data Mining/Attachment/Decision Tree.png",
