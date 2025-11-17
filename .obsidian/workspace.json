@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "836e5bec6a3a8c91",
+        "id": "b879d5fa370c1e80",
         "type": "tabs",
         "children": [
           {
-            "id": "c9a6287535f58cc3",
+            "id": "d4de7cd143907b82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
+                "file": "Operating System/Chapter 8 - Virtual Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 9&10 - Data mining algorithms Association rules"
+              "title": "Chapter 8 - Virtual Memory"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
+                "file": "Operating System/Chapter 8 - Virtual Memory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 9&10 - Data mining algorithms Association rules"
+              "title": "Outline of Chapter 8 - Virtual Memory"
             }
           },
           {
@@ -226,26 +226,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a96d708e0ef4ea7b",
+  "active": "d4de7cd143907b82",
   "lastOpenFiles": [
+    "Operating System/Chapter 8 - Virtual Memory.md",
+    "Operating System/Chapter 7 - Memory Management.md",
+    "Operating System/Midterm Print.md",
+    "Principles of Programming Languages/C9 - Functional and Logical Programming.md",
+    "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
+    "Object Oriented Analysis & Design/C2/Object - Oriented Programming.md",
+    "Object Oriented Analysis & Design/C2/Imperative Programming.md",
+    "Object Oriented Analysis & Design/C2/Declarative Programming.md",
+    "Principles of Programming Languages/C8 - Semantic Analysis.md",
+    "README.md",
+    "Principles of Programming Languages/C5 - Syntax Analysis.md",
+    "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
     "Data Mining/Attachment/Aproiri Algo.png",
     "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
     "Data Mining/Midterm Note.md",
-    "Operating System/Chapter 7 - Memory Management.md",
-    "Principles of Programming Languages/C8 - Semantic Analysis.md",
     "Principles of Programming Languages/Attachments/Ambiguity CFG.png",
     "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Chapter 3 - Data Preprocessing.md",
     "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Data Mining/Chapter 1 - Introduction to Data Mining.md",
-    "Principles of Programming Languages/C5 - Syntax Analysis.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Principles of Programming Languages/C1 - Introduction.md",
-    "Principles of Programming Languages/C6 - Syntax Analysis Part 2.md",
-    "Operating System/Midterm Print.md",
     "Operating System/Attachments/Top-Level View.png",
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",
@@ -253,18 +260,12 @@
     "Operating System/Midterm.md",
     "Untitled.md",
     "Object Oriented Analysis & Design/C3/What is Software Lifecycle.md",
-    "Object Oriented Analysis & Design/C6/What Do Sequence Diagram model.md",
-    "Data Structure and Algorithm/Theory/What are Data Structure.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
-    "Data Structure and Algorithm/Basic Data Structures/Stacks/0. Theory.md",
     "Operating System/Attachments/Buddy System.png",
-    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
     "Operating System/Attachments/Addressing.png",
-    "Data Structure and Algorithm/Solution Choosing/It is a Graph?.md",
     "Operating System/Attachments/Deadlock Detection Algo.png",
     "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Data Mining/Attachment/Decision Tree.png",
-    "Data Mining/Attachment/Supervised Learning.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
     "Data Mining/Attachment",
     "Operating System/Attachments",
@@ -278,7 +279,6 @@
     "Object Oriented Analysis & Design/C3/Software Development Life Cycle.canvas",
     "Object Oriented Analysis & Design/C5/Activity Diagram.canvas",
     "Object Oriented Analysis & Design/C4/Use-case Modeling.canvas",
-    "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
     "Object Oriented Analysis & Design/C1/Chapter 1 - Introduction.canvas",
     "Object Oriented Analysis & Design/C6/Sequence Diagram.canvas"
   ]

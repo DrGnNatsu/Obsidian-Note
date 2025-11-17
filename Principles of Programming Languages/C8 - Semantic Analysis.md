@@ -17,7 +17,7 @@ A context-free grammar $G$ It is **ambiguous** if some string $w \in L(G)$ has:
 2.  Two or more **leftmost derivations** (or rightmost). 
 > [!question] Why is Ambiguity Bad?
 Ambiguity is **bad for programming languages** because it leads to different interpretations (e.g., different evaluation results for the same expression).
-- Example $2+2*2$ results in 6 (if addition binds looser) or 8 (if multiplication binds looser), depending on the parse tree. (Slides 10, 11, 12)
+- Example $2+2*2$ results in 6 (if addition binds looser) or 8 (if multiplication binds looser), depending on the parse tree. 
 - **Goal**: Remove ambiguity!
 ## Fixing Ambiguity 
 **Example** $E \rightarrow E+E \mid E*E \mid (E) \mid a$
