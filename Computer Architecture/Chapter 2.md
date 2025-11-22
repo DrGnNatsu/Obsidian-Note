@@ -70,7 +70,7 @@ add $t0, $s2, $t0
 ```
 - Machine: 000000_10010_01000_01000_00000_100000
 - Only **one operation** is performed per MIPS Instruction.
-	- Ex: `a+b+c` need at least two operations
+	- Ex: `a+b+c` needs at least two operations
 ## Instruction Set Design Principle
 - Simplicity favours regularity 
 - Smaller is faster 

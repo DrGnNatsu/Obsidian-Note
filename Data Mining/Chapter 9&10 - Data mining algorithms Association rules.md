@@ -2,7 +2,7 @@
 tags:
   - data_mining
 ---
-
+zZ
 # What Is Frequent Pattern Analysis?
 
 ## Frequent Pattern Definition
@@ -67,18 +67,21 @@ Approaches to efficiently find frequent itemsets:
 ### Improving the Efficiency of Apriori
 Major challenges addressed: multiple DB scans, huge candidate sets, tedious support counting.
 Ideas: Reduce passes, shrink candidates, facilitate support counting.
-- **Partitioning**: Scan the database twice. Scan 1 finds local frequent patterns in partitions ($DB_i$); Scan 2 consolidates results. (Page 36)
-- **Reducing Candidates (Hash Tree)**: Store candidates in a hash-tree to efficiently count supports within a transaction using a subset function. (Pages 31, 32)
+- **Partitioning**: Scan the database twice. 
+	- Scan 1 finds local frequent patterns in partitions ($DB_i$)
+	- Scan 2 consolidates results. (Page 36)
+- **Reducing Candidates (Hash Tree)**: Store candidates in a hash tree to efficiently count supports within a transaction using a subset function. (Pages 31, 32)
 - **SQL Implementation**: Uses object-relational extensions (UDFs, Table functions) for efficient candidate generation and pruning. (Page 33)
 ## 2. FP-Growth: A Frequent Pattern-Growth Approach
-- **Philosophy**: Grow long patterns from short ones using local frequent items only, **avoiding explicit candidate generation**. (Page 42)
+- **Philosophy**: Grow long patterns from short ones using local frequent items only, **avoiding explicit candidate generation**.
 - **Method**:
-    1. Scan DB once to find frequent 1-itemsets and create the **FP-tree** structure (Page 43).
+    1. Scan DB once to find frequent 1-itemsets and create the **FP-tree** structure.
     2. **Recursively** grow patterns by constructing conditional pattern bases and conditional FP-trees for each frequent item.
-- **Benefits of FP-tree Structure**: Completeness, Compactness (infrequent items pruned), Never needs repeated scans of the entire database. (Page 49)
-- **Recursion**: Mining is done by recursively analyzing conditional FP-trees. (Page 47)
+- **Benefits of FP-tree Structure**: Completeness, Compactness (infrequent items pruned), Never needs repeated scans of the entire database.
+- **Recursion**: Mining is done by recursively analysing conditional FP-trees.
+![[FP Growth.jpeg]]
 ### Scalability Comparison
-Graphs show FP-Growth runtime significantly lower than Apriori, especially as support threshold decreases (Page 53) and the dataset size increases (Page 54).
+Graphs show FP-Growth runtime significantly lower than Apriori, especially as the support threshold decreases (Page 53) and the dataset size increases (Page 54).
 ## 3. Mining Closed Frequent Patterns and Maxpatterns
 - **CLOSET**: Mines **closed itemsets** using a pattern-growth approach, leveraging itemset merging and sub-itemset pruning. (Page 59)
 - **MaxMiner**: Mines **max-patterns** by finding frequent items first, then checking support for potential supersets, pruning if a length-2 subset is not frequent. (Page 61)

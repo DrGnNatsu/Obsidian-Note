@@ -39,10 +39,10 @@ In Software Engineering, there are two main programming styles:
 >[!note] Meaning of functional programming
 >Combines all functions to build new behaviour.
 ## What is functional programming?
-- A style emphasizing **function application** and **function composition**.
+- A style emphasising **function application** and **function composition**.
 - Aims to **mimic mathematical functions** (a mapping from a domain set to a range set).
 	- Example $f(x)=x^2+1$
-	- $x$ is the domain set. The unique $x$ is only getting one value in the range set.
+	- $x$ is the domain set.The unique $x$ is only getting one value in the range set.
 	- $f(x)$ is the range set
 - Three components:
 	- What are the variables? (LHS)
@@ -58,17 +58,18 @@ In Software Engineering, there are two main programming styles:
 ## Lisp Example
 - **First Language** applies **Higher-Order Language**.
 - Data objects: originally only **atoms** (numbers, symbols, strings) and **lists** (sequences of elements).
-- List form: parenthesized collections of sublists and/or atoms, structured using `<data, pointer>` elements (linked lists). (Page 16 shows linked list structure).
+- List form: parenthesised collections of sublists and/or atoms, structured using `<data, pointer>` elements (linked lists). 
 - Functions are defined using `(function_name parameter1 ... parameterN)` syntax, and functions can be referenced via `(LAMBDA ... expression)`. (Page 17)
-- Higher-order functions demonstrated: `apply-twice` (takes a function as argument) and `create-multiplier` (returns a function). (Pages 18, 19)
+- Higher-order functions demonstrated: `apply-twice` (takes a function as an argument) and `create-multiplier` (returns a function). (Pages 18, 19)
 ## Function Forms
-Key concepts highlighted include: `lambda`, `map`, `reduce`, `compose`, `filter`, `any`, `all`, and `currying`.
+Key concepts include: `lambda`, `map`, `reduce`, `compose`, `filter`, `any`, `all`, and `currying`.
 
 # Logical Programming
 
 ## What is Logical Programming?
 - **Definition**: A paradigm based on **formal logic**.
 - Programs consist of **facts** and **rules**.
+
 - Computation is the process of **querying the knowledge base**.
 - **Key Features**: Declarative in nature, problem-solving through **logical inference**.
 ## Applications of Logical Programming
@@ -77,16 +78,33 @@ Key concepts highlighted include: `lambda`, `map`, `reduce`, `compose`, `filter`
 - Robotics.
 - Intelligent Tutoring Systems (Page 26).
 - Game AI (e.g., Sudoku Solver) (Page 27).
-## Core Concepts (Prolog)
-- **Prolog**: Popular language for logical programming, used for knowledge representation and reasoning.
+## Core Concepts (Prologue)
+- **Prologue**: Popular language for logical programming, used for knowledge representation and reasoning.
 - **Basic Structure**: Facts, Rules, Queries.
-- **Syntax**: Facts end with a period (`.`), rules use `:-` (implication), queries start with `?-`.
-### Unification
-- Matching patterns in Prolog.
+	- Facts: _“các mệnh đề luôn đúng, vô điều kiện.”_  Trong lập trình hàm (Functional Programming – FP), mục tiêu là viết ra các đoạn code **hoạt động giống như các mệnh đề luôn đúng** → **Dự đoán được, không thay đổi, luôn cho cùng một kết quả.**
+		- Could be statements
+		- Need to be declared
+	- Rules: define the logical relationships between the facts.
+	- Queries: a combination of facts and rules.
+	- Example:
+		- `parent(john, mary).` → John is the parent of Mary.
+		- `ancestor(X, Y) :- parent(X, Y).` → X là tổ tiên của Y nếu X là cha/mẹ của Y.
+			- General Structure: `Head:- Body.` Read: The head is true if the body is true.
+		- `?- ancestor(john, mary).` → The queries will answer true or false based on facts and rules. In this case is true.
+	- How do it works?
+		- Prolog nhận truy vấn `ancestor(john, mary)`.
+		- Nó tìm rule có dạng `ancestor(X, Y) :- ...`.
+		- Quy tắc nói ancestor(X, Y) đúng nếu `parent(X, Y)` đúng.
+		- Prolog kiểm tra `parent(john, mary)` → thấy fact này tồn tại.
+		- Điểm khớp → rule đúng → trả về **true**.
+- **Syntax**: Facts end with a period (`.`), rules use`:-` (implication), queries start with `?-`.
+### Unification (Facts have variable undefined)
+- Matching patterns in Prologue.
 - Variables are **bound** during pattern matching.
-- Flowchart illustrates the process: Query Input $\rightarrow$ Match $\rightarrow$ Successful Unification? $\rightarrow$ Return 'Yes' with bindings or 'No'. (Page 30)
-### Backtracking
-- Prolog systematically explores possible solutions using a search tree. If a path fails to satisfy a query, it **backtracks** to an earlier choice point to try an alternative solution. (Page 31)
+- The flowchart illustrates the process: Query Input $\rightarrow$ Match $\rightarrow$ Successful Unification? $\rightarrow$ Return 'Yes' with bindings or 'No'. (Page 30)
+### Backtracking (Queries have variable undefined)
+- Prologue systematically explores possible solutions using a search tree. If a path fails to satisfy a query, it **backtracks** to an earlier choice point to try an alternative solution. 
+- Using the queries as the root node and travel from the first fact to the end.
 ## Example: Family Tree (Ancestry using Recursion)
 - **Facts**: `parent(john, mary).`, `parent(mary, sarah).`
 - **Rules (Recursive Definition)**:

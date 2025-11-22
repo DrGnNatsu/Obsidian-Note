@@ -119,16 +119,16 @@ The key aim is to ***minimize page faults***. There is no definitive best policy
 - Determines where in real memory a process piece is to reside.
 - This is important in a segmentation system. For paging or combined systems, the hardware performs the address translation.
 
-> ![important] Have page faults occur? 
+> [!important] Have page faults occur? 
 >  NO page faults
 
-> ![note] definition
+> [!note] definition
 > Frame is empty, and put the page in it.
 ## Replacement Policy
 - When all frames in main memory are occupied, this policy determines which page currently in memory is to be replaced.
-- The goal is to remove the page least likely to be referenced in the near future, typically predicted based on past behavior (principle of locality).
+- The goal is to remove the page least likely to be referenced in the near future, typically predicted based on past behaviour (principle of locality).
 - Page faults
-> ![note] definition
+> [!note] definition
 > The frame contains a page, and the OS replaces the new page in it.
 ### Frame Locking
 - If a frame is ***locked***, the page in it may not be replaced.
@@ -152,7 +152,7 @@ The key aim is to ***minimize page faults***. There is no definitive best policy
 - Main memory size is getting larger, and the locality of applications is decreasing.
 	- So, cache sizes have been increasing.
 - With large caches, the replacement of pages can have a performance impact
-	- improve performance by supplementing the page replacement policy with a policy for page placement in the page buffer.
+	- Improve performance by supplementing the page replacement policy with a policy for page placement in the page buffer.
 
 ## Resident Set Management
 - The OS must decide how many pages to allocate to each process (its ***resident set***).
@@ -183,6 +183,14 @@ The key aim is to ***minimize page faults***. There is no definitive best policy
 - Determines the number of processes that will be resident in main memory (the ***multiprogramming level***).
 - Too few processes lead to idle CPU time.
 - Too many processes lead to ***thrashing***.
+> [!note] Definition
+> Long-term Scheduling: ensure there is enough space to ready state
+> Middle-term Scheduling: check for suspend, ready, and block state
+> Short-term Scheduling:
+### Image Explanation
+- Horizontal: number of processes
+- Vertical: performance of the processor
+- Less number of processes - low performance, high number of processes - low performance, Load Control manage the number of processes to maximise the performance.
 ### Process Suspension
 - If the degree of multiprogramming needs to be reduced, one or more resident processes must be suspended (swapped out).
 - ***Suspension policies*** for choosing a process to suspend include:
