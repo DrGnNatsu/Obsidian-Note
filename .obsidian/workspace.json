@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
+                "file": "Data Mining/Chapter 11&12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 9 - Uniprocessor Scheduling"
+              "title": "Chapter 11&12"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e500579504db789d",
@@ -153,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
+                "file": "Data Mining/Chapter 11&12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 9 - Uniprocessor Scheduling"
+              "title": "Outline of Chapter 11&12"
             }
           },
           {
@@ -229,8 +228,10 @@
   },
   "active": "7c198736710f462b",
   "lastOpenFiles": [
-    "Operating System/Chapter 8 - Virtual Memory.md",
+    "Data Mining/Attachment/Cluster.jpeg",
     "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
+    "Data Mining/Chapter 11&12.md",
+    "Operating System/Chapter 8 - Virtual Memory.md",
     "Principles of Programming Languages/C10 - Name, Binding, Scope.md",
     "Principles of Programming Languages/C9 - Functional and Logical Programming.md",
     "Computer Architecture/Chapter 2.md",
@@ -257,11 +258,9 @@
     "Data Mining/Chapter 2 - Getting to Know Your Data.md",
     "Data Mining/Chapter 1 - Introduction to Data Mining.md",
     "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
-    "Principles of Programming Languages/C1 - Introduction.md",
     "Operating System/Attachments/Top-Level View.png",
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",
-    "Data Mining/Chapter 1.md",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Operating System/Attachments/Buddy System.png",
     "Operating System/Attachments/Addressing.png",
