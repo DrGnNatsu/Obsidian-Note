@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Chapter 11&12.md",
+                "file": "Principles of Programming Languages/C10 - Design Patterns in PPL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 11&12"
+              "title": "C10 - Design Patterns in PPL"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Mining/Chapter 11&12.md",
+                "file": "Principles of Programming Languages/C10 - Design Patterns in PPL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 11&12"
+              "title": "Outline of C10 - Design Patterns in PPL"
             }
           },
           {
@@ -228,6 +228,7 @@
   },
   "active": "7c198736710f462b",
   "lastOpenFiles": [
+    "Principles of Programming Languages/C10 - Design Patterns in PPL.md",
     "Data Mining/Attachment/Cluster.jpeg",
     "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
     "Data Mining/Chapter 11&12.md",
@@ -265,7 +266,6 @@
     "Operating System/Attachments/Buddy System.png",
     "Operating System/Attachments/Addressing.png",
     "Operating System/Attachments/Deadlock Detection Algo.png",
-    "Principles of Programming Languages/Attachments/Parse Tree.png",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
     "Data Mining/Attachment",
     "Operating System/Attachments",
