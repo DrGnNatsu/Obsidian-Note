@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d193a3c770e0d0e6",
+        "id": "a9f8136200f55b42",
         "type": "tabs",
         "children": [
           {
-            "id": "7c198736710f462b",
+            "id": "df3cf689725b2c3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principles of Programming Languages/C10 - Design Patterns in PPL.md",
+                "file": "Operating System/Chapter 11 - File Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C10 - Design Patterns in PPL"
+              "title": "Chapter 11 - File Management"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principles of Programming Languages/C10 - Design Patterns in PPL.md",
+                "file": "Operating System/Chapter 11 - File Management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of C10 - Design Patterns in PPL"
+              "title": "Outline of Chapter 11 - File Management"
             }
           },
           {
@@ -226,14 +226,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7c198736710f462b",
+  "active": "a96d708e0ef4ea7b",
   "lastOpenFiles": [
-    "Principles of Programming Languages/C10 - Design Patterns in PPL.md",
-    "Data Mining/Attachment/Cluster.jpeg",
+    "Operating System/Chapter 11 - File Management.md",
+    "Principles of Programming Languages/C12 - Code Optimization.md",
+    "Principles of Programming Languages/C11 - Design Patterns in PPL.md",
+    "Principles of Programming Languages/C10 - Name, Binding, Scope.md",
+    "Data Mining/Chapter 11&12 - Clustering.md",
     "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
+    "Data Mining/Attachment/Cluster.jpeg",
     "Data Mining/Chapter 11&12.md",
     "Operating System/Chapter 8 - Virtual Memory.md",
-    "Principles of Programming Languages/C10 - Name, Binding, Scope.md",
     "Principles of Programming Languages/C9 - Functional and Logical Programming.md",
     "Computer Architecture/Chapter 2.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
@@ -256,9 +259,6 @@
     "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Data Mining/Chapter 4 - Data Mining Knowledge Representation.md",
     "Data Mining/Chapter 3 - Data Preprocessing.md",
-    "Data Mining/Chapter 2 - Getting to Know Your Data.md",
-    "Data Mining/Chapter 1 - Introduction to Data Mining.md",
-    "Principles of Programming Languages/C2 - Lexical Analysis - Part 1.md",
     "Operating System/Attachments/Top-Level View.png",
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",

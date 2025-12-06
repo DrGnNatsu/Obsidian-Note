@@ -78,7 +78,7 @@ ___
 ___
 # Partitioning Methods
 ## Partitioning Algorithms: Basic Concept
-- **Method**: Partition a database $D$ of $n$ objects into $k$ clusters to minimise the sum of squared distances (where $c_i$ is the centroid or medoid of the cluster $C_i$). If the value $E$ is small, that is a good cluster.
+- **Method**: Partition a database $D$ of $n$ objects into $k$ clusters to minimise the sum of squared distances (where $c_i$ is the centroid or medoid of the cluster $C_i$). If the value $E$ It’s small, that is a good cluster.
 	- Centroid: is the centre of the cluster
 	- Medoid: is the closest object to the centroid
 $$E = \sum_{i=1}^{k} \sum_{p \in C_i} (d(p, c_i))^2$$
@@ -100,7 +100,7 @@ $$E = \sum_{i=1}^{k} \sum_{p \in C_i} (d(p, c_i))^2$$
     - Not suitable for non-convex or different-sized clusters.
 ## The K-Medoid Clustering Method
 - Finds representative objects (**medoids**) in clusters.
-- **PAM (Partitioning Around Medoids)**: Iteratively replaces medoids with non-medoids if it improves total distance. Effective for small datasets but does not scale well.
+- **PAM (Partitioning Around Medoids)**: Iteratively replaces medoids with non-medoids if it improves total distance. Effective for small datasets, but does not scale well.
 - Efficiency improvements: **CLARA** (PAM on samples), **CLARANS** (randomized re-sampling).
 ___
 # Hierarchical Methods
@@ -111,6 +111,7 @@ ___
 - **Divisive (DIANA)**: Top-down. Starts with all objects in one cluster and splits them.
 ## AGNES (Agglomerative Nesting)
 - Use the **single-link** method and a dissimilarity matrix.
+	- $L(R,S)=min(D(i,j)),i \in R,j\in S$
 - Merge nodes that have the least dissimilarity in a non-descending fashion.
 - Eventually, all nodes belong to the same cluster.
 ## DIANA (Divisive Analysis)
@@ -126,24 +127,28 @@ ___
 - **Centroid**: Distance between cluster centroids.
 - **Medoid**: Distance between cluster medoids.
 ## Extensions to Hierarchical Clustering
-- **Weakness of agglomerative methods**: Can never undo a merge; does not scale well (at least $O(n^2)$).
+- **Weakness of agglomerative methods**: Can never undo a merge (can not go back); does not scale well (at least $O(n^2)$).
 - **BIRCH**: Uses CF-tree to incrementally adjust sub-clusters. Scales linearly but handles only numeric data.
-- **CHAMELEON**: Uses dynamic modeling and a two-phase graph-based algorithm.
+- **CHAMELEON**: Uses dynamic modelling and a two-phase graph-based algorithm.
 ___
-# Density-Based Methods
+# Density-Based Methods 
 
 ## Density-Based Clustering
 - Clusters based on density (local cluster criterion), such as density-connected points.
-- **Major features**: Discovers clusters of arbitrary shape, handles noise, often requires one scan.
+- **Major features**: Discovers clusters of arbitrary shape, handles noise, and often requires one scan.
 - **Studies**: DBSCAN, OPTICS, DENCLUE.
 ## DBSCAN: Density-Based Spatial Clustering of Applications with Noise
 - **Relies on a density-based notion of a cluster**: A cluster is a maximal set of density-connected points.
 - **Basic Concepts**:
-    - **Eps**: Maximum radius of the neighborhood.
-    - **MinPts**: Minimum number of points in an Eps-neighborhood.
-    - **Core point**: A point with at least `MinPts` in its Eps-neighborhood.
-    - **Density-Reachable**: A point $p$ is reachable from $q$ if there is a path of core points from $q$ to $p$.
+    - **Eps**: Maximum radius of the neighbourhood.
+	    - $R_m$
+    - **MinPts**: Minimum number of points in an Eps-neighbourhood.
+    - **Core point**: A point with at least `MinPts` in its Eps-neighbourhood.
+    - **Density-Reachable**: A point $p$ is directly density reachable from $q$ If there is a path of core points from $q$ to $p$ with respect to `Eps, MinPts`.
+	    - The `q` is a core point.
+	    - The `p` is re
     - **Density-Connected**: Two points are connected if they are reachable from a common core point.
+	    - Merge all the clusters that is the density reachable
 - **Algorithm**: Arbitrarily select a point, retrieve all density-reachable points. If it's a core point, a cluster is formed.
 ___
 # Evaluation of Clustering
