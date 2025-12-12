@@ -41,9 +41,9 @@ Optimisation can occur at different levels:
     - `goto L1; ... L1: goto L2;` becomes `goto L2;`.
     - `if True: do_something() else: ...` becomes `do_something()`.
 4.  **Algebraic Simplification**: Replace expensive operations with cheaper ones using algebraic identities.
-    - `x := x + 0` can be deleted.
-    - `y := y ** 2` can be simplified to `y := y * y`.
-    - `x := x * 8` can be simplified to `x := x << 3` (on some machines).
+    - `x:= x + 0` can be deleted.
+    - `y:= y ** 2` can be simplified to `y := y * y`.
+    - `x:= x * 8` can be simplified to `x := x << 3` (on some machines).
 5.  **Dead Code Elimination**: Remove a statement if its result is never used later.
     - `x := 32; y := x + y;` (where `x` is not used again) becomes `y := y + 32;`.
 # Basic Block Level Optimisations
@@ -57,17 +57,16 @@ A **basic block** is a maximal sequence of instructions with:
 - No labels (except at the first instruction).
 - No jumps (except in the last instruction).
 
-> [!note] Inside the basic blocks, label is just a label. Do not put it in the basic black representations.
+> [!note] Inside the basic blocks, the label is just a label. Do not put it in the basic black representations.
 
 # Control Flow Graph (CFG)
 - A representation of the flow of control within a program.
 - **CFG = < V, E, Entry >**, where:
-    - **V**: Vertices or nodes, representing an instruction or basic block.
-    - **E**: Edges, representing potential flow of control.
+    - **V** $= \{v_i\}, 1 \leq i \leq n, n=10$: Vertices or nodes, representing an instruction or basic block.
+    - **E**: $V \times V \ \text{(The number of possible edges)}$, representing the potential flow of control.
     - **Entry**: The unique program entry block.
-- **Point**: Any location between adjacent statements or before/after a basic block.
-- **Path**: A sequence of points from a start point to an end point in the CFG.
-
+- **Point**: Any location between **adjacent statements or before/after a basic block**.
+- **Path**: **Connections of a set of points** from a start point to an end point in the CFG.
 Example:
 - Succ(4) = 4,5
 - Pred(4) = 3
@@ -80,8 +79,8 @@ These optimisations must take control flow into account:
 - ...
 Applying one optimisation may create opportunities for others.
 ## Redundant Expression
-- An expression `x op y` is **redundant** at a point `p` if it has already been computed and its operands (`x`, `y`) have not been redefined.
+- An expression `x op y` is **redundant** at a point `p` if **it has already been computed** and its operands (`x`, `y`) have not been redefined.
 - **Definition site**: Where an expression is computed.
 - **Kill site**: Where an operand of an expression is redefined.
-- An expression is **available** at point `p` if every path leading to `p` contains a prior definition of the expression, and the expression is not killed between that definition and `p`.
-(See CFG examples on pages 29 and 30 illustrating available and non-available expressions).
+- **Use site**: Where `expression` is used
+- An expression is **available** at point `p` if every path leading to `p` contains a prior definition of the expression, and the expression `e` **is not killed** between that definition and `p`.
