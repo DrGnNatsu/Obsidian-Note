@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principles of Programming Languages/C13 - Code Generation.md",
+                "file": "Operating System/Chapter 8 - Virtual Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C13 - Code Generation"
+              "title": "Chapter 8 - Virtual Memory"
             }
           }
         ]
@@ -228,10 +228,11 @@
   },
   "active": "df3cf689725b2c3a",
   "lastOpenFiles": [
-    "Principles of Programming Languages/C12 - Code Optimization.md",
-    "Principles of Programming Languages/C13 - Code Generation.md",
-    "Data Mining/Chapter 13 - Classification - Advanced Methods.md",
+    "Operating System/Chapter 7 - Memory Management.md",
     "Operating System/Chapter 11 - File Management.md",
+    "Principles of Programming Languages/C13 - Code Generation.md",
+    "Principles of Programming Languages/C12 - Code Optimization.md",
+    "Data Mining/Chapter 13 - Classification - Advanced Methods.md",
     "Principles of Programming Languages/C11 - Design Patterns in PPL.md",
     "Principles of Programming Languages/C10 - Name, Binding, Scope.md",
     "Data Mining/Chapter 11&12 - Clustering.md",
@@ -245,7 +246,6 @@
     "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
     "Data Mining/Attachment/FP Growth.jpeg",
     "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
-    "Operating System/Chapter 7 - Memory Management.md",
     "Operating System/Midterm Print.md",
     "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
     "Object Oriented Analysis & Design/C2/Object - Oriented Programming.md",

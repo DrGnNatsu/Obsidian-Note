@@ -199,6 +199,7 @@ turning
 truth
 triple
 tolerance
+temp
 data
 discrete
 decision
@@ -772,6 +773,8 @@ Double
 DAG
 Derived
 During
+Decrement
+Discipline
 algorithms
 and
 as
@@ -1009,6 +1012,10 @@ analyse
 acyclic
 adjusts
 activation
+accurately
+activations
+accumulator
+acc
 Classification
 Construct
 Construction
@@ -1238,6 +1245,9 @@ Constructed
 Complexity
 CBR
 Co
+Correctness
+Computes
+Constants
 Outline
 Overfitting
 One
@@ -1777,6 +1787,10 @@ cycle
 commit
 crossover
 carefully
+complications
+computational
+compilation
+changing
 Tree
 The
 Training
@@ -2044,6 +2058,9 @@ Increase
 Inside
 Inherently
 Inseparable
+Interfaces
+Increment
+Improve
 Methods
 Model
 Majority
@@ -2196,6 +2213,7 @@ MM
 Machines
 MMH
 Multiclass
+Microprocessor
 Rule
 Represented
 Resulting
@@ -2340,6 +2358,10 @@ Revise
 Retain
 Rough
 Regarding
+Represent
+Runtime
+Removes
+Reduced
 based
 by
 belong
@@ -2852,6 +2874,7 @@ SVMs
 Stores
 Semi
 Self
+Simulating
 vs
 values
 valued
@@ -3211,6 +3234,8 @@ layers
 lie
 lacks
 learner
+locals
+loads
 such
 set
 showing
@@ -3611,6 +3636,8 @@ solved
 separable
 strong
 superior
+simulate
+stable
 observations
 or
 on
@@ -4543,6 +4570,10 @@ probabilistic
 parents
 precise
 perceptron
+push
+pop
+preserves
+popped
 example
 establish
 existence
@@ -4928,6 +4959,12 @@ Put
 Performs
 Propagate
 Polynomial
+Pushes
+Pop
+Previous
+Parameters
+Preserves
+Push
 unknown
 use
 used
@@ -5016,6 +5053,7 @@ updating
 untrained
 upper
 unlabeled
+unsigned
 Given
 Gini
 Greedy
@@ -5455,6 +5493,7 @@ Variations
 Volume
 VFS
 Vertices
+Vertical
 Assumption
 Accuracy
 An
@@ -5607,6 +5646,12 @@ Approximates
 Additional
 AVA
 Active
+Activations
+Activation
+Accumulator
+Add
+AR
+Arguments
 known
 knew
 knowledge
@@ -5847,6 +5892,7 @@ Hypothesise
 Hashed
 Hidden
 HMM
+Horizontal
 White
 What
 Weakness

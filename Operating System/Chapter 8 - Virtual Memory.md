@@ -51,7 +51,7 @@ Hardware must support paging and/or segmentation. The OS manages the movement of
 ## Address Translation (Paging)
 - A virtual address is composed of a **Page Number** and an **Offset** within the page.
 - The Page Number indexes the Page Table to find the **Frame Number**.
-- The physical address is constructed from the **Frame Number** concatenated with the **Offset**.
+- The physical address is constructed by concatenating the Frame Number with the **Offset**.
 (See Figure 8.3 on page 3).
 ## Page Tables Structure
 - Page tables are stored in virtual memory; part of the running process's page table must be in main memory.
