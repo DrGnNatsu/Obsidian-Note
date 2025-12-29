@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 8 - Virtual Memory.md",
+                "file": "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8 - Virtual Memory"
+              "title": "Chapter 9 - Uniprocessor Scheduling"
             }
           }
         ]
@@ -228,7 +228,10 @@
   },
   "active": "df3cf689725b2c3a",
   "lastOpenFiles": [
+    "Operating System/Chapter 8 - Virtual Memory.md",
     "Operating System/Chapter 7 - Memory Management.md",
+    "Operating System/Chapter 6 - Concurrency - Deadlock and Starvation.md",
+    "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
     "Operating System/Chapter 11 - File Management.md",
     "Principles of Programming Languages/C13 - Code Generation.md",
     "Principles of Programming Languages/C12 - Code Optimization.md",
@@ -236,10 +239,8 @@
     "Principles of Programming Languages/C11 - Design Patterns in PPL.md",
     "Principles of Programming Languages/C10 - Name, Binding, Scope.md",
     "Data Mining/Chapter 11&12 - Clustering.md",
-    "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
     "Data Mining/Attachment/Cluster.jpeg",
     "Data Mining/Chapter 11&12.md",
-    "Operating System/Chapter 8 - Virtual Memory.md",
     "Principles of Programming Languages/C9 - Functional and Logical Programming.md",
     "Computer Architecture/Chapter 2.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
@@ -258,7 +259,6 @@
     "Data Mining/Attachment/Aproiri Algo.png",
     "Data Mining/Midterm Note.md",
     "Principles of Programming Languages/Attachments/Ambiguity CFG.png",
-    "Data Mining/Chapter 5 - Evaluating what’s been learned.md",
     "Operating System/Attachments/Top-Level View.png",
     "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Operating System/Attachments/Basic Instruction Cycle.png",
