@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 7 - Memory Management.md",
+                "file": "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 7 - Memory Management"
+              "title": "Chapter 9 - Uniprocessor Scheduling"
+            }
+          },
+          {
+            "id": "af204775c660a605",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Operating System/Attachments/Virtual Address Terminology.png"
+              },
+              "icon": "lucide-image",
+              "title": "Virtual Address Terminology"
             }
           }
         ]
@@ -229,15 +241,20 @@
   },
   "active": "f82125df119ac690",
   "lastOpenFiles": [
-    "Operating System/Attachments/Data Structure of Page Storing.png",
-    "Operating System/Attachments/Logical Addressing 2.png",
-    "Operating System/Attachments/Logical Addressing.png",
+    "Operating System/Chapter 8 - Virtual Memory.md",
+    "Operating System/Attachments/Processor and Performace.png",
+    "Operating System/Attachments/Resident Set Management.png",
+    "Operating System/Attachments/Replacement Algorithm.png",
+    "Operating System/Attachments/Paging Behaviour.png",
+    "Pasted image 20251230160246.png",
+    "Operating System/Attachments/Operation of TLB.png",
+    "Operating System/Chapter 7 - Memory Management.md",
+    "Translation Lookaside Buffer.png",
+    "Operating System/Attachments/Inverted Table Page.png",
+    "Operating System/Attachments/Address Translation.png",
+    "Operating System/Attachments/Memory Management Format.png",
     "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
     "Operating System/Chapter 11 - File Management.md",
-    "Operating System/Attachments/Type of Partioning.png",
-    "Operating System/Chapter 7 - Memory Management.md",
-    "Operating System/Attachments/Addressing.png",
-    "Operating System/Chapter 8 - Virtual Memory.md",
     "Operating System/Chapter 1 - Computer System Overview.md",
     "Object Oriented Analysis & Design/C11/System Architecture.md",
     "Principles of Programming Languages/C11 - Design Patterns in PPL.md",
@@ -247,13 +264,11 @@
     "Data Mining/Chapter 13 - Classification - Advanced Methods.md",
     "Principles of Programming Languages/C10 - Name, Binding, Scope.md",
     "Data Mining/Chapter 11&12 - Clustering.md",
-    "Data Mining/Attachment/Cluster.jpeg",
     "Data Mining/Chapter 11&12.md",
     "Principles of Programming Languages/C9 - Functional and Logical Programming.md",
     "Computer Architecture/Chapter 2.md",
     "Principles of Programming Languages/C3 - Lexical Analysis (Part 2).md",
     "Data Mining/Chapter 9&10 - Data mining algorithms Association rules.md",
-    "Data Mining/Attachment/FP Growth.jpeg",
     "Data Mining/Chapter 6&7 - Mining Algorithms - Classification.md",
     "Operating System/Midterm Print.md",
     "Object Oriented Analysis & Design/C2/Chapter 2 - Object-Oriented.canvas",
@@ -262,10 +277,6 @@
     "Object Oriented Analysis & Design/C2/Declarative Programming.md",
     "Principles of Programming Languages/C8 - Semantic Analysis.md",
     "README.md",
-    "Data Mining/Attachment/Aproiri Algo.png",
-    "Principles of Programming Languages/Attachments/Ambiguity CFG.png",
-    "Operating System/Attachments/Top-Level View.png",
-    "Operating System/Attachments/Instruction Cycle with Interrupts.png",
     "Data Structure and Algorithm/Solution Choosing/Solution Choosing.canvas",
     "Operating System/Untitled.md.sb-1a5ad877-p6XCzq",
     "Data Mining/Attachment",
