@@ -181,10 +181,6 @@ largest column: right
 - Determines the number of processes that will be resident in main memory (the ***multiprogramming level***).
 - Too few processes lead to idle CPU time.
 - Too many processes lead to ***thrashing***.
-> [!note] Definition
-> Long-term Scheduling: ensure there is enough space to ready state
-> Middle-term Scheduling: check for suspend, ready, and block state
-> Short-term Scheduling:
 ### Image Explanation
 **1. The Relationship (The Curve)**
 - **x-axis:** Degree of Multiprogramming (Number of processes).

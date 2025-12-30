@@ -487,6 +487,7 @@ decmcS
 dE
 dlmm
 dff
+distant
 mining
 measurements
 models
@@ -918,6 +919,8 @@ DTT
 Di
 DDD
 DFO
+Drops
+Degree
 algorithms
 and
 as
@@ -1481,6 +1484,7 @@ CCF
 CSS
 CFRl
 CFZbr
+Crash
 Outline
 Overfitting
 One
@@ -1731,6 +1735,7 @@ Brr
 BtX
 Bp
 Bs
+Behavior
 concepts
 classification
 classes
@@ -2172,6 +2177,8 @@ cprq
 cZl
 cgoO
 cei
+committed
+causes
 Tree
 The
 Training
@@ -2547,6 +2554,7 @@ IL
 IRB
 Ifj
 IKM
+Initial
 Methods
 Model
 Majority
@@ -2927,6 +2935,8 @@ RidR
 Rgg
 Rj
 Resolved
+Rises
+Rise
 based
 by
 belong
@@ -3768,6 +3778,7 @@ UV
 Uiy
 UybJ
 UU
+Utilization
 Learning
 Lower
 Let
@@ -4510,6 +4521,7 @@ sO
 sSSS
 sq
 sv
+spend
 observations
 or
 on
@@ -5050,6 +5062,8 @@ wj
 wcdlD
 wQ
 wa
+weakened
+wasting
 New
 Numeric
 No
@@ -6260,6 +6274,7 @@ uW
 uxx
 uqw
 uv
+utilize
 Given
 Gini
 Greedy
@@ -7454,6 +7469,7 @@ Ho
 Ht
 HHJ
 Hkk
+Huge
 White
 What
 Weakness
@@ -7769,6 +7785,7 @@ Ff
 FGQ
 FT
 FGs
+Frames
 just
 job
 jobs

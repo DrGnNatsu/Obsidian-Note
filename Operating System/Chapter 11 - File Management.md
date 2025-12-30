@@ -33,26 +33,86 @@ Common terms when discussing files:
 6. Back up and recover files.
 7. Access files using symbolic names (create a shortcut).
 ## Typical Software Organisation (Figure 12.1+2)
-- **Device Drivers**: Lowest-level drivers that communicate with peripheral devices.
-- **Basic File System**: Physical I/O deals with exchanging blocks of data.
-- **Basic I/O Supervisor**: Responsible for file I/O initiation and termination.
-- **Logical I/O**: Enables users and applications to access records.
-- **Access Method**: Closest to the user, provides a standard interface between applications and the file system.
----
+
+![[Elements of File Management.png]]
 # File Organisation and Access
+![[Performance of File.png]]
 
 ## Criteria for File Organisation
+--- start-multi-column:  
+```column-settings  
+number of columns: 2  
+```
 - Short access time.
 - Ease of update.
 - Economy of storage.
+
+--- end-column ---
+
 - Simple maintenance.
 - Reliability.
 (Priorities differ depending on use case, e.g., read-only CD vs. Hard Drive).
+
+--- end-multi-column
 ## File Organisation Types
-- **The Pile**: Data collected in the order they arrive, no structure, exhaustive search.
-- **The Sequential File**: Fixed format, records of same length and fields = waste storage, stored in key sequence = search faster (same as excel file).
-- **Indexed Sequential File**: Sequential file with an index for random access and an overflow file.
-- **Indexed File**: Uses multiple indexes for different key fields, using the pile file.
+
+### Pile Files
+--- start-multi-column:  
+```column-settings  
+number of columns: 2  
+```
+
+Data are collected in the order they arrive, No structure 
+- Purpose is to accumulate a mass of data and save it 
+- Records may have different fields 
+- Record access is by exhaustive search
+
+--- end-column ---
+
+![[Pile.png]]
+
+--- end-multi-column
+### Sequential Files
+--- start-multi-column:  
+```column-settings  
+number of columns: 2  
+```
+
+**The Sequential File**: Fixed format, records of same length and fields = waste storage. Key field: Uniquely identifies the record and Records are stored in key sequence so search faster (same as excel file)
+
+--- end-column ---
+
+![[Squential File.png]]
+
+--- end-multi-column
+### Indexed Sequential Files
+--- start-multi-column:  
+```column-settings  
+number of columns: 2  
+```
+
+**Indexed Sequential File**: Maintains the key characteristic of the sequential file: 
+- Records are organized in sequence based on a key field. 
+- Two features are added: an index to the file to support random access, and an overflow file.
+
+--- end-column ---
+
+![[Indexed Sequential File.png]]
+
+--- end-multi-column
+### Indexed Files
+--- start-multi-column:  
+```column-settings  
+number of columns: 2  
+```
+
+**Indexed File**: Uses multiple indexes for different key fields, using the pile file. May contain an exhaustive index that contains one entry for every record in the main file. May contain a partial index. When a new record is added to the main file, all of the index files must be updated.
+
+--- end-column ---
+![[Indexed File.png]]
+
+--- end-multi-column
+### Hashed File
 - **Direct, or Hashed File**: Directly access a block at a known address.
 ---
 # File Directories (Danh Bạ)

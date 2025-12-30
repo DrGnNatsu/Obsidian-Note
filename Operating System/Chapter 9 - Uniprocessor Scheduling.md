@@ -17,7 +17,7 @@ The scheduling function should:
 - Use the processor efficiently.
 - Have low overhead (management cost is low). The swapping process is high overhead.
 - Prioritise processes when necessary (e.g. real-time deadlines).
-## Types of Scheduling (Table 9.1)
+## Types of Scheduling
 
 | Type | Description |
 | :--- | :--- |
@@ -26,10 +26,6 @@ The scheduling function should:
 | **Short-term scheduling** | The decision as to which available process will be executed by the processor. |
 | **I/O scheduling** | The decision as to which process's pending I/O request shall be handled by an available I/O device. |
 
-## Nesting of Scheduling Functions
-(See Diagram on Page 2 showing the hierarchy from Long-Term to Short-Term scheduling).
-## Queuing Diagram
-(See Figure 9.3 on Page 2 illustrating the flow of processes through Long, Medium, and Short-term scheduling queues).
 # Long-Term Scheduling
 - Determines which programs are admitted to the system for processing.
 - It may be **first-come-first-served** or according to criteria such as priority, I/O requirements, or expected execution time.
@@ -42,12 +38,22 @@ The scheduling function should:
 - Known as the **dispatcher** (scheduler - manages the time of slots) (top of main memory - small program - schedules to the processor).
 - Executes most frequently.
 - Invoked when an event occurs:
-    - Clock interrupts
-    - I/O interrupts
-    - Operating system calls
-    - Signals
+--- start-multi-column:  
+```column-settings  
+number of columns: 2  
+```
+ - Clock interrupts
+- I/O interrupts
+
+--- end-column ---
+
+- Operating system calls
+- Signals
+
+--- end-multi-column
+
 ## Aim of Short-Term Scheduling
-- The main objective is to allocate processor time to optimise certain aspects of system behaviour.
+- Allocate processor time to optimise certain aspects of system behaviour.
 - A set of criteria is needed to evaluate the scheduling policy.
 ## Short-Term Scheduling Criteria
 - **User-oriented**:
@@ -59,7 +65,6 @@ The scheduling function should:
     - Quantitative, easily measured (e.g., response time, throughput).
 - **Non-performance related**:
     - Qualitative, hard to measure.
-
 ## Interdependent Scheduling Criteria (Table 9.3)
 | Criteria | Description |
 | :--- | :--- |
@@ -79,6 +84,8 @@ The scheduling function should:
 - **Problem**: Lower-priority processes may suffer starvation if there is a steady supply of high-priority processes.
 - **Solution**: Allow a process to change its priority based on its age or execution history.
 # Scheduling Algorithms
+![[Scheduling Polices.png]]
+![[Comparison of Scheduling Policies.png]]
 ## Selection Function
 - Determines which process is selected for execution.
 - If based on execution characteristics, important quantities are:
@@ -88,7 +95,7 @@ The scheduling function should:
 ## Decision Mode
 Specifies the instants in time at which the selection function is exercised.
 - **Nonpreemptive**: Once a process is running, it will continue until it terminates or blocks itself for I/O (can not get the resources when the process go to the READY state).
-	- **Preemptive**: Currently running process may be interrupted and moved to the ready state by the OS. Preemption may occur when a new process arrives, on an interrupt, or periodically.
+- **Preemptive**: Currently running process may be interrupted and moved to the ready state by the OS. Preemption may occur when a new process arrives, on an interrupt, or periodically.
 ## First-Come-First-Served (FCFS)
 - Non-Preemption
 - Each process joins the Ready queue.

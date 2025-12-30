@@ -8,29 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f82125df119ac690",
+            "id": "af204775c660a605",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
+                "file": "Operating System/Chapter 11 - File Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 9 - Uniprocessor Scheduling"
-            }
-          },
-          {
-            "id": "af204775c660a605",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Operating System/Attachments/Virtual Address Terminology.png"
-              },
-              "icon": "lucide-image",
-              "title": "Virtual Address Terminology"
+              "title": "Chapter 11 - File Management"
             }
           }
         ]
@@ -239,22 +227,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f82125df119ac690",
+  "active": "af204775c660a605",
   "lastOpenFiles": [
-    "Operating System/Chapter 8 - Virtual Memory.md",
-    "Operating System/Attachments/Processor and Performace.png",
-    "Operating System/Attachments/Resident Set Management.png",
-    "Operating System/Attachments/Replacement Algorithm.png",
-    "Operating System/Attachments/Paging Behaviour.png",
-    "Pasted image 20251230160246.png",
-    "Operating System/Attachments/Operation of TLB.png",
-    "Operating System/Chapter 7 - Memory Management.md",
-    "Translation Lookaside Buffer.png",
-    "Operating System/Attachments/Inverted Table Page.png",
-    "Operating System/Attachments/Address Translation.png",
-    "Operating System/Attachments/Memory Management Format.png",
+    "Operating System/Attachments/Performance of File.png",
+    "Operating System/Attachments/Indexed Sequential File.png",
+    "Operating System/Attachments/Indexed File.png",
+    "Operating System/Attachments/Squential File.png",
+    "Operating System/Attachments/Pile.png",
     "Operating System/Chapter 9 - Uniprocessor Scheduling.md",
     "Operating System/Chapter 11 - File Management.md",
+    "Operating System/Attachments/Elements of File Management.png",
+    "Operating System/Attachments/Comparison of Scheduling Policies.png",
+    "Operating System/Attachments/Scheduling Polices.png",
+    "Operating System/Chapter 8 - Virtual Memory.md",
+    "Operating System/Attachments/Virtual Address Terminology.png",
+    "Operating System/Attachments/Processor and Performace.png",
+    "Operating System/Attachments/Resident Set Management.png",
+    "Operating System/Chapter 7 - Memory Management.md",
     "Operating System/Chapter 1 - Computer System Overview.md",
     "Object Oriented Analysis & Design/C11/System Architecture.md",
     "Principles of Programming Languages/C11 - Design Patterns in PPL.md",
