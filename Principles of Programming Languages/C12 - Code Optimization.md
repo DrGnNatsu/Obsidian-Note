@@ -66,17 +66,16 @@ A **basic block** is a maximal sequence of instructions with:
     - **E**: $V \times V \ \text{(The number of possible edges)}$, representing the potential flow of control.
     - **Entry**: The unique program entry block.
 - **Point**: Any location between **adjacent statements or before/after a basic block**.
-- **Path**: **Connections of a set of points** from a start point to an end point in the CFG.
-Example:
-- Succ(4) = 4,5
-- Pred(4) = 3
+- **Path**: **Connections of a set of points** from a start point to an end point in the CFGs
+	- $Succ(v)=\{x \in V | \text{exits} \ e \in E, e=v\rightarrow x\}$
+	- $Pre(v)=\{x \in V | \text{exits} e \in E, e=x\rightarrow v\}$
+
 # Optimisations on CFGs
 These optimisations must take control flow into account:
 - Common Sub-expression Elimination
 - Constant Propagation
 - Dead Code Elimination
 - Partial Redundancy Elimination
-- ...
 Applying one optimisation may create opportunities for others.
 ## Redundant Expression
 - An expression `x op y` is **redundant** at a point `p` if **it has already been computed** and its operands (`x`, `y`) have not been redefined.

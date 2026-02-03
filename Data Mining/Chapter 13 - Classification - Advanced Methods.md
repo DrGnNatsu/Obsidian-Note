@@ -7,18 +7,21 @@ Feature selection methods aim to select a subset of relevant features for use in
 ## Filter Methods
 - Selects "good" features based on a goodness measure of the input features, independent of the classification model.
 - Often used as a preprocessing step.
+- Suppose we have `p` initial features and we with to select `k` features (`k` < `p`) if we have a goodness score for each futures we can simply select `k` features with highest goodness scores 
 - **Example**: Using a measure like Chi-square to find the correlation between a feature and the class label, then selecting the features with the highest scores.
 ## Wrapper Methods
 - Combines the feature selection step and classifier training step together in an iterative process.
 - It "wraps" the feature selection process around the classifier.
 - At each iteration, it builds a classifier with the current feature subset and updates the subset (e.g., add, remove, swap features) based on the classifier's performance.
 - While this can find the optimal subset, it is computationally expensive as it may need to evaluate all $2^p - 1$ possible subsets. In practice, heuristic search strategies are used.
+- This method uses to find the best subset presenting the dataset
 ## Embedded Methods
 - Aims to combine the advantages of both filter and wrapper methods.
 - Performs feature selection and classification model construction simultaneously, allowing them to mutually benefit.
 - Tries to avoid the expensive, iterative search process of wrapper methods.
 - **Example**: Decision trees naturally select features at each node, embedding the selection process into the model building.
 # Bayesian Belief Networks
+![[Bayesian Belief Networks.png|400]]
 - A **Bayesian belief network** (or Bayesian network) is a probabilistic graphical model that allows for representing class conditional independencies between subsets of variables.
 - It consists of two components:
     1.  A **directed acyclic graph (DAG)** representing the dependency structure.
@@ -28,7 +31,7 @@ Feature selection methods aim to select a subset of relevant features for use in
     - **Links**: Causal influence/dependency.
     - The probability of a combination of values is the product of the conditional probabilities: $P(x_1, \ldots, x_n) = \prod_{i=1}^{n} P(x_i | \text{Parents}(x_i))$.
 ## Joint Probability of a Bayesian Network 
-If U = {A₁, ..., Aₙ} is the universe of variables in a Bayesian network, and pa(Aᵢ) are the parents of Aᵢ, then the joint probability distribution P(U) is the product of all the probability distributions in the network. $$P(x_1, \ldots, x_n) = \prod_{i=1}^{n} P(x_i | \text{Parents}(x_i))$$ This allows for inference, such as calculating the probability of a set of query variables X given evidence e: $$P(X, e) = \sum_{U \setminus X} P(U, e) = \sum_{U \setminus X} \prod_i P(U_i | \text{pa}(U_i))e$$
+If U = {A₁, ..., Aₙ} is the universe of variables in a Bayesian network, and pa(Aᵢ) are the parents of Aᵢ, then the joint probability distribution P(U) is the product of all the probability distributions in the network. $$P(x_1, \ldots, x_n) = \prod_{i=1}^{n} P(x_i | \text{Parents}(x_i))$$This allows for inference, such as calculating the probability of a set of query variables X given evidence e: $$P(X, e) = \sum_{U \setminus X} P(U, e) = \sum_{U \setminus X} \prod_i P(U_i | \text{parents}(U_i))e$$
 ## How Are Bayesian Networks Constructed?
 - **Subjective construction**: Based on expert knowledge to identify direct causal structures.
 	- Hidden Markdov Model (HMM): 
