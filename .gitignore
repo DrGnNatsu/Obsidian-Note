@@ -411,3 +411,5 @@ FodyWeavers.xsd
 /.obsidian
 .obsidian/*
 .obsidian/workspace.json
+.obsidian/plugins/obsidian-completr/scanned_words.txt
+.obsidian/workspace.json
